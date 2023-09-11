@@ -1,0 +1,10 @@
+"","signature_name","gene_id","gene_type","gene_name","weight"
+"1","TLS","ENSG00000113916.18","protein_coding","BCL6",NA
+"2","TLS","ENSG00000114013.16","protein_coding","CD86",NA
+"3","TLS","ENSG00000121966.8","protein_coding","CXCR4",NA
+"4","TLS","ENSG00000078081.8","protein_coding","LAMP3",NA
+"5","TLS","ENSG00000188404.10","protein_coding","SELL",NA
+"6","TLS","ENSG00000126353.3","protein_coding","CCR7",NA
+"7","TLS","ENSG00000156234.8","protein_coding","CXCL13",NA
+"8","TLS","ENSG00000137077.8","protein_coding","CCL21",NA
+"9","TLS","ENSG00000172724.12","protein_coding","CCL19",NA

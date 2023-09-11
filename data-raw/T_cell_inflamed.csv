@@ -1,0 +1,16 @@
+"","signature_name","gene_id","gene_type","gene_name","weight"
+"1","T_cell_inflamed","ENSG00000271503.6","protein_coding","CCL5",NA
+"2","T_cell_inflamed","ENSG00000139193.4","protein_coding","CD27",NA
+"3","T_cell_inflamed","ENSG00000120217.14","protein_coding","CD274",NA
+"4","T_cell_inflamed","ENSG00000103855.18","protein_coding","CD276",NA
+"5","T_cell_inflamed","ENSG00000153563.16","protein_coding","CD8A",NA
+"6","T_cell_inflamed","ENSG00000174600.14","protein_coding","CMKLR1",NA
+"7","T_cell_inflamed","ENSG00000138755.6","protein_coding","CXCL9",NA
+"8","T_cell_inflamed","ENSG00000172215.6","protein_coding","CXCR6",NA
+"9","T_cell_inflamed","ENSG00000196735.13","protein_coding","HLA-DQA1",NA
+"10","T_cell_inflamed","ENSG00000196126.12","protein_coding","HLA-DRB1",NA
+"11","T_cell_inflamed","ENSG00000204592.9","protein_coding","HLA-E",NA
+"12","T_cell_inflamed","ENSG00000131203.13","protein_coding","IDO1",NA
+"13","T_cell_inflamed","ENSG00000089692.9","protein_coding","LAG3",NA
+"14","T_cell_inflamed","ENSG00000105374.10","protein_coding","NKG7",NA
+"15","T_cell_inflamed","ENSG00000197646.8","protein_coding","PDCD1LG2",NA

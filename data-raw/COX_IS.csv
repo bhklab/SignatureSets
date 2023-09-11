@@ -1,0 +1,25 @@
+"","signature_name","gene_id","gene_type","gene_name","weight"
+"1","COX_IS","ENSG00000112715.26","protein_coding","VEGFA",1
+"2","COX_IS","ENSG00000108691.10","protein_coding","CCL2",1
+"3","COX_IS",NA,NA,"IL8",1
+"4","COX_IS","ENSG00000163739.5","protein_coding","CXCL1",1
+"5","COX_IS","ENSG00000081041.9","protein_coding","CXCL2",1
+"6","COX_IS","ENSG00000108342.13","protein_coding","CSF3",1
+"7","COX_IS","ENSG00000136244.12","protein_coding","IL6",1
+"8","COX_IS","ENSG00000125538.12","protein_coding","IL1B",1
+"9","COX_IS","ENSG00000115008.6","protein_coding","IL1A",1
+"10","COX_IS","ENSG00000271503.6","protein_coding","CCL5",-1
+"11","COX_IS","ENSG00000138755.6","protein_coding","CXCL9",-1
+"12","COX_IS","ENSG00000169245.6","protein_coding","CXCL10",-1
+"13","COX_IS","ENSG00000169248.13","protein_coding","CXCL11",-1
+"14","COX_IS","ENSG00000168811.7","protein_coding","IL12A",-1
+"15","COX_IS","ENSG00000113302.6","protein_coding","IL12B",-1
+"16","COX_IS","ENSG00000111537.5","protein_coding","IFNG",-1
+"17","COX_IS","ENSG00000153563.16","protein_coding","CD8A",-1
+"18","COX_IS","ENSG00000172116.23","protein_coding","CD8B",-1
+"19","COX_IS","ENSG00000145649.8","protein_coding","GZMA",-1
+"20","COX_IS","ENSG00000100453.14","protein_coding","GZMB",-1
+"21","COX_IS","ENSG00000163508.13","protein_coding","EOMES",-1
+"22","COX_IS","ENSG00000180644.8","protein_coding","PRF1",-1
+"23","COX_IS","ENSG00000115415.20","protein_coding","STAT1",-1
+"24","COX_IS",NA,NA,"TBX21 ",-1
