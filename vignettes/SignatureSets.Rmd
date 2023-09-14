@@ -48,7 +48,7 @@ library(stringr)
 
 # Curated Immunotherapy RNA Signatures 
 
-We evaluate the reproducibility of a compendium of about 40 RNA curated signatures described as immunotherapy biomarkers. 
+Get more details about the compendium of approximately 40 curated RNA signatures described as immunotherapy biomarkers. 
 
 ```{r signature data}
 
@@ -117,7 +117,7 @@ As an example, APM_Thompson ([PMID 33028693](https://pubmed.ncbi.nlm.nih.gov/330
 
 load(file.path(dir_GeneSig, "APM_Thompson.rda"))
  
-knitr::kable(sig, format="html", row.names = FALSE) %>% kableExtra::kable_styling()
+kable(head(sig), format = "html") 
                   
 ```
 

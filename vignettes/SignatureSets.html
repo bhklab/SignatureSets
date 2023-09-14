@@ -767,7 +767,7 @@ library(stringr)</code></pre>
 </div>
 <div id="curated-immunotherapy-rna-signatures" class="section level1" number="2">
 <h1><span class="header-section-number">2</span> Curated Immunotherapy RNA Signatures</h1>
-<p>We evaluate the reproducibility of a compendium of about 40 RNA curated signatures described as immunotherapy biomarkers.</p>
+<p>Get more details about the compendium of approximately 40 curated RNA signatures described as immunotherapy biomarkers.</p>
 <pre class="r"><code>app_dir &lt;- str_split(rstudioapi::getActiveDocumentContext()$path,&#39;SignatureSets&#39;)[[1]][1]
 dir_GeneSig &lt;- file.path(app_dir, &#39;SignatureSets&#39;, &#39;data&#39;)
 dir_GeneSig_info &lt;- file.path(app_dir, &#39;SignatureSets&#39;, &#39;data-raw&#39;)
@@ -994,7 +994,7 @@ signature$method &lt;- as.character( signature$method )</code></pre>
 <pre class="load"><code>
 load(file.path(dir_GeneSig, &quot;APM_Thompson.rda&quot;))
  
-knitr::kable(sig, format=&quot;html&quot;, row.names = FALSE) %&gt;% kableExtra::kable_styling()
+kable(head(sig), format = &quot;html&quot;) 
                   </code></pre>
 </div>
 </div>
