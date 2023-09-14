@@ -1,0 +1,143 @@
+---
+title: "SignatureSets: A Package For RNA Immunotherapy Signatures"
+author:
+- name: Farnoosh Abbas-Aghababazadeh
+  affiliation:
+  - &pm Bioinformatics and Computational Genomics Laboratory, Princess Margaret Cancer Center,University Health Network, Toronto, Ontario, Canada
+- name: Yacine Bareche
+  affiliation:
+  - &pm Faculty of Pharmacy, Université de Montréal, Montreal, Canada
+  - &mbp Centre de Recherche du Centre Hospitalier de l’Université de Montréal, Institut du Cancer de Montréal, Montreal, Canada
+- name: Minoru Nakano
+  affiliation:
+    - &pm Bioinformatics and Computational Genomics Laboratory, Princess Margaret Cancer Center,University Health Network, Toronto, Ontario, Canada
+- name: John Stagg
+  affiliation:
+  - &pm Faculty of Pharmacy, Université de Montréal, Montreal, Canada
+  - &mbp Centre de Recherche du Centre Hospitalier de l’Université de Montréal, Institut du Cancer de Montréal, Montreal, Canada
+- name: Benjamin Haibe-Kains
+  affiliation:
+    - &pm Bioinformatics and Computational Genomics Laboratory, Princess Margaret Cancer Center,University Health Network, Toronto, Ontario, Canada
+    - &mbp Department of Medical Biophysics, University of Toronto, Toronto, Canada
+  email: benjamin.haibe.kains@utoronto.ca
+#package: PredictioR
+output:
+  BiocStyle::html_document
+abstract: |
+  Description of your vignette
+vignette: |
+  %\VignetteIndexEntry{SignatureSets: A Package For RNA Immunotherapy Signatures}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+# Introduction
+
+The SignatureSets package provides list of curated RNA immunotherapy signatures. Please refer to the manuscript URL (https://pubmed.ncbi.nlm.nih.gov/36055464/) or a web application [predictio.ca](https://predictio.ca/) to easily mine our large compendium of published signatures.
+
+
+```{r load, eval=TRUE, results='hide', message=FALSE}
+
+library(data.table)
+library(kableExtra)
+library(summarytools)
+library(stringr)
+
+```
+
+
+# Curated Immunotherapy RNA Signatures 
+
+We evaluate the reproducibility of a compendium of about 40 RNA curated signatures described as immunotherapy biomarkers. 
+
+```{r signature data}
+
+app_dir <- str_split(rstudioapi::getActiveDocumentContext()$path,'SignatureSets')[[1]][1]
+dir_GeneSig <- file.path(app_dir, 'SignatureSets', 'data')
+dir_GeneSig_info <- file.path(app_dir, 'SignatureSets', 'data-raw')
+
+signature <- read.csv( file.path(dir_GeneSig_info, "signature_INFO.csv")) 
+signature$Signature <- as.character( signature$Signature )
+signature$method <- as.character( signature$method )
+
+```
+
+|Signature  name|Method |PMID |      
+  |-----------------|------------------------|------|
+  | ADO             | GSVA                   | [31953314](https://pubmed.ncbi.nlm.nih.gov/31953314/) |
+  | APM_Thompson    | GSVA                   | [33028693](https://pubmed.ncbi.nlm.nih.gov/33028693/) |
+  | APM_Wang        | GSVA                   | [31767055](https://pubmed.ncbi.nlm.nih.gov/31767055/) |
+  | B_cell_Budczies | GSVA                   | [33520406](https://pubmed.ncbi.nlm.nih.gov/33520406/) |
+  | B_cell_Helmink  | GSVA                   | [31942075](https://pubmed.ncbi.nlm.nih.gov/31942075/) |
+  | Blood_Response  | GSVA                   | [28807052](https://pubmed.ncbi.nlm.nih.gov/28807052/) |
+  | CD8_Jiang       | GSVA                   | [30127393](https://pubmed.ncbi.nlm.nih.gov/30127393/) |
+  | COX_IS          | specific algorithm     | [33220234](https://pubmed.ncbi.nlm.nih.gov/33220234/) |
+  | IPRES           | specific algorithm     | [31683225](https://pubmed.ncbi.nlm.nih.gov/31683225/) |
+  | C_ECM           | weighted mean          | [30410077](https://pubmed.ncbi.nlm.nih.gov/30410077/) |
+  | EMT_Thompson    | weighted mean          | [31683225](https://pubmed.ncbi.nlm.nih.gov/31683225/) |
+  | PTEN_MITF       | weighted mean          | [32245160](https://pubmed.ncbi.nlm.nih.gov/32245160/) |
+  | T_cell_exclusion| weighted mean          | [30388455](https://pubmed.ncbi.nlm.nih.gov/30388455/) |
+  | CD8_SF          | GSVA                   | [30388456](https://pubmed.ncbi.nlm.nih.gov/30388456/) |
+  | CRMA            | GSVA                   | [29656892](https://pubmed.ncbi.nlm.nih.gov/29656892/) |
+  | CYT             | GSVA                   | [25594174](https://pubmed.ncbi.nlm.nih.gov/25594174/) |
+  | IFNG            | GSVA                   | [28650338](https://pubmed.ncbi.nlm.nih.gov/28650338/) |
+  | ImmuneCells     | GSVA                   | [33033253](https://pubmed.ncbi.nlm.nih.gov/33033253/) |
+  | Inflammatory    | GSVA                   | [31683225](https://pubmed.ncbi.nlm.nih.gov/31683225/) |
+  | IRG_Ayers       | GSVA                   | [28650338](https://pubmed.ncbi.nlm.nih.gov/28650338/) |
+  | KDM5A           | GSVA                   | [32908002](https://pubmed.ncbi.nlm.nih.gov/32908002/) |
+  | LRRC15_CAF      | GSVA                   | [31699795](https://pubmed.ncbi.nlm.nih.gov/31699795/) |
+  | M1              | GSVA                   | [31959763](https://pubmed.ncbi.nlm.nih.gov/31959763/) |
+  | Macrophage      | GSVA                   | [33520406](https://pubmed.ncbi.nlm.nih.gov/33520406/) |
+  | Myeloid_DC      | GSVA                   | [31942075](https://pubmed.ncbi.nlm.nih.gov/31942075/) |
+  | NonResponse_Ivy | GSVA                   | [32907939](https://pubmed.ncbi.nlm.nih.gov/32907939/) |
+  | PDL1            | GSVA                   | [30127393](https://pubmed.ncbi.nlm.nih.gov/30127393/) |
+  | peri_Tcell      | GSVA                   | [31959763](https://pubmed.ncbi.nlm.nih.gov/31959763/) |
+  | Response_Ivy    | GSVA                   | [32907939](https://pubmed.ncbi.nlm.nih.gov/32907939/) |
+  | STAT1           | GSVA                   | [31316010](https://pubmed.ncbi.nlm.nih.gov/31316010/) |
+  | T_cell_inflamed | GSVA                   | [30804515](https://pubmed.ncbi.nlm.nih.gov/30804515/) |
+  | TGFB_Mariathasan| GSVA                   | [29443960](https://pubmed.ncbi.nlm.nih.gov/29443960/) |
+  | TIS             | GSVA                   | [31684954](https://pubmed.ncbi.nlm.nih.gov/31684954/) |
+  | TLS             | GSVA                   | [31942071](https://pubmed.ncbi.nlm.nih.gov/31942071/) |
+  | IPS             | specific algorithm     | [28052254](https://pubmed.ncbi.nlm.nih.gov/28052254/) |
+  | IMPRES          | weighted mean          | [30127394](https://pubmed.ncbi.nlm.nih.gov/30127394/) |
+  | IRG_Yang        | weighted mean          | [31741756](https://pubmed.ncbi.nlm.nih.gov/31741756/) |
+  | MPS             | weighted mean          | [32284588](https://pubmed.ncbi.nlm.nih.gov/32284588/) |
+  | PredictIO       | specific algorithm     | [36055464](https://pubmed.ncbi.nlm.nih.gov/36055464/)|
+  
+  : (\#tab:table1) Detailed overview for the RNA immunotherapy signatures.
+     
+Table \@ref(tab:table1) shows an overview of signatures data and methods to compute the signatures' scores including weighted mean, Gene Set Variation Analysis (GSVA) [PMID 23323831](https://pubmed.ncbi.nlm.nih.gov/23323831/), and specific computational algorithms. Note that GENCODE version 40 is applied to curate the signature data.   
+
+
+## Load Curated Immunotherapy Signature
+     
+As an example, APM_Thompson ([PMID 33028693](https://pubmed.ncbi.nlm.nih.gov/33028693/)) is a RNA signature capturing the antigen processing and presentation machinery (APM) activity. This APM signature was a predictor of the response of PD-(L)1 blockade in Lung and Melanoma patients. To get the signature score, the GSVA approach is applied. 
+
+```{load signature APM_Thompson}
+
+load(file.path(dir_GeneSig, "APM_Thompson.rda"))
+ 
+knitr::kable(sig, format="html", row.names = FALSE) %>% kableExtra::kable_styling()
+                  
+```
+
+# Prognostic Landscape of the Curated Immunotherapy Signatures
+
+Principal component analysis of the overlapping genes between each curated signature. Clusters were determined using Affinity Propagation Clustering. Kyoto Encyclopedia of Genes and Genomes pathway enriched within each cluster was computed from enrichR.
+
+```{r echo=FALSE, out.width="180%"}
+
+knitr::include_graphics(file.path(dir_GeneSig_info, "clustering_signatures.JPG"))
+
+```
+
+# References
+
+Bareche, Y., Kelly, D., Abbas-Aghababazadeh, F., Nakano, M., Esfahani, P. N., Tkachuk, D., ... & Stagg, J. (2022). Leveraging big data of immune checkpoint blockade response identifies novel potential targets. Annals of Oncology, 33(12), 1304-1317.
+
+# SessionInfo
+
+```{r sessionInfo, echo=FALSE}
+#sessionInfo()
+```
+
