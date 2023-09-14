@@ -1,5 +1,5 @@
 ---
-title: "SignatureSets: A Package For RNA Immunotherapy Signatures"
+title: "SignatureSets: A Package for RNA Immunotherapy Signatures"
 author:
 - name: Farnoosh Abbas-Aghababazadeh
   affiliation:
@@ -108,7 +108,6 @@ signature$method <- as.character( signature$method )
      
 Table \@ref(tab:table1) shows an overview of signatures data and methods to compute the signatures' scores including weighted mean, Gene Set Variation Analysis (GSVA) [PMID 23323831](https://pubmed.ncbi.nlm.nih.gov/23323831/), and specific computational algorithms. Note that GENCODE version 40 is applied to curate the signature data.   
 
-
 ## Load Curated Immunotherapy Signature
      
 As an example, APM_Thompson ([PMID 33028693](https://pubmed.ncbi.nlm.nih.gov/33028693/)) is a RNA signature capturing the antigen processing and presentation machinery (APM) activity. This APM signature was a predictor of the response of PD-(L)1 blockade in Lung and Melanoma patients. To get the signature score, the GSVA approach is applied. 
@@ -133,7 +132,7 @@ knitr::include_graphics(file.path(dir_GeneSig_info, "clustering_signatures.JPG")
 
 # References
 
-Bareche, Y., Kelly, D., Abbas-Aghababazadeh, F., Nakano, M., Esfahani, P. N., Tkachuk, D., ... & Stagg, J. (2022). Leveraging big data of immune checkpoint blockade response identifies novel potential targets. Annals of Oncology, 33(12), 1304-1317.
+Bareche, Y., Kelly, D., Abbas-Aghababazadeh, F., Nakano, M., Esfahani, P. N., Tkachuk, D., ... & Stagg, J. (2022). Leveraging big data of immune checkpoint blockade response identifies novel potential targets. Annals of Oncology, 33(12), 1304-1317.\
 
 # SessionInfo
 
