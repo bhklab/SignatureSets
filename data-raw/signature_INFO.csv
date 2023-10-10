@@ -38,3 +38,10 @@ T_cell_inflamed,GSVA,30804515,Gene expression signature capturing the level of I
 TGFB_Mariathasan,GSVA,29443960,Gene expression signature capturing the fibroblast TGFB activity. This TGFB signature was a predictor of the failure of PD-(L)1 blockade in published cohorts
 TIS,GSVA,31684954,Gene expression signature capturing the level of local tumor inflammation. This Tumor Inflammation signature (TIS) was a predictor of the response of PD-1 blockade in pan-cancer patients
 TLS,GSVA,31942071,Gene expression signature capturing the presence of Tertiary lymphoid structures (TLS). This TLS signature was a predictor of the response of ICB in Melanoma patients
+12-cheomokine,specific,21703392,Gene expression signature capturing the presence of ectopic lymphoid structure. This signature was predictor of survival of colorectal cancer patients
+CD274,GSVA,28650338,Gene expression signature capturing IFN-?-responsive genes. This signature was obtained from analysis of basedline sample and was a predictor of anti-PD1 response in melanoma.
+T-effector,specific,29867230,Gene expression signature capturing effector T cells. This signature was a predictor of response to combination of anti-PD-L1 and sunitinib in renal cell carcinoma
+T-effector_IFN_POPLAR,specific,26970723,Gene expression signature capturing effector T cells. This signature associated with improved ovarall survival of non-small-cell lung cancer patients treated with anti-PD-L1.
+CD39-CD8 Tcell_Chow,specific,36574773,Gene expression signature capturing CD39+ CD8+ T cells. This signature was obtained from single-cell CITE/RNA/TCR sequencing of intratumoral CD3+ T cells from non-small cell lung cancer (NSCLC) biospecimens. This signature was a predictor of the response of anti-PD-L1 in a dataset of baseline NSCLC tumors.
+VIGex,GSVA,37572657,NA
+CIN70,specific,33171596;36,NA
