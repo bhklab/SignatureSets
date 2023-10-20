@@ -43,5 +43,5 @@ CD274,GSVA,28650338,Gene expression signature capturing IFN-?-responsive genes. 
 T-effector,specific,29867230,Gene expression signature capturing effector T cells. This signature was a predictor of response to combination of anti-PD-L1 and sunitinib in renal cell carcinoma
 T-effector_IFN_POPLAR,specific,26970723,Gene expression signature capturing effector T cells. This signature associated with improved ovarall survival of non-small-cell lung cancer patients treated with anti-PD-L1.
 CD39-CD8 Tcell_Chow,specific,36574773,Gene expression signature capturing CD39+ CD8+ T cells. This signature was obtained from single-cell CITE/RNA/TCR sequencing of intratumoral CD3+ T cells from non-small cell lung cancer (NSCLC) biospecimens. This signature was a predictor of the response of anti-PD-L1 in a dataset of baseline NSCLC tumors.
-VIGex,GSVA,37572657,NA
-CIN70,specific,33171596;36,NA
+VIGex,GSVA,37572657,"Gene expression signature capturing genes involved in adaptative immune response. This signature was used to score tumors are classify into hot, intermediate-cold, and cold. It associated with immunotherapy response in early-phase trials."
+CIN70,specific,16921376,"Gene expression signature capturing tumor aneuploidy. This singature was predictor of poor clinical outcome in several cancer types (PMID: 16921376) and highly scored with the subtype ""cananical"" of mismatch repair-proficient coloretal liver metastases (PMID 36241710)."

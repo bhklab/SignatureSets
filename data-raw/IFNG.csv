@@ -1,7 +1,7 @@
-"","signature_name","gene_id","gene_type","gene_name","weight"
-"1","IFNG","ENSG00000131203.13","protein_coding","IDO1",NA
-"2","IFNG","ENSG00000169245.6","protein_coding","CXCL10",NA
-"3","IFNG","ENSG00000138755.6","protein_coding","CXCL9",NA
-"4","IFNG","ENSG00000204287.14","protein_coding","HLA-DRA",NA
-"5","IFNG","ENSG00000115415.20","protein_coding","STAT1",NA
-"6","IFNG","ENSG00000111537.5","protein_coding","IFNG",NA
+signature_name,gene_id,gene_type,gene_name,weight
+IFNG,ENSG00000131203.13,protein_coding,IDO1,NA
+IFNG,ENSG00000169245.6,protein_coding,CXCL10,NA
+IFNG,ENSG00000138755.6,protein_coding,CXCL9,NA
+IFNG,ENSG00000204287.14,protein_coding,HLA-DRA,NA
+IFNG,ENSG00000115415.20,protein_coding,STAT1,NA
+IFNG,ENSG00000111537.5,protein_coding,IFNG,NA

@@ -1,6 +1,6 @@
-"","signature_name","gene_id","gene_type","gene_name","weight"
-"1","CRMA","ENSG00000268606.6","protein_coding","MAGEA2",NA
-"2","CRMA","ENSG00000183305.14","protein_coding","MAGEA2B",NA
-"3","CRMA","ENSG00000221867.9","protein_coding","MAGEA3",NA
-"4","CRMA","ENSG00000197172.11","protein_coding","MAGEA6",NA
-"5","CRMA","ENSG00000213401.10","protein_coding","MAGEA12",NA
+signature_name,gene_id,gene_type,gene_name,weight
+CRMA,ENSG00000268606.6,protein_coding,MAGEA2,NA
+CRMA,ENSG00000183305.14,protein_coding,MAGEA2B,NA
+CRMA,ENSG00000221867.9,protein_coding,MAGEA3,NA
+CRMA,ENSG00000197172.11,protein_coding,MAGEA6,NA
+CRMA,ENSG00000213401.10,protein_coding,MAGEA12,NA

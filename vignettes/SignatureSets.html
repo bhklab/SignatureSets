@@ -10,7 +10,7 @@
 
 
 
-<meta name="date" content="2023-09-15" />
+<meta name="date" content="2023-10-20" />
 
 <title>SignatureSets: A Package for RNA Immunotherapy Signatures</title>
 
@@ -52,7 +52,7 @@ h4 {font-size: 18px;}
 h5 {font-size: 16px;}
 h6 {font-size: 12px;}
 code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
-pre:not([class]) { background-color: white }</style>
+</style>
 <script>
 
 /**
@@ -960,7 +960,7 @@ function toggle_visibility(id1) {
 <p class="author-name">Farnoosh Abbas-Aghababazadeh<span class="affil-mark">1</span>, Yacine Bareche<span class="affil-mark">2,3</span>, Minoru Nakano<span class="affil-mark">1</span>, John Stagg<span class="affil-mark">2,3</span> and Benjamin Haibe-Kains<span class="affil-mark">1,4*</span></p>
 <p class="author-affiliation"><span class="affil-mark">1</span>Bioinformatics and Computational Genomics Laboratory, Princess Margaret Cancer Center,University Health Network, Toronto, Ontario, Canada<br><span class="affil-mark">2</span>Faculty of Pharmacy, Université de Montréal, Montreal, Canada<br><span class="affil-mark">3</span>Centre de Recherche du Centre Hospitalier de l’Université de Montréal, Institut du Cancer de Montréal, Montreal, Canada<br><span class="affil-mark">4</span>Department of Medical Biophysics, University of Toronto, Toronto, Canada</p>
 <p class="author-email"><span class="affil-mark">*</span><a href="mailto:benjamin.haibe.kains@utoronto.ca">benjamin.haibe.kains@utoronto.ca</a></p>
-<h4 class="date">15 September 2023</h4>
+<h4 class="date">20 October 2023</h4>
 <h4 class="abstract">Abstract</h4>
 <p>Description of your vignette</p>
 
@@ -991,7 +991,7 @@ library(stringr)</code></pre>
 </div>
 <div id="curated-immunotherapy-rna-signatures" class="section level1" number="2">
 <h1><span class="header-section-number">2</span> Curated Immunotherapy RNA Signatures</h1>
-<p>Get more details about the compendium of approximately 40 curated RNA signatures described as immunotherapy biomarkers.</p>
+<p>Get more details about the compendium of 46 curated RNA signatures described as immunotherapy biomarkers.</p>
 <pre class="r"><code>app_dir &lt;- str_split(rstudioapi::getActiveDocumentContext()$path,&#39;SignatureSets&#39;)[[1]][1]
 dir_GeneSig &lt;- file.path(app_dir, &#39;SignatureSets&#39;, &#39;data&#39;)
 dir_GeneSig_info &lt;- file.path(app_dir, &#39;SignatureSets&#39;, &#39;data-raw&#39;)
@@ -1568,10 +1568,107 @@ GSVA
 Gene expression signature capturing the presence of Tertiary lymphoid structures (TLS). This TLS signature was a predictor of the response of ICB in Melanoma patients
 </td>
 </tr>
+<tr>
+<td style="text-align:left;">
+12-cheomokine
+</td>
+<td style="text-align:left;">
+specific
+</td>
+<td style="text-align:left;">
+21703392
+</td>
+<td style="text-align:left;">
+Gene expression signature capturing the presence of ectopic lymphoid structure. This signature was predictor of survival of colorectal cancer patients
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+CD274
+</td>
+<td style="text-align:left;">
+GSVA
+</td>
+<td style="text-align:left;">
+28650338
+</td>
+<td style="text-align:left;">
+Gene expression signature capturing IFN-?-responsive genes. This signature was obtained from analysis of basedline sample and was a predictor of anti-PD1 response in melanoma.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+T-effector
+</td>
+<td style="text-align:left;">
+specific
+</td>
+<td style="text-align:left;">
+29867230
+</td>
+<td style="text-align:left;">
+Gene expression signature capturing effector T cells. This signature was a predictor of response to combination of anti-PD-L1 and sunitinib in renal cell carcinoma
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+T-effector_IFN_POPLAR
+</td>
+<td style="text-align:left;">
+specific
+</td>
+<td style="text-align:left;">
+26970723
+</td>
+<td style="text-align:left;">
+Gene expression signature capturing effector T cells. This signature associated with improved ovarall survival of non-small-cell lung cancer patients treated with anti-PD-L1.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+CD39-CD8 Tcell_Chow
+</td>
+<td style="text-align:left;">
+specific
+</td>
+<td style="text-align:left;">
+36574773
+</td>
+<td style="text-align:left;">
+Gene expression signature capturing CD39+ CD8+ T cells. This signature was obtained from single-cell CITE/RNA/TCR sequencing of intratumoral CD3+ T cells from non-small cell lung cancer (NSCLC) biospecimens. This signature was a predictor of the response of anti-PD-L1 in a dataset of baseline NSCLC tumors.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+VIGex
+</td>
+<td style="text-align:left;">
+GSVA
+</td>
+<td style="text-align:left;">
+37572657
+</td>
+<td style="text-align:left;">
+Gene expression signature capturing genes involved in adaptative immune response. This signature was used to score tumors are classify into hot, intermediate-cold, and cold. It associated with immunotherapy response in early-phase trials.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+CIN70
+</td>
+<td style="text-align:left;">
+specific
+</td>
+<td style="text-align:left;">
+16921376
+</td>
+<td style="text-align:left;">
+Gene expression signature capturing tumor aneuploidy. This singature was predictor of poor clinical outcome in several cancer types (PMID: 16921376) and highly scored with the subtype “cananical” of mismatch repair-proficient coloretal liver metastases (PMID 36241710).
+</td>
+</tr>
 </tbody>
 </table></div>
-<p>: (#tab:table1) Detailed overview for the RNA immunotherapy signatures.</p>
-<p>Table <a href="#tab:table1">1</a> shows an overview of signatures data and methods to compute the signatures’ scores including weighted mean, Gene Set Variation Analysis (GSVA) <a href="https://pubmed.ncbi.nlm.nih.gov/23323831/">PMID 23323831</a>, and specific computational algorithms. Note that GENCODE version 40 is applied to curate the signature data.</p>
+<p>The above table shows an overview of RNA immunotherapy signatures data and methods to compute the signatures’ scores including weighted mean, Gene Set Variation Analysis (GSVA) <a href="https://pubmed.ncbi.nlm.nih.gov/23323831/">PMID 23323831</a>, and specific computational algorithms. Note that GENCODE version 40 is applied to curate the signature data.</p>
 <div id="load-curated-immunotherapy-signature" class="section level2" number="2.1">
 <h2><span class="header-section-number">2.1</span> Load Curated Immunotherapy Signature</h2>
 <p>As an example, ADO (<a href="https://pubmed.ncbi.nlm.nih.gov/31953314/">PMID 31953314</a>) is a RNA signature capturing the adenosine (ADO) pathway activity. This adenosine signature was significantly associated with reduced efficacy of anti-PD1 therapy in published cohorts. To get the signature score, the GSVA approach is applied.</p>

@@ -1,0 +1,11 @@
+signature_name,gene_id,gene_type,gene_name,weight
+IFN-signature,ENSG00000111537.5,protein_coding,IFNG,NA
+IFN-signature,ENSG00000115415.20,protein_coding,STAT1,NA
+IFN-signature,ENSG00000160791.14,protein_coding,CCR5,NA
+IFN-signature,ENSG00000138755.6,protein_coding,CXCL9,NA
+IFN-signature,ENSG00000169245.6,protein_coding,CXCL10,NA
+IFN-signature,ENSG00000169248.13,protein_coding,CXCL11,NA
+IFN-signature,ENSG00000131203.13,protein_coding,IDO1,NA
+IFN-signature,ENSG00000180644.8,protein_coding,PRF1,NA
+IFN-signature,ENSG00000145649.8,protein_coding,GZMA,NA
+IFN-signature,ENSG00000204287.14,protein_coding,HLA-DRA,NA

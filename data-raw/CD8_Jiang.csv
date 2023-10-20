@@ -1,7 +1,7 @@
-"","signature_name","gene_id","gene_type","gene_name","weight"
-"1","CD8_Jiang",NA,NA,"CD8",NA
-"2","CD8_Jiang","ENSG00000153563.16","protein_coding","CD8A",NA
-"3","CD8_Jiang","ENSG00000172116.23","protein_coding","CD8B",NA
-"4","CD8_Jiang","ENSG00000167286.11","protein_coding","CD3D",NA
-"5","CD8_Jiang","ENSG00000198851.10","protein_coding","CD3E",NA
-"6","CD8_Jiang","ENSG00000160654.11","protein_coding","CD3G",NA
+signature_name,gene_id,gene_type,gene_name,weight
+CD8_Jiang,NA,NA,CD8,NA
+CD8_Jiang,ENSG00000153563.16,protein_coding,CD8A,NA
+CD8_Jiang,ENSG00000172116.23,protein_coding,CD8B,NA
+CD8_Jiang,ENSG00000167286.11,protein_coding,CD3D,NA
+CD8_Jiang,ENSG00000198851.10,protein_coding,CD3E,NA
+CD8_Jiang,ENSG00000160654.11,protein_coding,CD3G,NA

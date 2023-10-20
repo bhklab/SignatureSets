@@ -48,7 +48,7 @@ library(stringr)
 
 # Curated Immunotherapy RNA Signatures 
 
-Get more details about the compendium of approximately 40 curated RNA signatures described as immunotherapy biomarkers. 
+Get more details about the compendium of 46 curated RNA signatures described as immunotherapy biomarkers. 
 
 ```{r signature data}
 
@@ -67,10 +67,7 @@ kable(signature, format="html",
 
 ```
 
-
-: (\#tab:table1) Detailed overview for the RNA immunotherapy signatures.
-     
-Table \@ref(tab:table1) shows an overview of signatures data and methods to compute the signatures' scores including weighted mean, Gene Set Variation Analysis (GSVA) [PMID 23323831](https://pubmed.ncbi.nlm.nih.gov/23323831/), and specific computational algorithms. Note that GENCODE version 40 is applied to curate the signature data.   
+The above table shows an overview of RNA immunotherapy signatures data and methods to compute the signatures' scores including weighted mean, Gene Set Variation Analysis (GSVA) [PMID 23323831](https://pubmed.ncbi.nlm.nih.gov/23323831/), and specific computational algorithms. Note that GENCODE version 40 is applied to curate the signature data.   
 
 ## Load Curated Immunotherapy Signature
      

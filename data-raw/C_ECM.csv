@@ -1,59 +1,59 @@
-"","signature_name","gene_id","gene_type","gene_name","weight"
-"1","C_ECM","ENSG00000168477.19","protein_coding","TNXB",-1
-"2","C_ECM","ENSG00000143196.5","protein_coding","DPT",-1
-"3","C_ECM","ENSG00000046653.15","protein_coding","GPM6B",-1
-"4","C_ECM","ENSG00000166482.12","protein_coding","MFAP4",-1
-"5","C_ECM","ENSG00000011465.18","protein_coding","DCN",-1
-"6","C_ECM","ENSG00000140092.15","protein_coding","FBLN5",-1
-"7","C_ECM","ENSG00000154721.15","protein_coding","JAM2",-1
-"8","C_ECM","ENSG00000133392.18","protein_coding","MYH11",-1
-"9","C_ECM","ENSG00000154175.18","protein_coding","ABI3BP",-1
-"10","C_ECM","ENSG00000122707.12","protein_coding","RECK",-1
-"11","C_ECM","ENSG00000134853.12","protein_coding","PDGFRA",-1
-"12","C_ECM","ENSG00000196569.14","protein_coding","LAMA2",-1
-"13","C_ECM",NA,NA,"CYR61",-1
-"14","C_ECM","ENSG00000138685.17","protein_coding","FGF2",-1
-"15","C_ECM","ENSG00000197565.17","protein_coding","COL4A6",-1
-"16","C_ECM","ENSG00000162733.19","protein_coding","DDR2",-1
-"17","C_ECM","ENSG00000106823.13","protein_coding","ECM2",-1
-"18","C_ECM",NA,NA,"COL14A 1",-1
-"19","C_ECM","ENSG00000175899.15","protein_coding","A2M",-1
-"20","C_ECM","ENSG00000169031.21","protein_coding","COL4A3",-1
-"21","C_ECM","ENSG00000077942.19","protein_coding","FBLN1",-1
-"22","C_ECM","ENSG00000144668.12","protein_coding","ITGA9",-1
-"23","C_ECM","ENSG00000081052.14","protein_coding","COL4A4",-1
-"24","C_ECM",NA,NA,"CTGF",-1
-"25","C_ECM","ENSG00000185070.12","protein_coding","FLRT2",-1
-"26","C_ECM","ENSG00000038295.8","protein_coding","TLL1",-1
-"27","C_ECM","ENSG00000050555.19","protein_coding","LAMC3",-1
-"28","C_ECM","ENSG00000197614.11","protein_coding","MFAP5",-1
-"29","C_ECM","ENSG00000099953.10","protein_coding","MMP11",1
-"30","C_ECM",NA,NA,"ADAMT S14",1
-"31","C_ECM",NA,NA,"SERPINH 1",1
-"32","C_ECM",NA,NA,"COL10A 1",1
-"33","C_ECM",NA,NA,"COL11A 1",1
-"34","C_ECM","ENSG00000196611.6","protein_coding","MMP1",1
-"35","C_ECM","ENSG00000108821.14","protein_coding","COL1A1",1
-"36","C_ECM","ENSG00000134013.16","protein_coding","LOXL2",1
-"37","C_ECM","ENSG00000100985.7","protein_coding","MMP9",1
-"38","C_ECM",NA,NA,"ADAM1 2",1
-"39","C_ECM","ENSG00000157766.19","protein_coding","ACAN",1
-"40","C_ECM","ENSG00000118785.15","protein_coding","SPP1",1
-"41","C_ECM","ENSG00000078098.15","protein_coding","FAP",1
-"42","C_ECM","ENSG00000151651.16","protein_coding","ADAM8",1
-"43","C_ECM","ENSG00000204262.14","protein_coding","COL5A2",1
-"44","C_ECM","ENSG00000102265.12","protein_coding","TIMP1",1
-"45","C_ECM","ENSG00000262406.3","protein_coding","MMP12",1
-"46","C_ECM","ENSG00000140678.17","protein_coding","ITGAX",1
-"47","C_ECM","ENSG00000130635.16","protein_coding","COL5A1",1
-"48","C_ECM","ENSG00000114270.18","protein_coding","COL7A1",1
-"49","C_ECM","ENSG00000080573.7","protein_coding","COL5A3",1
-"50","C_ECM","ENSG00000120708.17","protein_coding","TGFBI",1
-"51","C_ECM","ENSG00000105664.11","protein_coding","COMP",1
-"52","C_ECM","ENSG00000117122.14","protein_coding","MFAP2",1
-"53","C_ECM","ENSG00000038427.16","protein_coding","VCAN",1
-"54","C_ECM","ENSG00000164692.19","protein_coding","COL1A2",1
-"55","C_ECM","ENSG00000168542.16","protein_coding","COL3A1",1
-"56","C_ECM","ENSG00000137573.14","protein_coding","SULF1",1
-"57","C_ECM","ENSG00000133110.15","protein_coding","POSTN",1
-"58","C_ECM","ENSG00000115414.21","protein_coding","FN1",1
+signature_name,gene_id,gene_type,gene_name,weight
+C_ECM,ENSG00000168477.19,protein_coding,TNXB,-1
+C_ECM,ENSG00000143196.5,protein_coding,DPT,-1
+C_ECM,ENSG00000046653.15,protein_coding,GPM6B,-1
+C_ECM,ENSG00000166482.12,protein_coding,MFAP4,-1
+C_ECM,ENSG00000011465.18,protein_coding,DCN,-1
+C_ECM,ENSG00000140092.15,protein_coding,FBLN5,-1
+C_ECM,ENSG00000154721.15,protein_coding,JAM2,-1
+C_ECM,ENSG00000133392.18,protein_coding,MYH11,-1
+C_ECM,ENSG00000154175.18,protein_coding,ABI3BP,-1
+C_ECM,ENSG00000122707.12,protein_coding,RECK,-1
+C_ECM,ENSG00000134853.12,protein_coding,PDGFRA,-1
+C_ECM,ENSG00000196569.14,protein_coding,LAMA2,-1
+C_ECM,NA,NA,CYR61,-1
+C_ECM,ENSG00000138685.17,protein_coding,FGF2,-1
+C_ECM,ENSG00000197565.17,protein_coding,COL4A6,-1
+C_ECM,ENSG00000162733.19,protein_coding,DDR2,-1
+C_ECM,ENSG00000106823.13,protein_coding,ECM2,-1
+C_ECM,NA,NA,COL14A 1,-1
+C_ECM,ENSG00000175899.15,protein_coding,A2M,-1
+C_ECM,ENSG00000169031.21,protein_coding,COL4A3,-1
+C_ECM,ENSG00000077942.19,protein_coding,FBLN1,-1
+C_ECM,ENSG00000144668.12,protein_coding,ITGA9,-1
+C_ECM,ENSG00000081052.14,protein_coding,COL4A4,-1
+C_ECM,NA,NA,CTGF,-1
+C_ECM,ENSG00000185070.12,protein_coding,FLRT2,-1
+C_ECM,ENSG00000038295.8,protein_coding,TLL1,-1
+C_ECM,ENSG00000050555.19,protein_coding,LAMC3,-1
+C_ECM,ENSG00000197614.11,protein_coding,MFAP5,-1
+C_ECM,ENSG00000099953.10,protein_coding,MMP11,1
+C_ECM,NA,NA,ADAMT S14,1
+C_ECM,NA,NA,SERPINH 1,1
+C_ECM,NA,NA,COL10A 1,1
+C_ECM,NA,NA,COL11A 1,1
+C_ECM,ENSG00000196611.6,protein_coding,MMP1,1
+C_ECM,ENSG00000108821.14,protein_coding,COL1A1,1
+C_ECM,ENSG00000134013.16,protein_coding,LOXL2,1
+C_ECM,ENSG00000100985.7,protein_coding,MMP9,1
+C_ECM,NA,NA,ADAM1 2,1
+C_ECM,ENSG00000157766.19,protein_coding,ACAN,1
+C_ECM,ENSG00000118785.15,protein_coding,SPP1,1
+C_ECM,ENSG00000078098.15,protein_coding,FAP,1
+C_ECM,ENSG00000151651.16,protein_coding,ADAM8,1
+C_ECM,ENSG00000204262.14,protein_coding,COL5A2,1
+C_ECM,ENSG00000102265.12,protein_coding,TIMP1,1
+C_ECM,ENSG00000262406.3,protein_coding,MMP12,1
+C_ECM,ENSG00000140678.17,protein_coding,ITGAX,1
+C_ECM,ENSG00000130635.16,protein_coding,COL5A1,1
+C_ECM,ENSG00000114270.18,protein_coding,COL7A1,1
+C_ECM,ENSG00000080573.7,protein_coding,COL5A3,1
+C_ECM,ENSG00000120708.17,protein_coding,TGFBI,1
+C_ECM,ENSG00000105664.11,protein_coding,COMP,1
+C_ECM,ENSG00000117122.14,protein_coding,MFAP2,1
+C_ECM,ENSG00000038427.16,protein_coding,VCAN,1
+C_ECM,ENSG00000164692.19,protein_coding,COL1A2,1
+C_ECM,ENSG00000168542.16,protein_coding,COL3A1,1
+C_ECM,ENSG00000137573.14,protein_coding,SULF1,1
+C_ECM,ENSG00000133110.15,protein_coding,POSTN,1
+C_ECM,ENSG00000115414.21,protein_coding,FN1,1

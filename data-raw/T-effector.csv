@@ -1,6 +1,6 @@
-signature_name,gene_name
-T-effector,CD8A
-T-effector,IFNG
-T-effector,EOMES
-T-effector,PRF1
-T-effector,CD274
+signature_name,gene_id,gene_type,gene_name,weight
+T-effector,ENSG00000153563.16,protein_coding,CD8A,NA
+T-effector,ENSG00000111537.5,protein_coding,IFNG,NA
+T-effector,ENSG00000163508.13,protein_coding,EOMES,NA
+T-effector,ENSG00000180644.8,protein_coding,PRF1,NA
+T-effector,ENSG00000120217.14,protein_coding,CD274,NA
