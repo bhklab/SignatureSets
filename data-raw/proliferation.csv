@@ -1,0 +1,11 @@
+signature_name,gene_id,gene_type,gene_name,weight
+proliferation,ENSG00000169679.15,protein_coding,BUB1,NA
+proliferation,ENSG00000157456.8,protein_coding,CCNB2,NA
+proliferation,ENSG00000170312.17,protein_coding,CDK1,NA
+proliferation,ENSG00000100526.21,protein_coding,CDKN3,NA
+proliferation,ENSG00000111206.13,protein_coding,FOXM1,NA
+proliferation,ENSG00000166803.14,protein_coding,PCLAF,NA
+proliferation,ENSG00000164109.14,protein_coding,MAD2L1,NA
+proliferation,ENSG00000165304.8,protein_coding,MELK,NA
+proliferation,ENSG00000148773.14,protein_coding,MKI67,NA
+proliferation,ENSG00000131747.15,protein_coding,TOP2A,NA
