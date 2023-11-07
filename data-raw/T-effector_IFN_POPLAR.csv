@@ -1,9 +1,0 @@
-signature_name,gene_id,gene_type,gene_name,weight
-T-effector_IFN_POPLAR,ENSG00000153563.16,protein_coding,CD8A,NA
-T-effector_IFN_POPLAR,ENSG00000145649.8,protein_coding,GZMA,NA
-T-effector_IFN_POPLAR,ENSG00000100453.14,protein_coding,GZMB,NA
-T-effector_IFN_POPLAR,ENSG00000111537.5,protein_coding,IFNG,NA
-T-effector_IFN_POPLAR,ENSG00000163508.13,protein_coding,EOMES,NA
-T-effector_IFN_POPLAR,ENSG00000138755.6,protein_coding,CXCL9,NA
-T-effector_IFN_POPLAR,ENSG00000169245.6,protein_coding,CXCL10,NA
-T-effector_IFN_POPLAR,ENSG00000073861.3,protein_coding,TBX21,NA
