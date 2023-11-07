@@ -10,7 +10,7 @@
 
 
 
-<meta name="date" content="2023-10-20" />
+<meta name="date" content="2023-11-07" />
 
 <title>SignatureSets: A Package for RNA Immunotherapy Signatures</title>
 
@@ -960,7 +960,7 @@ function toggle_visibility(id1) {
 <p class="author-name">Farnoosh Abbas-Aghababazadeh<span class="affil-mark">1</span>, Yacine Bareche<span class="affil-mark">2,3</span>, Minoru Nakano<span class="affil-mark">1</span>, John Stagg<span class="affil-mark">2,3</span> and Benjamin Haibe-Kains<span class="affil-mark">1,4*</span></p>
 <p class="author-affiliation"><span class="affil-mark">1</span>Bioinformatics and Computational Genomics Laboratory, Princess Margaret Cancer Center,University Health Network, Toronto, Ontario, Canada<br><span class="affil-mark">2</span>Faculty of Pharmacy, Université de Montréal, Montreal, Canada<br><span class="affil-mark">3</span>Centre de Recherche du Centre Hospitalier de l’Université de Montréal, Institut du Cancer de Montréal, Montreal, Canada<br><span class="affil-mark">4</span>Department of Medical Biophysics, University of Toronto, Toronto, Canada</p>
 <p class="author-email"><span class="affil-mark">*</span><a href="mailto:benjamin.haibe.kains@utoronto.ca">benjamin.haibe.kains@utoronto.ca</a></p>
-<h4 class="date">20 October 2023</h4>
+<h4 class="date">7 November 2023</h4>
 <h4 class="abstract">Abstract</h4>
 <p>Description of your vignette</p>
 
@@ -991,7 +991,7 @@ library(stringr)</code></pre>
 </div>
 <div id="curated-immunotherapy-rna-signatures" class="section level1" number="2">
 <h1><span class="header-section-number">2</span> Curated Immunotherapy RNA Signatures</h1>
-<p>Get more details about the compendium of 46 curated RNA signatures described as immunotherapy biomarkers.</p>
+<p>Get more details about the compendium of 51 curated RNA signatures described as immunotherapy biomarkers.</p>
 <pre class="r"><code>app_dir &lt;- str_split(rstudioapi::getActiveDocumentContext()$path,&#39;SignatureSets&#39;)[[1]][1]
 dir_GeneSig &lt;- file.path(app_dir, &#39;SignatureSets&#39;, &#39;data&#39;)
 dir_GeneSig_info &lt;- file.path(app_dir, &#39;SignatureSets&#39;, &#39;data-raw&#39;)
@@ -1178,7 +1178,7 @@ Gene expression signature capturing the Cancer-Germline Antigen activity. This �
 </tr>
 <tr>
 <td style="text-align:left;">
-CYT
+CYT_Rooney
 </td>
 <td style="text-align:left;">
 GSVA
@@ -1206,7 +1206,7 @@ Gene expression signature capturing the epithelial-to-mesenchymal transition (EM
 </tr>
 <tr>
 <td style="text-align:left;">
-IFNG
+IFN_Ayers
 </td>
 <td style="text-align:left;">
 GSVA
@@ -1584,20 +1584,6 @@ Gene expression signature capturing the presence of ectopic lymphoid structure. 
 </tr>
 <tr>
 <td style="text-align:left;">
-CD274
-</td>
-<td style="text-align:left;">
-GSVA
-</td>
-<td style="text-align:left;">
-28650338
-</td>
-<td style="text-align:left;">
-Gene expression signature capturing IFN-?-responsive genes. This signature was obtained from analysis of basedline sample and was a predictor of anti-PD1 response in melanoma.
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
 T-effector
 </td>
 <td style="text-align:left;">
@@ -1626,7 +1612,7 @@ Gene expression signature capturing effector T cells. This signature associated 
 </tr>
 <tr>
 <td style="text-align:left;">
-CD39-CD8 Tcell_Chow
+CD39_CD8Tcell_Chow
 </td>
 <td style="text-align:left;">
 specific
@@ -1654,7 +1640,7 @@ Gene expression signature capturing genes involved in adaptative immune response
 </tr>
 <tr>
 <td style="text-align:left;">
-CIN70
+CIN70_Carter
 </td>
 <td style="text-align:left;">
 specific
@@ -1664,6 +1650,76 @@ specific
 </td>
 <td style="text-align:left;">
 Gene expression signature capturing tumor aneuploidy. This singature was predictor of poor clinical outcome in several cancer types (PMID: 16921376) and highly scored with the subtype “cananical” of mismatch repair-proficient coloretal liver metastases (PMID 36241710).
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+CIN25_Carter
+</td>
+<td style="text-align:left;">
+specific
+</td>
+<td style="text-align:left;">
+16921376
+</td>
+<td style="text-align:left;">
+Gene expression signature capturing tumor aneuploidy. This singature was predictor of poor clinical outcome in several cancer types (PMID: 16921376) and highly scored with the subtype “cananical” of mismatch repair-proficient coloretal liver metastases (PMID 36241710).
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+proliferation
+</td>
+<td style="text-align:left;">
+specific
+</td>
+<td style="text-align:left;">
+30709424
+</td>
+<td style="text-align:left;">
+Gene expression signature of 10-proliferation associated genes used to stratify tumors into poorly, moderately, and highly proliferative. The authors demostrated a significant survival advantage of moderately proliferative tumors compared to highly/poorly counterparts.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+EMTstroma_Wang
+</td>
+<td style="text-align:left;">
+specific
+</td>
+<td style="text-align:left;">
+30158554
+</td>
+<td style="text-align:left;">
+Gene expression signature capturing epithelial-to-mesenchymal transition (EMT) in stromal cells. In a PDX
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+LU_TUMOR_VASCULATURE_UP
+</td>
+<td style="text-align:left;">
+GSVA
+</td>
+<td style="text-align:left;">
+17308118
+</td>
+<td style="text-align:left;">
+Gene expression signature capturing tumor-associated endothelium. The signature was obtained by comparing endothelium cells from high-grade serous ovarian cancer with normal ovary.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+CCL5_CXCL9
+</td>
+<td style="text-align:left;">
+specific
+</td>
+<td style="text-align:left;">
+31185212
+</td>
+<td style="text-align:left;">
+Gene expression signature capturing tumors infiltrated with CD8 T cells. This signature was a predictor of the response of ICB in published cohorts of combination or sequential immunotherapy with anti-PD1 and anti-CTLA4.
 </td>
 </tr>
 </tbody>

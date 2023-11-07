@@ -48,7 +48,7 @@ library(stringr)
 
 # Curated Immunotherapy RNA Signatures 
 
-Get more details about the compendium of 46 curated RNA signatures described as immunotherapy biomarkers. 
+Get more details about the compendium of 51 curated RNA signatures described as immunotherapy biomarkers. 
 
 ```{r signature data}
 
