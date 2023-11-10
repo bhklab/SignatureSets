@@ -10,7 +10,7 @@
 
 
 
-<meta name="date" content="2023-11-07" />
+<meta name="date" content="2023-11-09" />
 
 <title>SignatureSets: A Package for RNA Immunotherapy Signatures</title>
 
@@ -960,7 +960,7 @@ function toggle_visibility(id1) {
 <p class="author-name">Farnoosh Abbas-Aghababazadeh<span class="affil-mark">1</span>, Yacine Bareche<span class="affil-mark">2,3</span>, Minoru Nakano<span class="affil-mark">1</span>, John Stagg<span class="affil-mark">2,3</span> and Benjamin Haibe-Kains<span class="affil-mark">1,4*</span></p>
 <p class="author-affiliation"><span class="affil-mark">1</span>Bioinformatics and Computational Genomics Laboratory, Princess Margaret Cancer Center,University Health Network, Toronto, Ontario, Canada<br><span class="affil-mark">2</span>Faculty of Pharmacy, Université de Montréal, Montreal, Canada<br><span class="affil-mark">3</span>Centre de Recherche du Centre Hospitalier de l’Université de Montréal, Institut du Cancer de Montréal, Montreal, Canada<br><span class="affil-mark">4</span>Department of Medical Biophysics, University of Toronto, Toronto, Canada</p>
 <p class="author-email"><span class="affil-mark">*</span><a href="mailto:benjamin.haibe.kains@utoronto.ca">benjamin.haibe.kains@utoronto.ca</a></p>
-<h4 class="date">7 November 2023</h4>
+<h4 class="date">9 November 2023</h4>
 <h4 class="abstract">Abstract</h4>
 <p>Description of your vignette</p>
 
@@ -991,7 +991,7 @@ library(stringr)</code></pre>
 </div>
 <div id="curated-immunotherapy-rna-signatures" class="section level1" number="2">
 <h1><span class="header-section-number">2</span> Curated Immunotherapy RNA Signatures</h1>
-<p>Get more details about the compendium of 51 curated RNA signatures described as immunotherapy biomarkers.</p>
+<p>Get more details about the compendium of 53 curated RNA signatures described as immunotherapy biomarkers.</p>
 <pre class="r"><code>app_dir &lt;- str_split(rstudioapi::getActiveDocumentContext()$path,&#39;SignatureSets&#39;)[[1]][1]
 dir_GeneSig &lt;- file.path(app_dir, &#39;SignatureSets&#39;, &#39;data&#39;)
 dir_GeneSig_info &lt;- file.path(app_dir, &#39;SignatureSets&#39;, &#39;data-raw&#39;)
@@ -1573,7 +1573,7 @@ Gene expression signature capturing the presence of Tertiary lymphoid structures
 12-cheomokine
 </td>
 <td style="text-align:left;">
-specific
+weighted_mean
 </td>
 <td style="text-align:left;">
 21703392
@@ -1587,7 +1587,7 @@ Gene expression signature capturing the presence of ectopic lymphoid structure. 
 T-effector
 </td>
 <td style="text-align:left;">
-specific
+weighted_mean
 </td>
 <td style="text-align:left;">
 29867230
@@ -1598,7 +1598,7 @@ Gene expression signature capturing effector T cells. This signature was a predi
 </tr>
 <tr>
 <td style="text-align:left;">
-T-effector_IFN_POPLAR
+T-effector_IFN
 </td>
 <td style="text-align:left;">
 specific
@@ -1671,7 +1671,7 @@ Gene expression signature capturing tumor aneuploidy. This singature was predict
 proliferation
 </td>
 <td style="text-align:left;">
-specific
+weighted_mean
 </td>
 <td style="text-align:left;">
 30709424
@@ -1685,7 +1685,7 @@ Gene expression signature of 10-proliferation associated genes used to stratify 
 EMTstroma_Wang
 </td>
 <td style="text-align:left;">
-specific
+weighted_mean
 </td>
 <td style="text-align:left;">
 30158554
@@ -1713,13 +1713,41 @@ Gene expression signature capturing tumor-associated endothelium. The signature 
 CCL5_CXCL9
 </td>
 <td style="text-align:left;">
-specific
+weighted_mean
 </td>
 <td style="text-align:left;">
 31185212
 </td>
 <td style="text-align:left;">
 Gene expression signature capturing tumors infiltrated with CD8 T cells. This signature was a predictor of the response of ICB in published cohorts of combination or sequential immunotherapy with anti-PD1 and anti-CTLA4.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+IMS
+</td>
+<td style="text-align:left;">
+weighted_mean
+</td>
+<td style="text-align:left;">
+33542239
+</td>
+<td style="text-align:left;">
+NA
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+ImmuneScore_Roh
+</td>
+<td style="text-align:left;">
+weighted_mean
+</td>
+<td style="text-align:left;">
+28251903
+</td>
+<td style="text-align:left;">
+Gene expression signature from selected genes of cytolytic markers, HLA molecules, IFN-g pathway, selected chemokines, and adhesion molecules. Analaysis of copy number alterations (CNA) associated decrease expression of this signature with a higher burden of copy number loss.
 </td>
 </tr>
 </tbody>

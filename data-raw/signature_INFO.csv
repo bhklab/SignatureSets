@@ -49,3 +49,5 @@ proliferation,weighted_mean,30709424,"Gene expression signature of 10-proliferat
 EMTstroma_Wang,weighted_mean,30158554,Gene expression signature capturing epithelial-to-mesenchymal transition (EMT) in stromal cells. In a PDX
 LU_TUMOR_VASCULATURE_UP,GSVA,17308118,Gene expression signature capturing tumor-associated endothelium. The signature was obtained by comparing endothelium cells from high-grade serous ovarian cancer with normal ovary. 
 CCL5_CXCL9,weighted_mean,31185212,Gene expression signature capturing tumors infiltrated with CD8 T cells. This signature was a predictor of the response of ICB in published cohorts of combination or sequential immunotherapy with anti-PD1 and anti-CTLA4.
+IMS,weighted_mean,33542239,NA
+ImmuneScore_Roh,weighted_mean,28251903,"Gene expression signature from selected genes of cytolytic markers, HLA molecules, IFN-g pathway, selected chemokines, and adhesion molecules. Analaysis of copy number alterations (CNA) associated decrease expression of this signature with a higher burden of copy number loss. "
