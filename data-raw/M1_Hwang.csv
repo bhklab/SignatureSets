@@ -1,0 +1,14 @@
+signature_name,gene_id,gene_type,gene_name_old,weight
+M1_Hwang,ENSG00000114423.23,protein_coding,CBLB,NA
+M1_Hwang,ENSG00000126353.3,protein_coding,CCR7,NA
+M1_Hwang,ENSG00000139193.4,protein_coding,CD27,NA
+M1_Hwang,ENSG00000117091.10,protein_coding,CD48,NA
+M1_Hwang,ENSG00000150907.10,protein_coding,FOXO1,NA
+M1_Hwang,ENSG00000082074.19,protein_coding,FYB1,NA
+M1_Hwang,ENSG00000234745.14,protein_coding,HLA-B,NA
+M1_Hwang,ENSG00000204632.13,protein_coding,HLA-G,NA
+M1_Hwang,ENSG00000115267.9,protein_coding,IFIH1,NA
+M1_Hwang,ENSG00000123411.15,protein_coding,IKZF4,NA
+M1_Hwang,ENSG00000078081.8,protein_coding,LAMP3,NA
+M1_Hwang,ENSG00000100906.11,protein_coding,NFKBIA,NA
+M1_Hwang,ENSG00000101347.11,protein_coding,SAMHD1,NA

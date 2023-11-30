@@ -1,9 +1,9 @@
 signature_name,gene_id,gene_type,gene_name,weight
-APM_Thompson,ENSG00000166710.23,protein_coding,B2M,NA
-APM_Thompson,ENSG00000179218.15,protein_coding,CALR,NA
-APM_Thompson,ENSG00000140853.17,protein_coding,NLRC5,NA
-APM_Thompson,ENSG00000240065.8,protein_coding,PSMB9,NA
-APM_Thompson,ENSG00000092010.15,protein_coding,PSME1,NA
-APM_Thompson,ENSG00000131467.12,protein_coding,PSME3,NA
-APM_Thompson,ENSG00000143390.18,protein_coding,RFX5,NA
-APM_Thompson,ENSG00000096384.20,protein_coding,HSP90AB1,NA
+APM_Thompson,ENSG00000166710.23,protein_coding,B2M,1
+APM_Thompson,ENSG00000179218.15,protein_coding,CALR,1
+APM_Thompson,ENSG00000140853.17,protein_coding,NLRC5,1
+APM_Thompson,ENSG00000240065.8,protein_coding,PSMB9,1
+APM_Thompson,ENSG00000092010.15,protein_coding,PSME1,1
+APM_Thompson,ENSG00000131467.12,protein_coding,PSME3,1
+APM_Thompson,ENSG00000143390.18,protein_coding,RFX5,1
+APM_Thompson,ENSG00000096384.20,protein_coding,HSP90AB1,1
