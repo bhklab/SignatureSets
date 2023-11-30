@@ -48,7 +48,7 @@ library(stringr)
 
 # Curated Immunotherapy RNA Signatures 
 
-Get more details about the compendium of 53 curated RNA signatures described as immunotherapy biomarkers. 
+Get more details about the compendium of curated RNA signatures described as immunotherapy biomarkers. 
 
 ```{r signature data}
 
@@ -75,7 +75,7 @@ As an example, ADO ([PMID 31953314](https://pubmed.ncbi.nlm.nih.gov/31953314/)) 
 
 ```{r load signature ADO}
 
-load(file.path(dir_GeneSig, "ADO.rda"))
+load(file.path(dir_GeneSig, "ADO_Sidders.rda"))
  
 kable(sig, format="html", 
           table.attr = "style='width:30%;'", 
@@ -84,13 +84,14 @@ kable(sig, format="html",
                   
 ```
 
-# Prognostic Landscape of the Curated Immunotherapy Signatures
-
-Principal component analysis of the overlapping genes between each curated signature. Clusters were determined using Affinity Propagation Clustering. Kyoto Encyclopedia of Genes and Genomes pathway enriched within each cluster was computed from enrichR.
 
 ```{r echo=FALSE, out.width="180%"}
 
-knitr::include_graphics(file.path(dir_GeneSig_info, "clustering_signatures.JPG"))
+# Prognostic Landscape of the Curated Immunotherapy Signatures
+
+#Principal component analysis of the overlapping genes between each curated signature. Clusters #were determined using Affinity Propagation Clustering. Kyoto Encyclopedia of Genes and Genomes #pathway enriched within each cluster was computed from enrichR.
+
+#knitr::include_graphics(file.path(dir_GeneSig_info, "clustering_signatures.JPG"))
 
 ```
 
