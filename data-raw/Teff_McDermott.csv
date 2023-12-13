@@ -1,0 +1,6 @@
+signature_name,gene_id,gene_type,gene_name,weight
+Teff_McDermott,ENSG00000153563.16,protein_coding,CD8A,1
+Teff_McDermott,ENSG00000111537.5,protein_coding,IFNG,1
+Teff_McDermott,ENSG00000163508.13,protein_coding,EOMES,1
+Teff_McDermott,ENSG00000180644.8,protein_coding,PRF1,1
+Teff_McDermott,ENSG00000120217.14,protein_coding,CD274,1

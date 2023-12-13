@@ -1,0 +1,7 @@
+signature_name,gene_id,gene_type,gene_name,weight
+Myeloid-DC_Helmink,ENSG00000158477.7,protein_coding,CD1A,1
+Myeloid-DC_Helmink,ENSG00000158485.11,protein_coding,CD1B,1
+Myeloid-DC_Helmink,ENSG00000158488.16,protein_coding,CD1E,1
+Myeloid-DC_Helmink,ENSG00000132514.14,protein_coding,CLEC10A,1
+Myeloid-DC_Helmink,ENSG00000155962.13,protein_coding,CLIC2,1
+Myeloid-DC_Helmink,ENSG00000261040.8,transcribed_unitary_pseudogene,WFDC21P,1

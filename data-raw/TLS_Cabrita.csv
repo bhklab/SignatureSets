@@ -1,0 +1,10 @@
+signature_name,gene_id,gene_type,gene_name,weight
+TLS_Cabrita,ENSG00000113916.18,protein_coding,BCL6,1
+TLS_Cabrita,ENSG00000114013.16,protein_coding,CD86,1
+TLS_Cabrita,ENSG00000121966.8,protein_coding,CXCR4,1
+TLS_Cabrita,ENSG00000078081.8,protein_coding,LAMP3,1
+TLS_Cabrita,ENSG00000188404.10,protein_coding,SELL,1
+TLS_Cabrita,ENSG00000126353.3,protein_coding,CCR7,1
+TLS_Cabrita,ENSG00000156234.8,protein_coding,CXCL13,1
+TLS_Cabrita,ENSG00000137077.8,protein_coding,CCL21,1
+TLS_Cabrita,ENSG00000172724.12,protein_coding,CCL19,1
