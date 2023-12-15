@@ -36,7 +36,7 @@ vignette: |
 The SignatureSets package provides list of curated RNA immunotherapy signatures. Please refer to the manuscript URL (https://pubmed.ncbi.nlm.nih.gov/36055464/) or a web application [predictio.ca](https://predictio.ca/) to easily mine our large compendium of published signatures.
 
 
-```{r load, eval=TRUE, results='hide', message=FALSE}
+```{r load, eval=TRUE, results='hide', message=FALSE, warning=FALSE}
 
 library(data.table)
 library(kableExtra)
@@ -60,7 +60,7 @@ signature <- read.csv( file.path(dir_GeneSig_info, "signature_INFO.csv"))
 signature$Signature <- as.character( signature$Signature )
 signature$method <- as.character( signature$method )
 
-kable(signature, format="html", 
+kable(signature[, c("Signature", "method", "PMID", "Definition")], format="html", 
           table.attr = "style='width:80%;'", 
       row.names = FALSE) %>% 
       kableExtra::kable_styling()
