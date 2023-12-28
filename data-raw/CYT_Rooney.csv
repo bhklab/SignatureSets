@@ -1,3 +1,3 @@
 signature_name,gene_id,gene_type,gene_name,weight
-CYT_Rooney,ENSG00000180644.8,protein_coding,PRF1,NA
-CYT_Rooney,ENSG00000145649.8,protein_coding,GZMA,NA
+CYT_Rooney,ENSG00000180644.8,protein_coding,PRF1,1
+CYT_Rooney,ENSG00000145649.8,protein_coding,GZMA,1
