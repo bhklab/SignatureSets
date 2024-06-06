@@ -1,4 +1,4 @@
-signature_name,gene_id,gene_type,gene_name_old,weight
+signature_name,gene_id,gene_type,gene_name,weight
 Blood_Friedlander,ENSG00000151694.14,protein_coding,ADAM17,NA
 Blood_Friedlander,ENSG00000123374.11,protein_coding,CDK2,NA
 Blood_Friedlander,ENSG00000147889.18,protein_coding,CDKN2A,NA

@@ -1,4 +1,4 @@
-signature_name,gene_id,gene_type,gene_name_old,weight
+signature_name,gene_id,gene_type,gene_name,weight
 TGFB_Mariathasan,ENSG00000107796.13,protein_coding,ACTA2,1
 TGFB_Mariathasan,ENSG00000163017.14,protein_coding,ACTG2,1
 TGFB_Mariathasan,ENSG00000148848.15,protein_coding,ADAM12,1

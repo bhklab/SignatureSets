@@ -1,4 +1,4 @@
-signature_name,gene_id,gene_type,gene_name_old,name,class,weight
+signature_name,gene_id,gene_type,gene_name,name,class,weight
 IPS_Charoentong,ENSG00000166710.23,protein_coding,B2M,B2M,MHC,1
 IPS_Charoentong,ENSG00000168394.12,protein_coding,TAP1,TAP1,MHC,1
 IPS_Charoentong,ENSG00000204267.17,protein_coding,TAP2,TAP2,MHC,1

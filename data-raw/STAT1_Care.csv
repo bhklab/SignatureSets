@@ -1,4 +1,4 @@
-signature_name,gene_id,gene_type,gene_name_old,weight
+signature_name,gene_id,gene_type,gene_name,weight
 STAT1_Care,ENSG00000115415.20,protein_coding,STAT1,NA
 STAT1_Care,ENSG00000117228.11,protein_coding,GBP1,NA
 STAT1_Care,ENSG00000125347.15,protein_coding,IRF1,NA

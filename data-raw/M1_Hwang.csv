@@ -1,4 +1,4 @@
-signature_name,gene_id,gene_type,gene_name_old,weight
+signature_name,gene_id,gene_type,gene_name,weight
 M1_Hwang,ENSG00000114423.23,protein_coding,CBLB,NA
 M1_Hwang,ENSG00000126353.3,protein_coding,CCR7,NA
 M1_Hwang,ENSG00000139193.4,protein_coding,CD27,NA

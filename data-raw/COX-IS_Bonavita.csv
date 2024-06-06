@@ -1,4 +1,4 @@
-signature_name,gene_id,gene_type,gene_name_old,weight
+signature_name,gene_id,gene_type,gene_name,weight
 COX-IS_Bonavita,ENSG00000112715.26,protein_coding,VEGFA,1
 COX-IS_Bonavita,ENSG00000108691.10,protein_coding,CCL2,1
 COX-IS_Bonavita,ENSG00000169429.12,protein_coding,CXCL8,1
