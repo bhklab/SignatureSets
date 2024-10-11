@@ -8,9 +8,6 @@ author:
   affiliation:
   - &pm Faculty of Pharmacy, Université de Montréal, Montreal, Canada
   - &mbp Centre de Recherche du Centre Hospitalier de l’Université de Montréal, Institut du Cancer de Montréal, Montreal, Canada
-- name: Minoru Nakano
-  affiliation:
-    - &pm Bioinformatics and Computational Genomics Laboratory, Princess Margaret Cancer Center,University Health Network, Toronto, Ontario, Canada
 - name: John Stagg
   affiliation:
   - &pm Faculty of Pharmacy, Université de Montréal, Montreal, Canada
@@ -56,11 +53,11 @@ app_dir <- str_split(rstudioapi::getActiveDocumentContext()$path,'SignatureSets'
 dir_GeneSig <- file.path(app_dir, 'SignatureSets', 'data')
 dir_GeneSig_info <- file.path(app_dir, 'SignatureSets', 'data-raw')
 
-signature <- read.csv( file.path(dir_GeneSig_info, "signature_INFO.csv")) 
-signature$Signature <- as.character( signature$Signature )
+signature <- read.csv( file.path(dir_GeneSig_info, "signature_information.csv")) 
+signature$signature <- as.character( signature$signature )
 signature$method <- as.character( signature$method )
 
-kable(signature[, c("Signature", "method", "PMID", "Definition")], format="html", 
+kable(signature[, c("signature", "method", "PMID", "information")], format="html", 
           table.attr = "style='width:80%;'", 
       row.names = FALSE) %>% 
       kableExtra::kable_styling()

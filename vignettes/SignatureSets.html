@@ -10,7 +10,7 @@
 
 
 
-<meta name="date" content="2023-12-15" />
+<meta name="date" content="2024-10-11" />
 
 <title>SignatureSets: A Package for RNA Immunotherapy Signatures</title>
 
@@ -957,10 +957,10 @@ function toggle_visibility(id1) {
 
 
 <h1 class="title toc-ignore">SignatureSets: A Package for RNA Immunotherapy Signatures</h1>
-<p class="author-name">Farnoosh Abbas-Aghababazadeh<span class="affil-mark">1</span>, Yacine Bareche<span class="affil-mark">2,3</span>, Minoru Nakano<span class="affil-mark">1</span>, John Stagg<span class="affil-mark">2,3</span> and Benjamin Haibe-Kains<span class="affil-mark">1,4*</span></p>
+<p class="author-name">Farnoosh Abbas-Aghababazadeh<span class="affil-mark">1</span>, Yacine Bareche<span class="affil-mark">2,3</span>, John Stagg<span class="affil-mark">2,3</span> and Benjamin Haibe-Kains<span class="affil-mark">1,4*</span></p>
 <p class="author-affiliation"><span class="affil-mark">1</span>Bioinformatics and Computational Genomics Laboratory, Princess Margaret Cancer Center,University Health Network, Toronto, Ontario, Canada<br><span class="affil-mark">2</span>Faculty of Pharmacy, Université de Montréal, Montreal, Canada<br><span class="affil-mark">3</span>Centre de Recherche du Centre Hospitalier de l’Université de Montréal, Institut du Cancer de Montréal, Montreal, Canada<br><span class="affil-mark">4</span>Department of Medical Biophysics, University of Toronto, Toronto, Canada</p>
 <p class="author-email"><span class="affil-mark">*</span><a href="mailto:benjamin.haibe.kains@utoronto.ca">benjamin.haibe.kains@utoronto.ca</a></p>
-<h4 class="date">15 December 2023</h4>
+<h4 class="date">11 October 2024</h4>
 <h4 class="abstract">Abstract</h4>
 <p>Description of your vignette</p>
 
@@ -995,19 +995,19 @@ library(stringr)</code></pre>
 dir_GeneSig &lt;- file.path(app_dir, &#39;SignatureSets&#39;, &#39;data&#39;)
 dir_GeneSig_info &lt;- file.path(app_dir, &#39;SignatureSets&#39;, &#39;data-raw&#39;)
 
-signature &lt;- read.csv( file.path(dir_GeneSig_info, &quot;signature_INFO.csv&quot;)) 
-signature$Signature &lt;- as.character( signature$Signature )
+signature &lt;- read.csv( file.path(dir_GeneSig_info, &quot;signature_information.csv&quot;)) 
+signature$signature &lt;- as.character( signature$signature )
 signature$method &lt;- as.character( signature$method )
 
-kable(signature[, c(&quot;Signature&quot;, &quot;method&quot;, &quot;PMID&quot;, &quot;Definition&quot;)], format=&quot;html&quot;, 
+kable(signature[, c(&quot;signature&quot;, &quot;method&quot;, &quot;PMID&quot;, &quot;information&quot;)], format=&quot;html&quot;, 
           table.attr = &quot;style=&#39;width:80%;&#39;&quot;, 
       row.names = FALSE) %&gt;% 
       kableExtra::kable_styling()</code></pre>
-<div class='horizontal-scroll'><table style="width:80%; margin-left: auto; margin-right: auto;" class="table">
+<div class='horizontal-scroll'><table style="width:80%; color: black; margin-left: auto; margin-right: auto;" class="table">
 <thead>
 <tr>
 <th style="text-align:left;">
-Signature
+signature
 </th>
 <th style="text-align:left;">
 method
@@ -1016,25 +1016,11 @@ method
 PMID
 </th>
 <th style="text-align:left;">
-Definition
+information
 </th>
 </tr>
 </thead>
 <tbody>
-<tr>
-<td style="text-align:left;">
-Chemokine_Messina
-</td>
-<td style="text-align:left;">
-weighted_mean
-</td>
-<td style="text-align:left;">
-23097687
-</td>
-<td style="text-align:left;">
-Gene expression signature capturing the presence of ectopic lymphoid structure. This signature was predictor of survival of multiple tumor types (PMID 4267760).
-</td>
-</tr>
 <tr>
 <td style="text-align:left;">
 ADO_Sidders
@@ -1054,7 +1040,7 @@ Gene expression signature capturing the adenosine (ADO) pathway activity. This a
 APM_Thompson
 </td>
 <td style="text-align:left;">
-sum
+GSVA
 </td>
 <td style="text-align:left;">
 33028693
@@ -1082,13 +1068,27 @@ Gene expression signature capturing the antigen processing and presentation mach
 Bcell_Budczies
 </td>
 <td style="text-align:left;">
-weighted_mean
+GSVA
 </td>
 <td style="text-align:left;">
 33520406
 </td>
 <td style="text-align:left;">
 Gene expression signature capturing the B-cells activity. This B_cell signature was a predictor of the response of PD-(L)1 blockade in lung cancer patients.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Bcell_Helmink
+</td>
+<td style="text-align:left;">
+GSVA
+</td>
+<td style="text-align:left;">
+31942075
+</td>
+<td style="text-align:left;">
+Gene expression signature capturing the B-cells activity. This B_cell signature was a predictor of the response of ICB in published cohorts.
 </td>
 </tr>
 <tr>
@@ -1107,10 +1107,108 @@ Gene expression signature, derieved from whole-blood RNA-Sequencing, capturing t
 </tr>
 <tr>
 <td style="text-align:left;">
+C-ECM_Chakravarthy
+</td>
+<td style="text-align:left;">
+ssGSEA
+</td>
+<td style="text-align:left;">
+30410077
+</td>
+<td style="text-align:left;">
+Gene expression signature capturing the cancer extracellular matrix (C_ECM) marker genes activity. This C_ECM signature was a predictor of the failure of PD-1 blockade and outperforms previously-proposed biomarkers.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+CCL5-CXCL9_Dangaj
+</td>
+<td style="text-align:left;">
+GSVA
+</td>
+<td style="text-align:left;">
+31185212
+</td>
+<td style="text-align:left;">
+Gene expression signature capturing tumors infiltrated with CD8 T cells. This signature was a predictor of the response of ICB in published cohorts of combination or sequential immunotherapy with anti-PD1 and anti-CTLA4.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+CD39-CD8Tcell_Chow
+</td>
+<td style="text-align:left;">
+GSVA
+</td>
+<td style="text-align:left;">
+36574773
+</td>
+<td style="text-align:left;">
+Gene expression signature capturing CD39+ CD8+ T cells. This signature was obtained from single-cell CITE/RNA/TCR sequencing of intratumoral CD3+ T cells from non-small cell lung cancer (NSCLC) biospecimens. This signature was a predictor of the response of anti-PD-L1 in a dataset of baseline NSCLC tumors.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+CD8_Sade-Feldman
+</td>
+<td style="text-align:left;">
+GSVA
+</td>
+<td style="text-align:left;">
+30388456
+</td>
+<td style="text-align:left;">
+Gene expression signature capturing the CD8 T cell activity. This CD8 signature was a predictor of the response of ICB published cohorts.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Chemokine_Messina
+</td>
+<td style="text-align:left;">
+GSVA
+</td>
+<td style="text-align:left;">
+23097687
+</td>
+<td style="text-align:left;">
+Gene expression signature capturing the presence of ectopic lymphoid structure. This signature was predictor of survival of multiple tumor types (PMID 4267760)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+CIN25_Carter
+</td>
+<td style="text-align:left;">
+GSVA
+</td>
+<td style="text-align:left;">
+16921376
+</td>
+<td style="text-align:left;">
+Gene expression signature capturing tumor aneuploidy. This singature was predictor of poor clinical outcome in several cancer types (PMID: 16921376) and highly scored with the subtype “canonical” of mismatch repair-proficient coloretal liver metastases (PMID 36241710).
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+CIN70_Carter
+</td>
+<td style="text-align:left;">
+GSVA
+</td>
+<td style="text-align:left;">
+16921376
+</td>
+<td style="text-align:left;">
+Gene expression signature capturing tumor aneuploidy. This singature was predictor of poor clinical outcome in several cancer types (PMID: 16921376) and highly scored with the subtype “canonical” of mismatch repair-proficient coloretal liver metastases (PMID 36241710).
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
 COX-IS_Bonavita
 </td>
 <td style="text-align:left;">
-specific
+Specific Algorithm
 </td>
 <td style="text-align:left;">
 33220234
@@ -1124,13 +1222,27 @@ Gene expression signature capturing the pro-tumoral COX Inflammatory activity. T
 CRMA_Shukla
 </td>
 <td style="text-align:left;">
-weighted_mean
+GSVA
 </td>
 <td style="text-align:left;">
 29656892
 </td>
 <td style="text-align:left;">
-Gene expression signature capturing the Cancer-Germline Antigen activity. This “anti-CTLA-4 resistance associated MAGE-A” (CRMA) signature was a predictor of the failure of CTLA-4 blockade in published cohorts.
+Gene expression signature capturing the Cancer-Germline Antigen activity. This “anti-CTLA-4 resistance associated MAGE-A” (CRMA) signature was a predictor of the failure of CTLA-4 blockade in published cohorts
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+CYT_Davoli
+</td>
+<td style="text-align:left;">
+GSVA
+</td>
+<td style="text-align:left;">
+28104840
+</td>
+<td style="text-align:left;">
+Gene expression signature capturing cytotoxic CD8+ T cells and NK cells activities.
 </td>
 </tr>
 <tr>
@@ -1138,7 +1250,7 @@ Gene expression signature capturing the Cancer-Germline Antigen activity. This �
 CYT_Rooney
 </td>
 <td style="text-align:left;">
-weighted_mean
+GSVA
 </td>
 <td style="text-align:left;">
 25594174
@@ -1152,13 +1264,27 @@ Gene expression signature capturing the local immune cytolytic (CYT) activity.
 EMT_Thompson
 </td>
 <td style="text-align:left;">
-weighted_mean
+Weighted Mean
 </td>
 <td style="text-align:left;">
 31683225
 </td>
 <td style="text-align:left;">
-Gene expression signature capturing the epithelial-to-mesenchymal transition (EMT) activity. This EMT signature was a predictor of the failure of PD-(L)1 blockade in lung cancer patients.
+Gene expression signature capturing the epithelial-to-mesenchymal transition (EMT) activity. This EMT signature was a predictor of the failure of PD-(L)1 blockade in lung cancer patients
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+EMTstroma_Wang
+</td>
+<td style="text-align:left;">
+GSVA
+</td>
+<td style="text-align:left;">
+30158554
+</td>
+<td style="text-align:left;">
+Gene expression signature capturing genesepithelial-to-mesenchymal transition (EMT) in stromal cells.
 </td>
 </tr>
 <tr>
@@ -1166,13 +1292,55 @@ Gene expression signature capturing the epithelial-to-mesenchymal transition (EM
 IFN_Ayers
 </td>
 <td style="text-align:left;">
-weighted_mean
+Weighted Mean
 </td>
 <td style="text-align:left;">
 28650338
 </td>
 <td style="text-align:left;">
-Gene expression signature capturing the level of IFNG. This IFNG signature was a predictor of the response of PD-1 blockade published cohorts.
+Gene expression signature capturing the level of IFNG. This IFNG signature was a predictor of the response of PD-1 blockade published cohorts
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+ImmuneScore_Roh
+</td>
+<td style="text-align:left;">
+GSVA
+</td>
+<td style="text-align:left;">
+28251903
+</td>
+<td style="text-align:left;">
+Gene expression signature from selected genes of cytolytic markers, HLA molecules, IFN-g pathway, selected chemokines, and adhesion molecules. Analaysis of copy number alterations (CNA) associated decrease expression of this signature with a higher burden of copy number loss.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+ImmunoScore_Hao
+</td>
+<td style="text-align:left;">
+GSVA
+</td>
+<td style="text-align:left;">
+29661778
+</td>
+<td style="text-align:left;">
+Gene expression signature capturing the immune marker genes and antigen-presenting genes in ovarian patients and the response to chemotherapy.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+ImmuneCells_Xiong
+</td>
+<td style="text-align:left;">
+GSVA
+</td>
+<td style="text-align:left;">
+33033253
+</td>
+<td style="text-align:left;">
+Gene expression signature capturing the presence of immune cells associated with response to immunotherapy. This ImmuneCells signature was a predictor of the response of ICB published cohorts
 </td>
 </tr>
 <tr>
@@ -1180,13 +1348,27 @@ Gene expression signature capturing the level of IFNG. This IFNG signature was a
 IMPRES_Auslander
 </td>
 <td style="text-align:left;">
-weighted_mean
+Weighted Mean
 </td>
 <td style="text-align:left;">
 30127394
 </td>
 <td style="text-align:left;">
-Immuno-predictive score (IMPRES), a predictor of ICB response in melanoma which encompasses 15 pairwise transcriptomics relations between immune checkpoint genes. This IMPRES signature was a predictor of the response of CTLA-4 and PD-1 blockade in published cohorts.
+Immuno-predictive score (IMPRES), a predictor of ICB response in melanoma which encompasses 15 pairwise transcriptomics relations between immune checkpoint genes. This IMPRES signature was a predictor of the response of CTLA-4 and PD-1 blockade in published cohorts
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+IMS_Cui
+</td>
+<td style="text-align:left;">
+GSVA
+</td>
+<td style="text-align:left;">
+33542239
+</td>
+<td style="text-align:left;">
+Gene expression signature capturing genes of which the expression levels after adjusting for IFNG signature score (PMID: 28650338), associated with negative response to ICB. This signature had predictive value in patients with advanced melanoma treated with ICB.
 </td>
 </tr>
 <tr>
@@ -1194,13 +1376,27 @@ Immuno-predictive score (IMPRES), a predictor of ICB response in melanoma which 
 Inflammatory_Thompson
 </td>
 <td style="text-align:left;">
-sum
+GSVA
 </td>
 <td style="text-align:left;">
 31683225
 </td>
 <td style="text-align:left;">
-Gene expression signature capturing the level of tumor Inflammation. This Inflammation signature was a predictor of the response of ICB published cohorts.
+Gene expression signature capturing the level of tumor Inflammation. This Inflammation signature was a predictor of the response of ICB published cohorts
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+IPRES_Hugo
+</td>
+<td style="text-align:left;">
+Specific Algorithm
+</td>
+<td style="text-align:left;">
+26997480
+</td>
+<td style="text-align:left;">
+Gene expression signature capturing the combined epithelial-to-mesenchymal transition (EMT) and Inflammation activities. This EMT/Inflammation signature, called innate anti-PD1 resistance (IPRES) was a predictor of the failure of PD-(L)1 blockade in melanomapatients
 </td>
 </tr>
 <tr>
@@ -1208,13 +1404,27 @@ Gene expression signature capturing the level of tumor Inflammation. This Inflam
 IPS_Charoentong
 </td>
 <td style="text-align:left;">
-specific
+Specific Algorithm
 </td>
 <td style="text-align:left;">
 28052254
 </td>
 <td style="text-align:left;">
-Using machine learning, the authors identified determinants of tumor immunogenicity and developed a scoring scheme for the quantification termed immunophenoscore (IPS). This IPS signature was a predictor of the response of CTLA-4 and PD-1 in published cohorts.
+Using machine learning, the authors identified determinants of tumor immunogenicity and developed a scoring scheme for the quantification termed immunophenoscore (IPS). This IPS signature was a predictor of the response of CTLA-4 and PD-1 in published cohorts
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+IPSOV_Shen
+</td>
+<td style="text-align:left;">
+Specific Algorithm
+</td>
+<td style="text-align:left;">
+30594555
+</td>
+<td style="text-align:left;">
+Gene expression signature from immune genes to develop an immune-based prognostic score for OV (IPSOV). IPSOV is a promising prognostic biomarker in ovarian cancer which could be used to distinguish and predict patients’ survival outcome.
 </td>
 </tr>
 <tr>
@@ -1222,13 +1432,27 @@ Using machine learning, the authors identified determinants of tumor immunogenic
 IRG_Ayers
 </td>
 <td style="text-align:left;">
-weighted_mean
+Weighted Mean
 </td>
 <td style="text-align:left;">
 28650338
 </td>
 <td style="text-align:left;">
-Gene expression signature capturing the expression level of several Immune Regulatory Genes (IRG). This IRG signature was a predictor of the response of PD-1 blockade in published cohorts.
+Gene expression signature capturing the expression level of several Immune Regulatory Genes (IRG). This IRG signature was a predictor of the response of PD-1 blockade in published cohorts
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+IRG_Yang
+</td>
+<td style="text-align:left;">
+Weighted Mean
+</td>
+<td style="text-align:left;">
+31741756
+</td>
+<td style="text-align:left;">
+Gene expression signature capturing the expression level of several Immune Regulatory Genes (IRG).
 </td>
 </tr>
 <tr>
@@ -1236,13 +1460,13 @@ Gene expression signature capturing the expression level of several Immune Regul
 KDM5A_Wang
 </td>
 <td style="text-align:left;">
-ssGSEA
+GSVA
 </td>
 <td style="text-align:left;">
 32908002
 </td>
 <td style="text-align:left;">
-Gene expression signature capturing the histone 3 lysine 4 demethylase KDM5A activity. This KDM5A signature was a predictor of the response of PD-1 blockade in published cohorts.
+Gene expression signature capturing the histone 3 lysine 4 demethylase KDM5A activity. This KDM5A signature was a predictor of the response of PD-1 blockade in published cohorts
 </td>
 </tr>
 <tr>
@@ -1256,7 +1480,7 @@ ssGSEA
 31959763
 </td>
 <td style="text-align:left;">
-Gene expression signature capturing the presenc Macrophage M1 cells. This M1 signature was a predictor of the response of PD-1 blockade in melanoma patients.
+Gene expression signature capturing the presenc Macrophage M1 cells. This M1 signature was a predictor of the response of PD-1 blockade in melanoma patients
 </td>
 </tr>
 <tr>
@@ -1264,7 +1488,7 @@ Gene expression signature capturing the presenc Macrophage M1 cells. This M1 sig
 Macrophage_Danaher
 </td>
 <td style="text-align:left;">
-weighted_mean
+GSVA
 </td>
 <td style="text-align:left;">
 28239471
@@ -1275,16 +1499,100 @@ Gene expression signature capturing the presence Macrophage cells.
 </tr>
 <tr>
 <td style="text-align:left;">
+MHC-I_Liu
+</td>
+<td style="text-align:left;">
+ssGSEA
+</td>
+<td style="text-align:left;">
+31792460
+</td>
+<td style="text-align:left;">
+Gene expression signature capturing the expression level of immune-related cluster of MHC-I antigen-presentation genes.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+MHC-II_Liu
+</td>
+<td style="text-align:left;">
+ssGSEA
+</td>
+<td style="text-align:left;">
+31792460
+</td>
+<td style="text-align:left;">
+Gene expression signature capturing the expression level of immune-related cluster of MHC-II antigen-presentation genes.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
 MPS_Guijarro
 </td>
 <td style="text-align:left;">
-weighted_mean
+Weighted Mean
 </td>
 <td style="text-align:left;">
 32284588
 </td>
 <td style="text-align:left;">
 Gene expression signature capturing the melanocytic plasticity (MPS) activity. This MPS signature was generated in syngeneic mouse models and was a predictor of the failure of CTLA-4 and PD-1 blockade in published cohorts.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Myeloid-DC_Helmink
+</td>
+<td style="text-align:left;">
+GSVA
+</td>
+<td style="text-align:left;">
+31942075
+</td>
+<td style="text-align:left;">
+Gene expression signature capturing the myeloid dendritic cells (Myeloid_DC) activity. This Myeloid_DC signature was significantly more expressed in non-responder ICB-treated patients
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+NonResponse_Chen
+</td>
+<td style="text-align:left;">
+GSVA
+</td>
+<td style="text-align:left;">
+32907939
+</td>
+<td style="text-align:left;">
+The authors investigated the responsiveness of breast tumors to anti-PD-1 blockade in a mice bilateral tumor approach. They identified several genes associated with resistance to PD-1 blockade and validated there signature in published ICB cohorts
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+PassON_Du
+</td>
+<td style="text-align:left;">
+Specific Algorithm
+</td>
+<td style="text-align:left;">
+34654806
+</td>
+<td style="text-align:left;">
+Gene expression signature capturing the combined fatty acid and lipid metabolism-related signatures in terms of response to PD1/PD-L1 therapies in patients with metastatic melanoma.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+PDL1_Nishino
+</td>
+<td style="text-align:left;">
+GSVA
+</td>
+<td style="text-align:left;">
+28653677/30127393
+</td>
+<td style="text-align:left;">
+Gene expression signature capturing the level of PDL1. This PDL1 signature was a predictor of the response of ICB in published cohorts
 </td>
 </tr>
 <tr>
@@ -1298,7 +1606,21 @@ ssGSEA
 31959763
 </td>
 <td style="text-align:left;">
-Gene expression signature capturing the presence of peripheral T cell (peri_Tcell). This peri_Tcell signature was a predictor of the response of PD-1 blockade in Lung patients.
+Gene expression signature capturing the presence of peripheral T cell (peri_Tcell). This peri_Tcell signature was a predictor of the response of PD-1 blockade in Lung patients
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+PredictIO_Bareche
+</td>
+<td style="text-align:left;">
+Specific Algorithm
+</td>
+<td style="text-align:left;">
+36055464
+</td>
+<td style="text-align:left;">
+Gene expression signature that demonstrated better and more consistent ability to predict immunotherapy response as compared to other signatures. The specific algorithm is applied to computed the signature score. The PredictIO signature was identified by integrating gene expression data from a large pan-cancer discovery immunotherapy datasets.
 </td>
 </tr>
 <tr>
@@ -1306,13 +1628,41 @@ Gene expression signature capturing the presence of peripheral T cell (peri_Tcel
 proliferation_Pabla
 </td>
 <td style="text-align:left;">
-weighted_mean
+Weighted Mean
 </td>
 <td style="text-align:left;">
 30709424
 </td>
 <td style="text-align:left;">
 Gene expression signature of 10-proliferation associated genes used to stratify tumors into poorly, moderately, and highly proliferative. The authors demostrated a significant survival advantage of moderately proliferative tumors compared to highly/poorly counterparts.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+PTEN-MITF_Cabrita
+</td>
+<td style="text-align:left;">
+Weighted Mean
+</td>
+<td style="text-align:left;">
+32245160
+</td>
+<td style="text-align:left;">
+Gene expression signature capturing the loss of PTEN in context of MITF expression. This PTEN_MITF signature was a predictor of the failure of ICB in Melanoma patients
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Response_Chen
+</td>
+<td style="text-align:left;">
+GSVA
+</td>
+<td style="text-align:left;">
+32907939
+</td>
+<td style="text-align:left;">
+The authors investigated the responsiveness of breast tumors to anti-PD-1 blockade in a mice bilateral tumor approach. They identified several genes associated with response to PD-1 blockade and validated there signature in published ICB cohorts
 </td>
 </tr>
 <tr>
@@ -1331,16 +1681,86 @@ Gene expression signature capturing the STAT1-activating cytokine interferon-_ (
 </tr>
 <tr>
 <td style="text-align:left;">
-VIGex_Hernando-Calvo
+Tcell-exclusion_Arnon
 </td>
 <td style="text-align:left;">
 GSVA
 </td>
 <td style="text-align:left;">
-37572657
+30388455
 </td>
 <td style="text-align:left;">
-Gene expression signature capturing genes involved in adaptative immune response. This signature was used to score tumors are classify into hot, intermediate-cold, and cold. It associated with immunotherapy response in early-phase trials.
+Gene expression signature capturing the mechanism of T-cell exclusion. This T_cell_exclusion signature was a predictor of the failure of PD-1 blockade in Melanoma patients
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Teff_McDermott
+</td>
+<td style="text-align:left;">
+GSVA
+</td>
+<td style="text-align:left;">
+29867230
+</td>
+<td style="text-align:left;">
+Gene expression signature capturing effector T cells. This signature was a predictor of response to combination of anti-PD-L1 and sunitinib in renal cell carcinoma.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Teff-IFNG_Fehrenbacher
+</td>
+<td style="text-align:left;">
+GSVA
+</td>
+<td style="text-align:left;">
+26970723
+</td>
+<td style="text-align:left;">
+Gene expression signature capturing effector T cells. This signature associated with improved ovarall survival of non-small-cell lung cancer patients treated with anti-PD-L1.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+TGFB_Mariathasan
+</td>
+<td style="text-align:left;">
+Weighted Mean
+</td>
+<td style="text-align:left;">
+29443960
+</td>
+<td style="text-align:left;">
+Gene expression signature capturing the fibroblast TGFB activity. This TGFB signature was a predictor of the failure of PD-(L)1 blockade in published cohorts
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+TIS_Damotte
+</td>
+<td style="text-align:left;">
+GSVA
+</td>
+<td style="text-align:left;">
+31684954
+</td>
+<td style="text-align:left;">
+Gene expression signature capturing the level of local tumor inflammation. This Tumor Inflammation signature (TIS) was a predictor of the response of PD-1 blockade in lung cancer patients.
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+TLS_Cabrita
+</td>
+<td style="text-align:left;">
+GSVA
+</td>
+<td style="text-align:left;">
+31942071
+</td>
+<td style="text-align:left;">
+Gene expression signature capturing the presence of Tertiary lymphoid structures (TLS). This TLS signature was a predictor of the response of ICB in melanoma patients
 </td>
 </tr>
 <tr>
@@ -1359,296 +1779,16 @@ Gene expression signature capturing tumor-associated endothelium. The signature 
 </tr>
 <tr>
 <td style="text-align:left;">
-C-ECM_Chakravarthy
+VIGex_Hernando-Calvo
 </td>
 <td style="text-align:left;">
-ssGSEA
+GSVA
 </td>
 <td style="text-align:left;">
-30410077
+37572657
 </td>
 <td style="text-align:left;">
-Gene expression signature capturing the cancer extracellular matrix (C_ECM) marker genes activity. This C_ECM signature was a predictor of the failure of PD-1 blockade and outperforms previously-proposed biomarkers.
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Teff_McDermott
-</td>
-<td style="text-align:left;">
-weighted_mean
-</td>
-<td style="text-align:left;">
-29867230
-</td>
-<td style="text-align:left;">
-Gene expression signature capturing effector T cells. This signature was a predictor of response to combination of anti-PD-L1 and sunitinib in renal cell carcinoma.
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Teff-IFNG_Fehrenbacher
-</td>
-<td style="text-align:left;">
-weighted_mean
-</td>
-<td style="text-align:left;">
-26970723
-</td>
-<td style="text-align:left;">
-Gene expression signature capturing effector T cells. This signature associated with improved ovarall survival of non-small-cell lung cancer patients treated with anti-PD-L1.
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-IPRES_Hugo
-</td>
-<td style="text-align:left;">
-specific
-</td>
-<td style="text-align:left;">
-26997480
-</td>
-<td style="text-align:left;">
-Gene expression signature capturing the combined epithelial-to-mesenchymal transition (EMT) and Inflammation activities. This EMT/Inflammation signature, called innate anti-PD1 resistance (IPRES) was a predictor of the failure of PD-(L)1 blockade in melanomapatients.
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-PDL1_Nishino
-</td>
-<td style="text-align:left;">
-weighted_mean
-</td>
-<td style="text-align:left;">
-28653677/30127393
-</td>
-<td style="text-align:left;">
-Gene expression signature capturing the level of PDL1. This PDL1 signature was a predictor of the response of ICB in published cohorts.
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-PredictIO_Bareche
-</td>
-<td style="text-align:left;">
-specific
-</td>
-<td style="text-align:left;">
-36055464
-</td>
-<td style="text-align:left;">
-Gene expression signature that demonstrated better and more consistent ability to predict immunotherapy response as compared to other signatures. The specific algorithm is applied to computed the signature score. The PredictIO signature was identified by integrating gene expression data from a large pan-cancer discovery immunotherapy datasets.
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-proliferation_Pabla
-</td>
-<td style="text-align:left;">
-weighted_mean
-</td>
-<td style="text-align:left;">
-30709424
-</td>
-<td style="text-align:left;">
-Gene expression signature of 10-proliferation associated genes used to stratify tumors into poorly, moderately, and highly proliferative. The authors demostrated a significant survival advantage of moderately proliferative tumors compared to highly/poorly counterparts.
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-PTEN-MITF_Cabrita
-</td>
-<td style="text-align:left;">
-weighted_mean
-</td>
-<td style="text-align:left;">
-32245160
-</td>
-<td style="text-align:left;">
-Gene expression signature capturing the loss of PTEN in context of MITF expression. This PTEN_MITF signature was a predictor of the failure of ICB in Melanoma patients.
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-EMTstroma_Wang
-</td>
-<td style="text-align:left;">
-weighted_mean
-</td>
-<td style="text-align:left;">
-30158554
-</td>
-<td style="text-align:left;">
-Gene expression signature capturing epithelial-to-mesenchymal transition (EMT) in stromal cells.
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Tcell-exclusion_Arnon
-</td>
-<td style="text-align:left;">
-weighted_mean
-</td>
-<td style="text-align:left;">
-30388455
-</td>
-<td style="text-align:left;">
-Gene expression signature capturing the mechanism of T-cell exclusion. This T_cell_exclusion signature was a predictor of the failure of PD-1 blockade in Melanoma patients.
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-CD39-CD8Tcell_Chow
-</td>
-<td style="text-align:left;">
-median
-</td>
-<td style="text-align:left;">
-36574773
-</td>
-<td style="text-align:left;">
-Gene expression signature capturing CD39+ CD8+ T cells. This signature was obtained from single-cell CITE/RNA/TCR sequencing of intratumoral CD3+ T cells from non-small cell lung cancer (NSCLC) biospecimens. This signature was a predictor of the response of anti-PD-L1 in a dataset of baseline NSCLC tumors.
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-IMS_Cui
-</td>
-<td style="text-align:left;">
-weighted_mean
-</td>
-<td style="text-align:left;">
-33542239
-</td>
-<td style="text-align:left;">
-Gene expression signature capturing genes of which the expression levels after adjusting for IFNG signature score (PMID: 28650338), associated with negative response to ICB. This signature had predictive value in patients with advanced melanoma treated with ICB.
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-CIN70_Carter
-</td>
-<td style="text-align:left;">
-weighted_mean
-</td>
-<td style="text-align:left;">
-16921376
-</td>
-<td style="text-align:left;">
-Gene expression signature capturing tumor aneuploidy. This singature was predictor of poor clinical outcome in several cancer types (PMID: 16921376) and highly scored with the subtype “canonical” of mismatch repair-proficient coloretal liver metastases (PMID 36241710).
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-CIN25_Carter
-</td>
-<td style="text-align:left;">
-weighted_mean
-</td>
-<td style="text-align:left;">
-16921376
-</td>
-<td style="text-align:left;">
-Gene expression signature capturing tumor aneuploidy. This singature was predictor of poor clinical outcome in several cancer types (PMID: 16921376) and highly scored with the subtype “canonical” of mismatch repair-proficient coloretal liver metastases (PMID 36241710).
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-ImmuneScore_Roh
-</td>
-<td style="text-align:left;">
-weighted_mean
-</td>
-<td style="text-align:left;">
-28251903
-</td>
-<td style="text-align:left;">
-Gene expression signature from selected genes of cytolytic markers, HLA molecules, IFN-g pathway, selected chemokines, and adhesion molecules. Analaysis of copy number alterations (CNA) associated decrease expression of this signature with a higher burden of copy number loss.
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-CCL5-CXCL9_Dangaj
-</td>
-<td style="text-align:left;">
-weighted_mean
-</td>
-<td style="text-align:left;">
-31185212
-</td>
-<td style="text-align:left;">
-Gene expression signature capturing tumors infiltrated with CD8 T cells. This signature was a predictor of the response of ICB in published cohorts of combination or sequential immunotherapy with anti-PD1 and anti-CTLA4.
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-TGFB_Mariathasan
-</td>
-<td style="text-align:left;">
-weighted_mean
-</td>
-<td style="text-align:left;">
-29443960
-</td>
-<td style="text-align:left;">
-Gene expression signature capturing the fibroblast TGFB activity. This TGFB signature was a predictor of the failure of PD-(L)1 blockade in published cohorts.
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-TIS_Damotte
-</td>
-<td style="text-align:left;">
-weighted_mean
-</td>
-<td style="text-align:left;">
-31684954
-</td>
-<td style="text-align:left;">
-Gene expression signature capturing the level of local tumor inflammation. This Tumor Inflammation signature (TIS) was a predictor of the response of PD-1 blockade in lung cancer patients.
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-TLS_Cabrita
-</td>
-<td style="text-align:left;">
-weighted_mean
-</td>
-<td style="text-align:left;">
-31942071
-</td>
-<td style="text-align:left;">
-Gene expression signature capturing the presence of Tertiary lymphoid structures (TLS). This TLS signature was a predictor of the response of ICB in melanoma patients.
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Bcell_Helmink
-</td>
-<td style="text-align:left;">
-weighted_mean
-</td>
-<td style="text-align:left;">
-31942075
-</td>
-<td style="text-align:left;">
-Gene expression signature capturing the B-cells activity. This B_cell signature was a predictor of the response of ICB in published cohorts.
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Myeloid-DC_Helmink
-</td>
-<td style="text-align:left;">
-weighted_mean
-</td>
-<td style="text-align:left;">
-31942075
-</td>
-<td style="text-align:left;">
-Gene expression signature capturing the myeloid dendritic cells (Myeloid_DC) activity. This Myeloid_DC signature was significantly more expressed in non-responder ICB-treated patients
+Gene expression signature capturing genes involved in adaptative immune response. This signature was used to score tumors are classify into hot, intermediate-cold, and cold. It associated with immunotherapy response in early-phase trials.
 </td>
 </tr>
 </tbody>
@@ -1663,7 +1803,7 @@ kable(sig, format=&quot;html&quot;,
           table.attr = &quot;style=&#39;width:30%;&#39;&quot;, 
       row.names = FALSE) %&gt;% 
       kableExtra::kable_styling()</code></pre>
-<div class='horizontal-scroll'><table style="width:30%; margin-left: auto; margin-right: auto;" class="table">
+<div class='horizontal-scroll'><table style="width:30%; color: black; margin-left: auto; margin-right: auto;" class="table">
 <thead>
 <tr>
 <th style="text-align:left;">
@@ -1680,6 +1820,9 @@ gene_name
 </th>
 <th style="text-align:left;">
 weight
+</th>
+<th style="text-align:right;">
+entrez_id
 </th>
 </tr>
 </thead>
@@ -1700,6 +1843,9 @@ PPARG
 <td style="text-align:left;">
 NA
 </td>
+<td style="text-align:right;">
+5468
+</td>
 </tr>
 <tr>
 <td style="text-align:left;">
@@ -1716,6 +1862,9 @@ CYBB
 </td>
 <td style="text-align:left;">
 NA
+</td>
+<td style="text-align:right;">
+1536
 </td>
 </tr>
 <tr>
@@ -1734,6 +1883,9 @@ COL3A1
 <td style="text-align:left;">
 NA
 </td>
+<td style="text-align:right;">
+1281
+</td>
 </tr>
 <tr>
 <td style="text-align:left;">
@@ -1750,6 +1902,9 @@ FOXP3
 </td>
 <td style="text-align:left;">
 NA
+</td>
+<td style="text-align:right;">
+50943
 </td>
 </tr>
 <tr>
@@ -1768,6 +1923,9 @@ LAG3
 <td style="text-align:left;">
 NA
 </td>
+<td style="text-align:right;">
+3902
+</td>
 </tr>
 <tr>
 <td style="text-align:left;">
@@ -1784,6 +1942,9 @@ APP
 </td>
 <td style="text-align:left;">
 NA
+</td>
+<td style="text-align:right;">
+351
 </td>
 </tr>
 <tr>
@@ -1802,6 +1963,9 @@ CD81
 <td style="text-align:left;">
 NA
 </td>
+<td style="text-align:right;">
+975
+</td>
 </tr>
 <tr>
 <td style="text-align:left;">
@@ -1818,6 +1982,9 @@ GPI
 </td>
 <td style="text-align:left;">
 NA
+</td>
+<td style="text-align:right;">
+2821
 </td>
 </tr>
 <tr>
@@ -1836,6 +2003,9 @@ PTGS2
 <td style="text-align:left;">
 NA
 </td>
+<td style="text-align:right;">
+5743
+</td>
 </tr>
 <tr>
 <td style="text-align:left;">
@@ -1852,6 +2022,9 @@ CASP1
 </td>
 <td style="text-align:left;">
 NA
+</td>
+<td style="text-align:right;">
+834
 </td>
 </tr>
 <tr>
@@ -1870,6 +2043,9 @@ FOS
 <td style="text-align:left;">
 NA
 </td>
+<td style="text-align:right;">
+2353
+</td>
 </tr>
 <tr>
 <td style="text-align:left;">
@@ -1886,6 +2062,9 @@ MAPK1
 </td>
 <td style="text-align:left;">
 NA
+</td>
+<td style="text-align:right;">
+5594
 </td>
 </tr>
 <tr>
@@ -1904,6 +2083,9 @@ MAPK3
 <td style="text-align:left;">
 NA
 </td>
+<td style="text-align:right;">
+5595
+</td>
 </tr>
 <tr>
 <td style="text-align:left;">
@@ -1920,6 +2102,9 @@ CREB1
 </td>
 <td style="text-align:left;">
 NA
+</td>
+<td style="text-align:right;">
+1385
 </td>
 </tr>
 </tbody>
