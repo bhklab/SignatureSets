@@ -1,3 +1,3 @@
-"signature_name","sub_signature_name","gene_id","gene_type","gene_name","weight"
-"IPSOV_Shen","Interleukins_Receptor","ENSG00000081985.14","protein_coding","IL12RB2",NA
-"IPSOV_Shen","Interleukins_Receptor","ENSG00000160712.13","protein_coding","IL6R",NA
+"signature_name","sub_signature_name","gene_id","gene_type","gene_name","weight","entrez_id"
+"IPSOV_Shen","Interleukins_Receptor","ENSG00000081985.14","protein_coding","IL12RB2",NA,3595
+"IPSOV_Shen","Interleukins_Receptor","ENSG00000160712.13","protein_coding","IL6R",NA,3570
