@@ -1,163 +1,163 @@
-"signature_name","gene_id","gene_type","gene_name","name","class","weight","entrez_id"
-"IPS_Charoentong","ENSG00000166710.23","protein_coding","B2M","B2M","MHC",1,567
-"IPS_Charoentong","ENSG00000168394.12","protein_coding","TAP1","TAP1","MHC",1,6890
-"IPS_Charoentong","ENSG00000204267.17","protein_coding","TAP2","TAP2","MHC",1,6891
-"IPS_Charoentong","ENSG00000206503.13","protein_coding","HLA-A","HLA-A","MHC",1,3105
-"IPS_Charoentong","ENSG00000234745.14","protein_coding","HLA-B","HLA-B","MHC",1,3106
-"IPS_Charoentong","ENSG00000204525.18","protein_coding","HLA-C","HLA-C","MHC",1,3107
-"IPS_Charoentong","ENSG00000231389.8","protein_coding","HLA-DPA1","HLA-DPA1","MHC",1,3113
-"IPS_Charoentong","ENSG00000223865.11","protein_coding","HLA-DPB1","HLA-DPB1","MHC",1,3115
-"IPS_Charoentong","ENSG00000204592.9","protein_coding","HLA-E","HLA-E","MHC",1,3133
-"IPS_Charoentong","ENSG00000204642.14","protein_coding","HLA-F","HLA-F","MHC",1,3134
-"IPS_Charoentong","ENSG00000188389.11","protein_coding","PDCD1","PD-1","CP",-1,5133
-"IPS_Charoentong","ENSG00000163599.18","protein_coding","CTLA4","CTLA-4","CP",-1,1493
-"IPS_Charoentong","ENSG00000089692.9","protein_coding","LAG3","LAG3","CP",-1,3902
-"IPS_Charoentong","ENSG00000181847.12","protein_coding","TIGIT","TIGIT","CP",-1,201633
-"IPS_Charoentong","ENSG00000135077.10","protein_coding","HAVCR2","TIM3","CP",-1,84868
-"IPS_Charoentong","ENSG00000120217.14","protein_coding","CD274","PD-L1","CP",-1,29126
-"IPS_Charoentong","ENSG00000197646.8","protein_coding","PDCD1LG2","PD-L2","CP",-1,80380
-"IPS_Charoentong","ENSG00000139193.4","protein_coding","CD27","CD27","CP",1,939
-"IPS_Charoentong","ENSG00000163600.13","protein_coding","ICOS","ICOS","CP",1,29851
-"IPS_Charoentong","ENSG00000131203.13","protein_coding","IDO1","IDO1","CP",-1,3620
-"IPS_Charoentong","ENSG00000163568.16","protein_coding","AIM2","Act CD4","EC",1,9447
-"IPS_Charoentong","ENSG00000023445.16","protein_coding","BIRC3","Act CD4","EC",1,330
-"IPS_Charoentong","ENSG00000136492.10","protein_coding","BRIP1","Act CD4","EC",1,83990
-"IPS_Charoentong","ENSG00000115009.13","protein_coding","CCL20","Act CD4","EC",1,6364
-"IPS_Charoentong","ENSG00000275302.2","protein_coding","CCL4","Act CD4","EC",1,6351
-"IPS_Charoentong","ENSG00000271503.6","protein_coding","CCL5","Act CD4","EC",1,6352
-"IPS_Charoentong","ENSG00000134057.15","protein_coding","CCNB1","Act CD4","EC",1,891
-"IPS_Charoentong","ENSG00000126353.3","protein_coding","CCR7","Act CD4","EC",1,1236
-"IPS_Charoentong","ENSG00000158050.5","protein_coding","DUSP2","Act CD4","EC",1,1844
-"IPS_Charoentong","ENSG00000171320.15","protein_coding","ESCO2","Act CD4","EC",1,157570
-"IPS_Charoentong","ENSG00000134954.14","protein_coding","ETS1","Act CD4","EC",1,2113
-"IPS_Charoentong","ENSG00000174371.17","protein_coding","EXO1","Act CD4","EC",1,9156
-"IPS_Charoentong","ENSG00000138190.17","protein_coding","EXOC6","Act CD4","EC",1,54536
-"IPS_Charoentong","ENSG00000196305.19","protein_coding","IARS1","Act CD4","EC",1,3376
-"IPS_Charoentong","ENSG00000138160.7","protein_coding","KIF11","Act CD4","EC",1,3832
-"IPS_Charoentong","ENSG00000184445.12","protein_coding","KNTC1","Act CD4","EC",1,9735
-"IPS_Charoentong","ENSG00000143228.13","protein_coding","NUF2","Act CD4","EC",1,83540
-"IPS_Charoentong","ENSG00000198901.14","protein_coding","PRC1","Act CD4","EC",1,9055
-"IPS_Charoentong","ENSG00000135069.14","protein_coding","PSAT1","Act CD4","EC",1,29968
-"IPS_Charoentong","ENSG00000090104.12","protein_coding","RGS1","Act CD4","EC",1,5996
-"IPS_Charoentong","ENSG00000182010.11","protein_coding","RTKN2","Act CD4","EC",1,219790
-"IPS_Charoentong","ENSG00000155307.19","protein_coding","SAMSN1","Act CD4","EC",1,64092
-"IPS_Charoentong","ENSG00000188404.10","protein_coding","SELL","Act CD4","EC",1,6402
-"IPS_Charoentong","ENSG00000163519.14","protein_coding","TRAT1","Act CD4","EC",1,50852
-"IPS_Charoentong","ENSG00000130706.13","protein_coding","ADRM1","Act CD8","EC",1,11047
-"IPS_Charoentong","ENSG00000100591.8","protein_coding","AHSA1","Act CD8","EC",1,10598
-"IPS_Charoentong","ENSG00000171155.8","protein_coding","C1GALT1C1","Act CD8","EC",1,29071
-"IPS_Charoentong","ENSG00000132141.14","protein_coding","CCT6B","Act CD8","EC",1,10693
-"IPS_Charoentong","ENSG00000104894.12","protein_coding","CD37","Act CD8","EC",1,951
-"IPS_Charoentong","ENSG00000167286.11","protein_coding","CD3D","Act CD8","EC",1,915
-"IPS_Charoentong","ENSG00000198851.10","protein_coding","CD3E","Act CD8","EC",1,916
-"IPS_Charoentong","ENSG00000160654.11","protein_coding","CD3G","Act CD8","EC",1,917
-"IPS_Charoentong","ENSG00000110848.8","protein_coding","CD69","Act CD8","EC",1,969
-"IPS_Charoentong","ENSG00000153563.16","protein_coding","CD8A","Act CD8","EC",1,925
-"IPS_Charoentong","ENSG00000153140.9","protein_coding","CETN3","Act CD8","EC",1,1070
-"IPS_Charoentong","ENSG00000124207.17","protein_coding","CSE1L","Act CD8","EC",1,1434
-"IPS_Charoentong","ENSG00000152147.11","protein_coding","GEMIN6","Act CD8","EC",1,79833
-"IPS_Charoentong","ENSG00000115523.17","protein_coding","GNLY","Act CD8","EC",1,10578
-"IPS_Charoentong","ENSG00000166123.14","protein_coding","GPT2","Act CD8","EC",1,84706
-"IPS_Charoentong","ENSG00000145649.8","protein_coding","GZMA","Act CD8","EC",1,3001
-"IPS_Charoentong","ENSG00000100450.13","protein_coding","GZMH","Act CD8","EC",1,2999
-"IPS_Charoentong","ENSG00000113088.6","protein_coding","GZMK","Act CD8","EC",1,3003
-"IPS_Charoentong","ENSG00000100385.14","protein_coding","IL2RB","Act CD8","EC",1,3560
-"IPS_Charoentong","ENSG00000182866.17","protein_coding","LCK","Act CD8","EC",1,3932
-"IPS_Charoentong","ENSG00000197965.12","protein_coding","MPZL1","Act CD8","EC",1,9019
-"IPS_Charoentong","ENSG00000105374.10","protein_coding","NKG7","Act CD8","EC",1,4818
-"IPS_Charoentong","ENSG00000100100.13","protein_coding","PIK3IP1","Act CD8","EC",1,113791
-"IPS_Charoentong","ENSG00000141378.15","protein_coding","PTRH2","Act CD8","EC",1,51651
-"IPS_Charoentong","ENSG00000099800.8","protein_coding","TIMM13","Act CD8","EC",1,26517
-"IPS_Charoentong","ENSG00000115085.14","protein_coding","ZAP70","Act CD8","EC",1,7535
-"IPS_Charoentong","ENSG00000149311.20","protein_coding","ATM","Tem CD4","EC",1,472
-"IPS_Charoentong","ENSG00000164305.19","protein_coding","CASP3","Tem CD4","EC",1,836
-"IPS_Charoentong","ENSG00000143318.13","protein_coding","CASQ1","Tem CD4","EC",1,844
-"IPS_Charoentong","ENSG00000186407.7","protein_coding","CD300E","Tem CD4","EC",1,342510
-"IPS_Charoentong","ENSG00000115866.11","protein_coding","DARS1","Tem CD4","EC",1,1615
-"IPS_Charoentong","ENSG00000088387.21","protein_coding","DOCK9","Tem CD4","EC",1,23348
-"IPS_Charoentong","ENSG00000123737.13","protein_coding","EXOSC9","Tem CD4","EC",1,5393
-"IPS_Charoentong","ENSG00000106462.12","protein_coding","EZH2","Tem CD4","EC",1,2146
-"IPS_Charoentong","ENSG00000006007.12","protein_coding","GDE1","Tem CD4","EC",1,51573
-"IPS_Charoentong","ENSG00000157368.12","protein_coding","IL34","Tem CD4","EC",1,146433
-"IPS_Charoentong","ENSG00000266412.6","protein_coding","NCOA4","Tem CD4","EC",1,8031
-"IPS_Charoentong","ENSG00000277586.4","protein_coding","NEFL","Tem CD4","EC",1,4747
-"IPS_Charoentong","ENSG00000104213.13","protein_coding","PDGFRL","Tem CD4","EC",1,5157
-"IPS_Charoentong","ENSG00000095303.17","protein_coding","PTGS1","Tem CD4","EC",1,5742
-"IPS_Charoentong","ENSG00000135597.19","protein_coding","REPS1","Tem CD4","EC",1,85021
-"IPS_Charoentong","ENSG00000171951.5","protein_coding","SCG2","Tem CD4","EC",1,7857
-"IPS_Charoentong","ENSG00000168497.5","protein_coding","CAVIN2","Tem CD4","EC",1,8436
-"IPS_Charoentong","ENSG00000254415.4","protein_coding","SIGLEC14","Tem CD4","EC",1,100049587
-"IPS_Charoentong","ENSG00000105492.16","protein_coding","SIGLEC6","Tem CD4","EC",1,946
-"IPS_Charoentong","ENSG00000162367.12","protein_coding","TAL1","Tem CD4","EC",1,6886
-"IPS_Charoentong","ENSG00000105967.16","protein_coding","TFEC","Tem CD4","EC",1,22797
-"IPS_Charoentong","ENSG00000075131.10","protein_coding","TIPIN","Tem CD4","EC",1,54962
-"IPS_Charoentong","ENSG00000196511.15","protein_coding","TPK1","Tem CD4","EC",1,27010
-"IPS_Charoentong","ENSG00000156467.10","protein_coding","UQCRB","Tem CD4","EC",1,7381
-"IPS_Charoentong","ENSG00000114374.13","protein_coding","USP9Y","Tem CD4","EC",1,8287
-"IPS_Charoentong","ENSG00000115935.18","protein_coding","WIPF1","Tem CD4","EC",1,7456
-"IPS_Charoentong","ENSG00000139168.9","protein_coding","ZCRB1","Tem CD4","EC",1,85437
-"IPS_Charoentong","ENSG00000072818.12","protein_coding","ACAP1","Tem CD8","EC",1,9744
-"IPS_Charoentong","ENSG00000128284.20","protein_coding","APOL3","Tem CD8","EC",1,80833
-"IPS_Charoentong","ENSG00000071205.12","protein_coding","ARHGAP10","Tem CD8","EC",1,79658
-"IPS_Charoentong","ENSG00000145246.14","protein_coding","ATP10D","Tem CD8","EC",1,57205
-"IPS_Charoentong","ENSG00000171860.5","protein_coding","C3AR1","Tem CD8","EC",1,719
-"IPS_Charoentong","ENSG00000160791.14","protein_coding","CCR5","Tem CD8","EC",1,1234
-"IPS_Charoentong","ENSG00000117281.16","protein_coding","CD160","Tem CD8","EC",1,11126
-"IPS_Charoentong","ENSG00000196352.18","protein_coding","CD55","Tem CD8","EC",1,1604
-"IPS_Charoentong","ENSG00000003402.21","protein_coding","CFLAR","Tem CD8","EC",1,8837
-"IPS_Charoentong","ENSG00000174600.14","protein_coding","CMKLR1","Tem CD8","EC",1,1240
-"IPS_Charoentong","ENSG00000070190.13","protein_coding","DAPP1","Tem CD8","EC",1,27071
-"IPS_Charoentong","ENSG00000181036.14","protein_coding","FCRL6","Tem CD8","EC",1,343413
-"IPS_Charoentong","ENSG00000090554.13","protein_coding","FLT3LG","Tem CD8","EC",1,2323
-"IPS_Charoentong","ENSG00000197540.8","protein_coding","GZMM","Tem CD8","EC",1,3004
-"IPS_Charoentong","ENSG00000140511.12","protein_coding","HAPLN3","Tem CD8","EC",1,145864
-"IPS_Charoentong","ENSG00000242574.9","protein_coding","HLA-DMB","Tem CD8","EC",1,3109
-"IPS_Charoentong","ENSG00000231389.8","protein_coding","HLA-DPA1","Tem CD8","EC",1,3113
-"IPS_Charoentong","ENSG00000223865.11","protein_coding","HLA-DPB1","Tem CD8","EC",1,3115
-"IPS_Charoentong","ENSG00000163565.20","protein_coding","IFI16","Tem CD8","EC",1,3428
-"IPS_Charoentong","ENSG00000203896.10","protein_coding","LIME1","Tem CD8","EC",1,54923
-"IPS_Charoentong","ENSG00000062524.16","protein_coding","LTK","Tem CD8","EC",1,4058
-"IPS_Charoentong","ENSG00000100906.11","protein_coding","NFKBIA","Tem CD8","EC",1,4792
-"IPS_Charoentong","ENSG00000145391.14","protein_coding","SETD7","Tem CD8","EC",1,80854
-"IPS_Charoentong","ENSG00000142178.9","protein_coding","SIK1","Tem CD8","EC",1,150094
-"IPS_Charoentong","ENSG00000071575.12","protein_coding","TRIB2","Tem CD8","EC",1,28951
-"IPS_Charoentong","ENSG00000121807.7","protein_coding","CCR2","MDSC","SC",-1,729230
-"IPS_Charoentong","ENSG00000170458.15","protein_coding","CD14","MDSC","SC",-1,929
-"IPS_Charoentong","ENSG00000116824.5","protein_coding","CD2","MDSC","SC",-1,914
-"IPS_Charoentong","ENSG00000114013.16","protein_coding","CD86","MDSC","SC",-1,942
-"IPS_Charoentong","ENSG00000121966.8","protein_coding","CXCR4","MDSC","SC",-1,7852
-"IPS_Charoentong","ENSG00000143226.15","protein_coding","FCGR2A","MDSC","SC",-1,2212
-"IPS_Charoentong","ENSG00000072694.22","protein_coding","FCGR2B","MDSC","SC",-1,2213
-"IPS_Charoentong","ENSG00000203747.12","protein_coding","FCGR3A","MDSC","SC",-1,2214
-"IPS_Charoentong","ENSG00000149781.13","protein_coding","FERMT3","MDSC","SC",-1,83706
-"IPS_Charoentong","ENSG00000213654.10","protein_coding","GPSM3","MDSC","SC",-1,63940
-"IPS_Charoentong","ENSG00000137496.18","protein_coding","IL18BP","MDSC","SC",-1,10068
-"IPS_Charoentong","ENSG00000077238.14","protein_coding","IL4R","MDSC","SC",-1,3566
-"IPS_Charoentong","ENSG00000005844.19","protein_coding","ITGAL","MDSC","SC",-1,3683
-"IPS_Charoentong","ENSG00000169896.18","protein_coding","ITGAM","MDSC","SC",-1,3684
-"IPS_Charoentong","ENSG00000138964.17","protein_coding","PARVG","MDSC","SC",-1,64098
-"IPS_Charoentong","ENSG00000197746.15","protein_coding","PSAP","MDSC","SC",-1,5660
-"IPS_Charoentong","ENSG00000125384.7","protein_coding","PTGER2","MDSC","SC",-1,5732
-"IPS_Charoentong","ENSG00000148334.16","protein_coding","PTGES2","MDSC","SC",-1,80142
-"IPS_Charoentong","ENSG00000143546.10","protein_coding","S100A8","MDSC","SC",-1,6279
-"IPS_Charoentong","ENSG00000163220.11","protein_coding","S100A9","MDSC","SC",-1,6280
-"IPS_Charoentong","ENSG00000276085.1","protein_coding","CCL3L1","Treg","SC",-1,NA
-"IPS_Charoentong","ENSG00000137101.14","protein_coding","CD72","Treg","SC",-1,971
-"IPS_Charoentong","ENSG00000258227.7","protein_coding","CLEC5A","Treg","SC",-1,23601
-"IPS_Charoentong","ENSG00000049768.17","protein_coding","FOXP3","Treg","SC",-1,50943
-"IPS_Charoentong","ENSG00000115232.14","protein_coding","ITGA4","Treg","SC",-1,3676
-"IPS_Charoentong","ENSG00000198910.14","protein_coding","L1CAM","Treg","SC",-1,3897
-"IPS_Charoentong","ENSG00000107798.18","protein_coding","LIPA","Treg","SC",-1,3988
-"IPS_Charoentong","ENSG00000123384.14","protein_coding","LRP1","Treg","SC",-1,4035
-"IPS_Charoentong","ENSG00000116212.15","protein_coding","LRRC42","Treg","SC",-1,115353
-"IPS_Charoentong","ENSG00000019169.11","protein_coding","MARCO","Treg","SC",-1,8685
-"IPS_Charoentong","ENSG00000262406.3","protein_coding","MMP12","Treg","SC",-1,4321
-"IPS_Charoentong","ENSG00000163563.8","protein_coding","MNDA","Treg","SC",-1,4332
-"IPS_Charoentong","ENSG00000260314.3","protein_coding","MRC1","Treg","SC",-1,4360
-"IPS_Charoentong","ENSG00000110077.15","protein_coding","MS4A6A","Treg","SC",-1,64231
-"IPS_Charoentong","ENSG00000152684.11","protein_coding","PELO","Treg","SC",-1,53918
-"IPS_Charoentong","ENSG00000115956.10","protein_coding","PLEK","Treg","SC",-1,5341
-"IPS_Charoentong","ENSG00000150687.12","protein_coding","PRSS23","Treg","SC",-1,11098
-"IPS_Charoentong","ENSG00000160013.9","protein_coding","PTGIR","Treg","SC",-1,5739
-"IPS_Charoentong","ENSG00000113532.13","protein_coding","ST8SIA4","Treg","SC",-1,7903
-"IPS_Charoentong","ENSG00000010327.10","protein_coding","STAB1","Treg","SC",-1,23166
+signature_name,gene_id,gene_type,gene_name,name,class,weight,entrez_id
+IPS_Charoentong,ENSG00000166710.23,protein_coding,B2M,B2M,MHC,1,567
+IPS_Charoentong,ENSG00000168394.12,protein_coding,TAP1,TAP1,MHC,1,6890
+IPS_Charoentong,ENSG00000204267.17,protein_coding,TAP2,TAP2,MHC,1,6891
+IPS_Charoentong,ENSG00000206503.13,protein_coding,HLA-A,HLA-A,MHC,1,3105
+IPS_Charoentong,ENSG00000234745.14,protein_coding,HLA-B,HLA-B,MHC,1,3106
+IPS_Charoentong,ENSG00000204525.18,protein_coding,HLA-C,HLA-C,MHC,1,3107
+IPS_Charoentong,ENSG00000231389.8,protein_coding,HLA-DPA1,HLA-DPA1,MHC,1,3113
+IPS_Charoentong,ENSG00000223865.11,protein_coding,HLA-DPB1,HLA-DPB1,MHC,1,3115
+IPS_Charoentong,ENSG00000204592.9,protein_coding,HLA-E,HLA-E,MHC,1,3133
+IPS_Charoentong,ENSG00000204642.14,protein_coding,HLA-F,HLA-F,MHC,1,3134
+IPS_Charoentong,ENSG00000188389.11,protein_coding,PDCD1,PDCD1,CP,-1,5133
+IPS_Charoentong,ENSG00000163599.18,protein_coding,CTLA4,CTLA4,CP,-1,1493
+IPS_Charoentong,ENSG00000089692.9,protein_coding,LAG3,LAG3,CP,-1,3902
+IPS_Charoentong,ENSG00000181847.12,protein_coding,TIGIT,TIGIT,CP,-1,201633
+IPS_Charoentong,ENSG00000135077.10,protein_coding,HAVCR2,HAVCR2,CP,-1,84868
+IPS_Charoentong,ENSG00000120217.14,protein_coding,CD274,CD274,CP,-1,29126
+IPS_Charoentong,ENSG00000197646.8,protein_coding,PDCD1LG2,PDCD1LG2,CP,-1,80380
+IPS_Charoentong,ENSG00000139193.4,protein_coding,CD27,CD27,CP,1,939
+IPS_Charoentong,ENSG00000163600.13,protein_coding,ICOS,ICOS,CP,1,29851
+IPS_Charoentong,ENSG00000131203.13,protein_coding,IDO1,IDO1,CP,-1,3620
+IPS_Charoentong,ENSG00000163568.16,protein_coding,AIM2,Act CD4,EC,1,9447
+IPS_Charoentong,ENSG00000023445.16,protein_coding,BIRC3,Act CD4,EC,1,330
+IPS_Charoentong,ENSG00000136492.10,protein_coding,BRIP1,Act CD4,EC,1,83990
+IPS_Charoentong,ENSG00000115009.13,protein_coding,CCL20,Act CD4,EC,1,6364
+IPS_Charoentong,ENSG00000275302.2,protein_coding,CCL4,Act CD4,EC,1,6351
+IPS_Charoentong,ENSG00000271503.6,protein_coding,CCL5,Act CD4,EC,1,6352
+IPS_Charoentong,ENSG00000134057.15,protein_coding,CCNB1,Act CD4,EC,1,891
+IPS_Charoentong,ENSG00000126353.3,protein_coding,CCR7,Act CD4,EC,1,1236
+IPS_Charoentong,ENSG00000158050.5,protein_coding,DUSP2,Act CD4,EC,1,1844
+IPS_Charoentong,ENSG00000171320.15,protein_coding,ESCO2,Act CD4,EC,1,157570
+IPS_Charoentong,ENSG00000134954.14,protein_coding,ETS1,Act CD4,EC,1,2113
+IPS_Charoentong,ENSG00000174371.17,protein_coding,EXO1,Act CD4,EC,1,9156
+IPS_Charoentong,ENSG00000138190.17,protein_coding,EXOC6,Act CD4,EC,1,54536
+IPS_Charoentong,ENSG00000196305.19,protein_coding,IARS1,Act CD4,EC,1,3376
+IPS_Charoentong,ENSG00000138160.7,protein_coding,KIF11,Act CD4,EC,1,3832
+IPS_Charoentong,ENSG00000184445.12,protein_coding,KNTC1,Act CD4,EC,1,9735
+IPS_Charoentong,ENSG00000143228.13,protein_coding,NUF2,Act CD4,EC,1,83540
+IPS_Charoentong,ENSG00000198901.14,protein_coding,PRC1,Act CD4,EC,1,9055
+IPS_Charoentong,ENSG00000135069.14,protein_coding,PSAT1,Act CD4,EC,1,29968
+IPS_Charoentong,ENSG00000090104.12,protein_coding,RGS1,Act CD4,EC,1,5996
+IPS_Charoentong,ENSG00000182010.11,protein_coding,RTKN2,Act CD4,EC,1,219790
+IPS_Charoentong,ENSG00000155307.19,protein_coding,SAMSN1,Act CD4,EC,1,64092
+IPS_Charoentong,ENSG00000188404.10,protein_coding,SELL,Act CD4,EC,1,6402
+IPS_Charoentong,ENSG00000163519.14,protein_coding,TRAT1,Act CD4,EC,1,50852
+IPS_Charoentong,ENSG00000130706.13,protein_coding,ADRM1,Act CD8,EC,1,11047
+IPS_Charoentong,ENSG00000100591.8,protein_coding,AHSA1,Act CD8,EC,1,10598
+IPS_Charoentong,ENSG00000171155.8,protein_coding,C1GALT1C1,Act CD8,EC,1,29071
+IPS_Charoentong,ENSG00000132141.14,protein_coding,CCT6B,Act CD8,EC,1,10693
+IPS_Charoentong,ENSG00000104894.12,protein_coding,CD37,Act CD8,EC,1,951
+IPS_Charoentong,ENSG00000167286.11,protein_coding,CD3D,Act CD8,EC,1,915
+IPS_Charoentong,ENSG00000198851.10,protein_coding,CD3E,Act CD8,EC,1,916
+IPS_Charoentong,ENSG00000160654.11,protein_coding,CD3G,Act CD8,EC,1,917
+IPS_Charoentong,ENSG00000110848.8,protein_coding,CD69,Act CD8,EC,1,969
+IPS_Charoentong,ENSG00000153563.16,protein_coding,CD8A,Act CD8,EC,1,925
+IPS_Charoentong,ENSG00000153140.9,protein_coding,CETN3,Act CD8,EC,1,1070
+IPS_Charoentong,ENSG00000124207.17,protein_coding,CSE1L,Act CD8,EC,1,1434
+IPS_Charoentong,ENSG00000152147.11,protein_coding,GEMIN6,Act CD8,EC,1,79833
+IPS_Charoentong,ENSG00000115523.17,protein_coding,GNLY,Act CD8,EC,1,10578
+IPS_Charoentong,ENSG00000166123.14,protein_coding,GPT2,Act CD8,EC,1,84706
+IPS_Charoentong,ENSG00000145649.8,protein_coding,GZMA,Act CD8,EC,1,3001
+IPS_Charoentong,ENSG00000100450.13,protein_coding,GZMH,Act CD8,EC,1,2999
+IPS_Charoentong,ENSG00000113088.6,protein_coding,GZMK,Act CD8,EC,1,3003
+IPS_Charoentong,ENSG00000100385.14,protein_coding,IL2RB,Act CD8,EC,1,3560
+IPS_Charoentong,ENSG00000182866.17,protein_coding,LCK,Act CD8,EC,1,3932
+IPS_Charoentong,ENSG00000197965.12,protein_coding,MPZL1,Act CD8,EC,1,9019
+IPS_Charoentong,ENSG00000105374.10,protein_coding,NKG7,Act CD8,EC,1,4818
+IPS_Charoentong,ENSG00000100100.13,protein_coding,PIK3IP1,Act CD8,EC,1,113791
+IPS_Charoentong,ENSG00000141378.15,protein_coding,PTRH2,Act CD8,EC,1,51651
+IPS_Charoentong,ENSG00000099800.8,protein_coding,TIMM13,Act CD8,EC,1,26517
+IPS_Charoentong,ENSG00000115085.14,protein_coding,ZAP70,Act CD8,EC,1,7535
+IPS_Charoentong,ENSG00000149311.20,protein_coding,ATM,Tem CD4,EC,1,472
+IPS_Charoentong,ENSG00000164305.19,protein_coding,CASP3,Tem CD4,EC,1,836
+IPS_Charoentong,ENSG00000143318.13,protein_coding,CASQ1,Tem CD4,EC,1,844
+IPS_Charoentong,ENSG00000186407.7,protein_coding,CD300E,Tem CD4,EC,1,342510
+IPS_Charoentong,ENSG00000115866.11,protein_coding,DARS1,Tem CD4,EC,1,1615
+IPS_Charoentong,ENSG00000088387.21,protein_coding,DOCK9,Tem CD4,EC,1,23348
+IPS_Charoentong,ENSG00000123737.13,protein_coding,EXOSC9,Tem CD4,EC,1,5393
+IPS_Charoentong,ENSG00000106462.12,protein_coding,EZH2,Tem CD4,EC,1,2146
+IPS_Charoentong,ENSG00000006007.12,protein_coding,GDE1,Tem CD4,EC,1,51573
+IPS_Charoentong,ENSG00000157368.12,protein_coding,IL34,Tem CD4,EC,1,146433
+IPS_Charoentong,ENSG00000266412.6,protein_coding,NCOA4,Tem CD4,EC,1,8031
+IPS_Charoentong,ENSG00000277586.4,protein_coding,NEFL,Tem CD4,EC,1,4747
+IPS_Charoentong,ENSG00000104213.13,protein_coding,PDGFRL,Tem CD4,EC,1,5157
+IPS_Charoentong,ENSG00000095303.17,protein_coding,PTGS1,Tem CD4,EC,1,5742
+IPS_Charoentong,ENSG00000135597.19,protein_coding,REPS1,Tem CD4,EC,1,85021
+IPS_Charoentong,ENSG00000171951.5,protein_coding,SCG2,Tem CD4,EC,1,7857
+IPS_Charoentong,ENSG00000168497.5,protein_coding,CAVIN2,Tem CD4,EC,1,8436
+IPS_Charoentong,ENSG00000254415.4,protein_coding,SIGLEC14,Tem CD4,EC,1,100049587
+IPS_Charoentong,ENSG00000105492.16,protein_coding,SIGLEC6,Tem CD4,EC,1,946
+IPS_Charoentong,ENSG00000162367.12,protein_coding,TAL1,Tem CD4,EC,1,6886
+IPS_Charoentong,ENSG00000105967.16,protein_coding,TFEC,Tem CD4,EC,1,22797
+IPS_Charoentong,ENSG00000075131.10,protein_coding,TIPIN,Tem CD4,EC,1,54962
+IPS_Charoentong,ENSG00000196511.15,protein_coding,TPK1,Tem CD4,EC,1,27010
+IPS_Charoentong,ENSG00000156467.10,protein_coding,UQCRB,Tem CD4,EC,1,7381
+IPS_Charoentong,ENSG00000114374.13,protein_coding,USP9Y,Tem CD4,EC,1,8287
+IPS_Charoentong,ENSG00000115935.18,protein_coding,WIPF1,Tem CD4,EC,1,7456
+IPS_Charoentong,ENSG00000139168.9,protein_coding,ZCRB1,Tem CD4,EC,1,85437
+IPS_Charoentong,ENSG00000072818.12,protein_coding,ACAP1,Tem CD8,EC,1,9744
+IPS_Charoentong,ENSG00000128284.20,protein_coding,APOL3,Tem CD8,EC,1,80833
+IPS_Charoentong,ENSG00000071205.12,protein_coding,ARHGAP10,Tem CD8,EC,1,79658
+IPS_Charoentong,ENSG00000145246.14,protein_coding,ATP10D,Tem CD8,EC,1,57205
+IPS_Charoentong,ENSG00000171860.5,protein_coding,C3AR1,Tem CD8,EC,1,719
+IPS_Charoentong,ENSG00000160791.14,protein_coding,CCR5,Tem CD8,EC,1,1234
+IPS_Charoentong,ENSG00000117281.16,protein_coding,CD160,Tem CD8,EC,1,11126
+IPS_Charoentong,ENSG00000196352.18,protein_coding,CD55,Tem CD8,EC,1,1604
+IPS_Charoentong,ENSG00000003402.21,protein_coding,CFLAR,Tem CD8,EC,1,8837
+IPS_Charoentong,ENSG00000174600.14,protein_coding,CMKLR1,Tem CD8,EC,1,1240
+IPS_Charoentong,ENSG00000070190.13,protein_coding,DAPP1,Tem CD8,EC,1,27071
+IPS_Charoentong,ENSG00000181036.14,protein_coding,FCRL6,Tem CD8,EC,1,343413
+IPS_Charoentong,ENSG00000090554.13,protein_coding,FLT3LG,Tem CD8,EC,1,2323
+IPS_Charoentong,ENSG00000197540.8,protein_coding,GZMM,Tem CD8,EC,1,3004
+IPS_Charoentong,ENSG00000140511.12,protein_coding,HAPLN3,Tem CD8,EC,1,145864
+IPS_Charoentong,ENSG00000242574.9,protein_coding,HLA-DMB,Tem CD8,EC,1,3109
+IPS_Charoentong,ENSG00000231389.8,protein_coding,HLA-DPA1,Tem CD8,EC,1,3113
+IPS_Charoentong,ENSG00000223865.11,protein_coding,HLA-DPB1,Tem CD8,EC,1,3115
+IPS_Charoentong,ENSG00000163565.20,protein_coding,IFI16,Tem CD8,EC,1,3428
+IPS_Charoentong,ENSG00000203896.10,protein_coding,LIME1,Tem CD8,EC,1,54923
+IPS_Charoentong,ENSG00000062524.16,protein_coding,LTK,Tem CD8,EC,1,4058
+IPS_Charoentong,ENSG00000100906.11,protein_coding,NFKBIA,Tem CD8,EC,1,4792
+IPS_Charoentong,ENSG00000145391.14,protein_coding,SETD7,Tem CD8,EC,1,80854
+IPS_Charoentong,ENSG00000142178.9,protein_coding,SIK1,Tem CD8,EC,1,150094
+IPS_Charoentong,ENSG00000071575.12,protein_coding,TRIB2,Tem CD8,EC,1,28951
+IPS_Charoentong,ENSG00000121807.7,protein_coding,CCR2,MDSC,SC,-1,729230
+IPS_Charoentong,ENSG00000170458.15,protein_coding,CD14,MDSC,SC,-1,929
+IPS_Charoentong,ENSG00000116824.5,protein_coding,CD2,MDSC,SC,-1,914
+IPS_Charoentong,ENSG00000114013.16,protein_coding,CD86,MDSC,SC,-1,942
+IPS_Charoentong,ENSG00000121966.8,protein_coding,CXCR4,MDSC,SC,-1,7852
+IPS_Charoentong,ENSG00000143226.15,protein_coding,FCGR2A,MDSC,SC,-1,2212
+IPS_Charoentong,ENSG00000072694.22,protein_coding,FCGR2B,MDSC,SC,-1,2213
+IPS_Charoentong,ENSG00000203747.12,protein_coding,FCGR3A,MDSC,SC,-1,2214
+IPS_Charoentong,ENSG00000149781.13,protein_coding,FERMT3,MDSC,SC,-1,83706
+IPS_Charoentong,ENSG00000213654.10,protein_coding,GPSM3,MDSC,SC,-1,63940
+IPS_Charoentong,ENSG00000137496.18,protein_coding,IL18BP,MDSC,SC,-1,10068
+IPS_Charoentong,ENSG00000077238.14,protein_coding,IL4R,MDSC,SC,-1,3566
+IPS_Charoentong,ENSG00000005844.19,protein_coding,ITGAL,MDSC,SC,-1,3683
+IPS_Charoentong,ENSG00000169896.18,protein_coding,ITGAM,MDSC,SC,-1,3684
+IPS_Charoentong,ENSG00000138964.17,protein_coding,PARVG,MDSC,SC,-1,64098
+IPS_Charoentong,ENSG00000197746.15,protein_coding,PSAP,MDSC,SC,-1,5660
+IPS_Charoentong,ENSG00000125384.7,protein_coding,PTGER2,MDSC,SC,-1,5732
+IPS_Charoentong,ENSG00000148334.16,protein_coding,PTGES2,MDSC,SC,-1,80142
+IPS_Charoentong,ENSG00000143546.10,protein_coding,S100A8,MDSC,SC,-1,6279
+IPS_Charoentong,ENSG00000163220.11,protein_coding,S100A9,MDSC,SC,-1,6280
+IPS_Charoentong,ENSG00000276085.1,protein_coding,CCL3L1,Treg,SC,-1,NA
+IPS_Charoentong,ENSG00000137101.14,protein_coding,CD72,Treg,SC,-1,971
+IPS_Charoentong,ENSG00000258227.7,protein_coding,CLEC5A,Treg,SC,-1,23601
+IPS_Charoentong,ENSG00000049768.17,protein_coding,FOXP3,Treg,SC,-1,50943
+IPS_Charoentong,ENSG00000115232.14,protein_coding,ITGA4,Treg,SC,-1,3676
+IPS_Charoentong,ENSG00000198910.14,protein_coding,L1CAM,Treg,SC,-1,3897
+IPS_Charoentong,ENSG00000107798.18,protein_coding,LIPA,Treg,SC,-1,3988
+IPS_Charoentong,ENSG00000123384.14,protein_coding,LRP1,Treg,SC,-1,4035
+IPS_Charoentong,ENSG00000116212.15,protein_coding,LRRC42,Treg,SC,-1,115353
+IPS_Charoentong,ENSG00000019169.11,protein_coding,MARCO,Treg,SC,-1,8685
+IPS_Charoentong,ENSG00000262406.3,protein_coding,MMP12,Treg,SC,-1,4321
+IPS_Charoentong,ENSG00000163563.8,protein_coding,MNDA,Treg,SC,-1,4332
+IPS_Charoentong,ENSG00000260314.3,protein_coding,MRC1,Treg,SC,-1,4360
+IPS_Charoentong,ENSG00000110077.15,protein_coding,MS4A6A,Treg,SC,-1,64231
+IPS_Charoentong,ENSG00000152684.11,protein_coding,PELO,Treg,SC,-1,53918
+IPS_Charoentong,ENSG00000115956.10,protein_coding,PLEK,Treg,SC,-1,5341
+IPS_Charoentong,ENSG00000150687.12,protein_coding,PRSS23,Treg,SC,-1,11098
+IPS_Charoentong,ENSG00000160013.9,protein_coding,PTGIR,Treg,SC,-1,5739
+IPS_Charoentong,ENSG00000113532.13,protein_coding,ST8SIA4,Treg,SC,-1,7903
+IPS_Charoentong,ENSG00000010327.10,protein_coding,STAB1,Treg,SC,-1,23166
