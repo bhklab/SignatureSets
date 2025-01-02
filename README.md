@@ -24,7 +24,7 @@ In total, 55 IO gene signatures have been curated in the SignatureSets package. 
 
 ``` r
 
-knitr::include_graphics("utils/SignatureSets_association.jpg")
+knitr::include_graphics("C:/SignatureSets/utils/SignatureSets_association.jpg")
                                                                                                                                                   ```
                            
 ## Methods for Computing IO Signature Scores
