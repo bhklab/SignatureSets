@@ -49,6 +49,8 @@ Signature scores are computed using standardized methods tailored to the charact
   <img width="45%" src="utils/SignatureSets_method.jpg" alt="SignatureSets Method">
 </p>
 
+More details associated with signature score computations and their applications can be found at can be found on the [PredictioR GitHub repository](https://github.com/bhklab/PredictioR)
+
 ## Citation 
                                                                   
 If the data from the SignatureSets package are used in your publication, please cite the following paper(s):                                                                  
