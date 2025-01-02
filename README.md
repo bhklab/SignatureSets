@@ -3,6 +3,30 @@
 </p>
 
 
-# SignatureSets: A Package for RNA Immunotherapy Signatures
+# SignatureSets: An R Package for RNA-Based Immuno-Oncology Signatures
 
-The SignatureSets package provides list of curated RNA immunotherapy signatures. Please refer to the manuscript URL (https://pubmed.ncbi.nlm.nih.gov/36055464/) or a web application [predictio.ca](https://predictio.ca/) to easily mine our large compendium of published signatures.
+## Introduction
+    
+The `SignatureSets` package provides access to a curated and extensive compendium of RNA-based Immuno-Oncology (IO) signatures. All signatures included in this package are:
+
+- Published in peer-reviewed literature.
+- Publicly available through trusted repositories and resources.
+
+References to the original publications and resources for each signature are included in the package documentation or accessible via the web application [predictio.ca](https://predictio.ca/).
+
+## Citation 
+                                                                  
+If If the data from the SignatureSets package are used in your publication, please cite the following paper(s):                                                                  
+- [Bareche, Y., Kelly, D., Abbas-Aghababazadeh, F. et al., Annals of Oncology 2022](https://pubmed.ncbi.nlm.nih.gov/36055464/).
+                                                                                                                            
+## Setup
+                                                                 
+The latest version of SignatureSets repository can be found on the [SignatureSets GitHub repository](https://github.com/bhklab/SignatureSets). To set up the repository, please download this folder locally:
+
+``` bash
+
+git clone https://github.com/bhklab/SignatureSets
+cd SignatureSets
+
+```
+  
