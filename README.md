@@ -14,11 +14,6 @@ The `SignatureSets` package provides access to a curated and extensive compendiu
 
 References to the original publications and resources for each signature are included in the package documentation or accessible via the web application [predictio.ca](https://predictio.ca/). 
 
-## Citation 
-                                                                  
-If the data from the SignatureSets package are used in your publication, please cite the following paper(s):                                                                  
-- [Bareche, Y., Kelly, D., Abbas-Aghababazadeh, F. et al., Annals of Oncology 2022](https://pubmed.ncbi.nlm.nih.gov/36055464/).
-                                                                                                                            
 ## Setup
                                                                  
 The latest version of SignatureSets repository can be found on the [SignatureSets GitHub repository](https://github.com/bhklab/SignatureSets). To set up the repository, please download this folder locally:
@@ -53,4 +48,9 @@ Signature scores are computed using standardized methods tailored to the charact
   <img width="40%" src="utils/SignatureSets_association.jpg" alt="SignatureSets Association">
   <img width="45%" src="utils/SignatureSets_method.jpg" alt="SignatureSets Method">
 </p>
-  
+
+## Citation 
+                                                                  
+If the data from the SignatureSets package are used in your publication, please cite the following paper(s):                                                                  
+- [Bareche, Y., Kelly, D., Abbas-Aghababazadeh, F. et al., Annals of Oncology 2022](https://pubmed.ncbi.nlm.nih.gov/36055464/).
+                                                                      
