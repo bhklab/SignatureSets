@@ -1,5 +1,5 @@
 ---
-title: "SignatureSets: A Package for RNA Immunotherapy Signatures"
+title: "SignatureSets: An R Package for RNA-Based Immuno-Oncology Signatures"
 author:
 - name: Farnoosh Abbas-Aghababazadeh
   affiliation:
@@ -30,7 +30,7 @@ vignette: |
 
 # Introduction
 
-The SignatureSets package provides list of curated RNA immunotherapy signatures. Please refer to the manuscript URL (https://pubmed.ncbi.nlm.nih.gov/36055464/) or a web application [predictio.ca](https://predictio.ca/) to easily mine our large compendium of published signatures.
+The `SignatureSets` package provides access to a curated and extensive compendium of RNA-based Immuno-Oncology (IO) signatures. All signatures included in this package are published in peer-reviewed literature and publicly available through trusted repositories and resources. For more details, please refer to the manuscript [PMID 36055464](https://pubmed.ncbi.nlm.nih.gov/36055464/) or explore the PredictIO web application [predictio.ca](https://predictio.ca/) to easily mine this large compendium of published signatures.
 
 
 ```{r load, eval=TRUE, results='hide', message=FALSE, warning=FALSE}
@@ -43,9 +43,9 @@ library(stringr)
 ```
 
 
-# Curated Immunotherapy RNA Signatures 
+# Curated IO RNA-Based Signatures 
 
-Get more details about the compendium of curated RNA signatures described as immunotherapy biomarkers. 
+The SignatureSets package provides access to a curated and comprehensive compendium of 55 RNA-based IO signatures. Of these, 30 signatures (55%) are associated with sensitivity to IO therapy, while 25 signatures (45%) are linked to resistance mechanisms. 
 
 ```{r signature data}
 
@@ -57,14 +57,14 @@ signature <- read.csv( file.path(dir_GeneSig_info, "signature_information.csv"))
 signature$signature <- as.character( signature$signature )
 signature$method <- as.character( signature$method )
 
-kable(signature[, c("signature", "method", "PMID", "information")], format="html", 
+kable(signature[1:5, c("signature", "method", "PMID", "information")], format="html", 
           table.attr = "style='width:80%;'", 
       row.names = FALSE) %>% 
       kableExtra::kable_styling()
 
 ```
 
-The above table shows an overview of RNA immunotherapy signatures data and methods to compute the signatures' scores including weighted mean, Gene Set Variation Analysis (GSVA) [PMID 23323831](https://pubmed.ncbi.nlm.nih.gov/23323831/), and specific computational algorithms. Note that GENCODE version 40 is applied to curate the signature data.   
+The above table shows an overview of IO signatures data and methods to compute the signatures' scores including weighted mean, Gene Set Variation Analysis (GSVA) [PMID 23323831](https://pubmed.ncbi.nlm.nih.gov/23323831/), and specific computational algorithms. These signatures were extracted from the literature and manually annotated using GENCODE version 40 [PMID: 36420896](https://pubmed.ncbi.nlm.nih.gov/36420896/), with HUGO Gene Symbols as the primary identifiers linked to Entrez Gene IDs and Ensembl Gene IDs.
 
 ## Load Curated Immunotherapy Signature
      
@@ -81,14 +81,13 @@ kable(sig, format="html",
                   
 ```
 
-
-```{r echo=FALSE, out.width="180%"}
-
 # Prognostic Landscape of the Curated Immunotherapy Signatures
 
-#Principal component analysis of the overlapping genes between each curated signature. Clusters #were determined using Affinity Propagation Clustering. Kyoto Encyclopedia of Genes and Genomes #pathway enriched within each cluster was computed from enrichR.
+Principal component analysis of the overlapping genes between each curated signature. Clusters were determined using Affinity Propagation Clustering. Kyoto Encyclopedia of Genes and Genomes #pathway enriched within each cluster was computed from enrichR.
 
-#knitr::include_graphics(file.path(dir_GeneSig_info, "clustering_signatures.JPG"))
+```{r echo=FALSE, fig.height = 10, fig.width= 14}
+
+knitr::include_graphics(file.path(app_dir, 'SignatureSets', 'utils', 'PatternSignatures.png'))
 
 ```
 

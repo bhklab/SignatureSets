@@ -27,7 +27,7 @@ cd SignatureSets
 
 ### Signature Association Types
 
-In total, 55 Immuno-Oncology (IO) gene signatures have been curated in the SignatureSets package. These signatures were extracted from the literature and manually annotated using GENCODE version 40, with HUGO Gene Symbols as the primary identifiers linked to Entrez Gene IDs and Ensembl Gene IDs. The signatures are categorized based on their association with IO therapy outcomes:
+In total, 55 Immuno-Oncology (IO) gene signatures have been curated in the SignatureSets package. These signatures were extracted from the literature and manually annotated using [GENCODE version 40](https://pubmed.ncbi.nlm.nih.gov/36420896/), with HUGO Gene Symbols as the primary identifiers linked to Entrez Gene IDs and Ensembl Gene IDs. The signatures are categorized based on their association with IO therapy outcomes:
 
 - 65% (36 signatures): Associated with sensitivity to IO therapy, indicating potential positive responses such as immune activation or enhanced checkpoint inhibitor efficacy.
 
