@@ -12,7 +12,27 @@ The `SignatureSets` package provides access to a curated and extensive compendiu
 - Published in peer-reviewed literature.
 - Publicly available through trusted repositories and resources.
 
-References to the original publications and resources for each signature are included in the package documentation or accessible via the web application [predictio.ca](https://predictio.ca/).
+References to the original publications and resources for each signature are included in the package documentation or accessible via the web application [predictio.ca](https://predictio.ca/). 
+
+### Signature Association Types
+
+In total, 55 IO gene signatures have been curated in the SignatureSets package. Notably, GENCODE version 40 was used to curate the signature data. These signatures are categorized based on their association with IO therapy outcomes:
+
+- 65% (36 signatures): Associated with sensitivity to IO therapy, indicating potential positive responses such as immune activation or enhanced checkpoint inhibitor efficacy.
+
+- 35% (19 signatures): Associated with resistance to IO therapy, highlighting mechanisms like immune evasion, suppressive tumor microenvironments, or other resistance pathways.
+
+``` r
+
+knitr::include_graphics("utils/SignatureSets_association.jpg")
+                                                                                                                                                  ```
+                                                                                                                                                  
+<img src="utils/SignatureSets_association.jpg" width="100%" style="display: block; margin: auto;"/>
+                                                                                                                                                                                      
+## Methods for Computing IO Signature Scores
+
+Signature scores are computed using standardized methods tailored to the signature’s characteristics as described in their original publication. 
+
 
 ## Citation 
                                                                   
@@ -29,4 +49,4 @@ git clone https://github.com/bhklab/SignatureSets
 cd SignatureSets
 
 ```
-  
+
