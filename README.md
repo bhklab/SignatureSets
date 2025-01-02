@@ -14,27 +14,9 @@ The `SignatureSets` package provides access to a curated and extensive compendiu
 
 References to the original publications and resources for each signature are included in the package documentation or accessible via the web application [predictio.ca](https://predictio.ca/). 
 
-### Signature Association Types
-
-In total, 55 IO gene signatures have been curated in the SignatureSets package. Notably, GENCODE version 40 was used to curate the signature data. These signatures are categorized based on their association with IO therapy outcomes:
-
-- 65% (36 signatures): Associated with sensitivity to IO therapy, indicating potential positive responses such as immune activation or enhanced checkpoint inhibitor efficacy.
-
-- 35% (19 signatures): Associated with resistance to IO therapy, highlighting mechanisms like immune evasion, suppressive tumor microenvironments, or other resistance pathways.
-
-
-<p align="center">
-  <img width="300" src="utils/SignatureSets_association.jpg">
-</p>
-                           
-## Methods for Computing IO Signature Scores
-
-Signature scores are computed using standardized methods tailored to the signature’s characteristics as described in their original publication. 
-
-
 ## Citation 
                                                                   
-If If the data from the SignatureSets package are used in your publication, please cite the following paper(s):                                                                  
+If the data from the SignatureSets package are used in your publication, please cite the following paper(s):                                                                  
 - [Bareche, Y., Kelly, D., Abbas-Aghababazadeh, F. et al., Annals of Oncology 2022](https://pubmed.ncbi.nlm.nih.gov/36055464/).
                                                                                                                             
 ## Setup
@@ -48,3 +30,29 @@ cd SignatureSets
 
 ```
 
+### Signature Association Types
+
+In total, 55 IO gene signatures have been curated in the SignatureSets package. Notably, GENCODE version 40 was used to curate the signature data. These signatures are categorized based on their association with IO therapy outcomes:
+
+- 65% (36 signatures): Associated with sensitivity to IO therapy, indicating potential positive responses such as immune activation or enhanced checkpoint inhibitor efficacy.
+
+- 35% (19 signatures): Associated with resistance to IO therapy, highlighting mechanisms like immune evasion, suppressive tumor microenvironments, or other resistance pathways.
+
+<p align="center">
+  <img width="100%" src="utils/SignatureSets_association.jpg">
+</p>
+                           
+## Methods for Computing IO Signature Scores
+
+Signature scores are computed using standardized methods tailored to the characteristics of each signature, as described in their original publications.
+
+- Unweighted Signatures: Scores are computed using Gene Set Variation Analysis ([GSVA](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-14-7)) to assess pathway enrichment. GSVA calculates enrichment scores for gene sets without weighting individual genes.
+
+- Weighted Signatures: Scores are computed as a weighted mean expression, where weights are assigned as follows: +1 for increased expression and -1 for decreased expression. 
+
+- Specific Methods: Certain signature scores are computed based on their respective original publications, e.g., the [PredictIO](https://pubmed.ncbi.nlm.nih.gov/36055464/) signature. 
+
+<p align="center">
+  <img width="100%" src="utils/SignatureSets_method.jpg">
+</p>
+  
