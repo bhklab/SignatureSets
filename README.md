@@ -12,7 +12,7 @@ The `SignatureSets` package provides access to a curated and extensive compendiu
 - Published in peer-reviewed literature.
 - Publicly available through trusted repositories and resources.
 
-References to the original publications and resources for each signature are included in the package documentation or accessible via the web application [predictio.ca](https://predictio.ca/). 
+References to the original publications and resources for each signature are included in the package documentation, refer to the [vignettes](https://github.com/bhklab/SignatureSets/blob/main/vignettes/SignatureSets.html) or accessible via the web application [predictio.ca](https://predictio.ca/). 
 
 ## Setup
                                                                  
