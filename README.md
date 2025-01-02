@@ -39,7 +39,7 @@ In total, 55 IO gene signatures have been curated in the SignatureSets package. 
 - 35% (19 signatures): Associated with resistance to IO therapy, highlighting mechanisms like immune evasion, suppressive tumor microenvironments, or other resistance pathways.
 
 <p align="center">
-  <img width="100%" src="utils/SignatureSets_association.jpg">
+  <img width="60%" src="utils/SignatureSets_association.jpg">
 </p>
                            
 ## Methods for Computing IO Signature Scores
@@ -53,6 +53,6 @@ Signature scores are computed using standardized methods tailored to the charact
 - Specific Methods: Certain signature scores are computed based on their respective original publications, e.g., the [PredictIO](https://pubmed.ncbi.nlm.nih.gov/36055464/) signature. 
 
 <p align="center">
-  <img width="100%" src="utils/SignatureSets_method.jpg">
+  <img width="60%" src="utils/SignatureSets_method.jpg">
 </p>
   
