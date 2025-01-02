@@ -50,7 +50,7 @@ Signature scores are computed using standardized methods tailored to the charact
 - Specific Methods: Certain signature scores are computed based on their respective original publications, e.g., the [PredictIO](https://pubmed.ncbi.nlm.nih.gov/36055464/) signature. 
 
 <p align="center">
-  <img width="45%" src="utils/SignatureSets_association.jpg" alt="SignatureSets Association">
+  <img width="35%" src="utils/SignatureSets_association.jpg" alt="SignatureSets Association">
   <img width="45%" src="utils/SignatureSets_method.jpg" alt="SignatureSets Method">
 </p>
   
