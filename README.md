@@ -26,9 +26,7 @@ In total, 55 IO gene signatures have been curated in the SignatureSets package. 
 
 knitr::include_graphics("utils/SignatureSets_association.jpg")
                                                                                                                                                   ```
-                                                                                                                                                  
-<img src="utils/SignatureSets_association.jpg" width="100%" style="display: block; margin: auto;"/>
-                                                                                                                                                                                      
+                           
 ## Methods for Computing IO Signature Scores
 
 Signature scores are computed using standardized methods tailored to the signature’s characteristics as described in their original publication. 
