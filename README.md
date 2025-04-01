@@ -56,3 +56,7 @@ More details about signature score computations and their applications can be fo
 If the data from the SignatureSets package are used in your publication, please cite the following paper(s):                                                                  
 - [Bareche, Y., Kelly, D., Abbas-Aghababazadeh, F. et al., Annals of Oncology 2022](https://pubmed.ncbi.nlm.nih.gov/36055464/).
                                                                       
+## Version Information
+
+📌 This is **version v1.0**, corresponding to the release used in the paper:  
+For previous or future updates, refer to the [Releases section](https://github.com/bhklab/SignatureSets/releases) of this repository.
