@@ -49,11 +49,11 @@ In total, 55 Immuno-Oncology (IO) gene signatures have been curated in the Signa
 
 Signature scores are computed using standardized methods tailored to the characteristics of each signature, as described in their original publications.
 
-- \textit{Unweighted Signatures}: Scores are computed using Gene Set Variation Analysis ([GSVA](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-14-7)) or Single Sample Gene Set Enrichment Analysis([ssGSEA](https://pubmed.ncbi.nlm.nih.gov/16199517/)) to assess pathway enrichment. GSVA calculates enrichment scores for gene sets without weighting individual genes.
+- *Unweighted Signatures*: Scores are computed using Gene Set Variation Analysis ([GSVA](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-14-7)) or Single Sample Gene Set Enrichment Analysis([ssGSEA](https://pubmed.ncbi.nlm.nih.gov/16199517/)) to assess pathway enrichment. GSVA calculates enrichment scores for gene sets without weighting individual genes.
 
-- \textit{Weighted Signatures}: Scores are computed as a weighted mean expression, where weights are assigned as follows: +1 for increased expression and -1 for decreased expression. 
+- *Weighted Signatures*: Scores are computed as a weighted mean expression, where weights are assigned as follows: +1 for increased expression and -1 for decreased expression. 
 
-- \textit{Specific Algorithm: Certain signature scores are computed based on their respective original publications, e.g., the [PredictIO](https://pubmed.ncbi.nlm.nih.gov/36055464/) signature. 
+- *Specific Algorithm*: Certain signature scores are computed based on their respective original publications, e.g., the [PredictIO](https://pubmed.ncbi.nlm.nih.gov/36055464/) signature. 
 
 ## 🔍 Visualization
 
