@@ -16,7 +16,7 @@ References to the original publications and resources for each signature are inc
 
 ## Setup
                                                                  
-The latest version of SignatureSets repository can be found on the [SignatureSets GitHub repository](https://github.com/bhklab/SignatureSets). To set up the repository, please download this folder locally:
+The latest version of SignatureSets repository can be found on the [SignatureSets GitHub repository](https://github.com/bhklab/SignatureSets). The package is not yet on CRAN or Bioconductor. To set up the repository, please download this folder locally:
 
 ``` bash
 
