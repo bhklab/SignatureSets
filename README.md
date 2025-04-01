@@ -5,7 +5,7 @@
 
 # SignatureSets: An R Package for RNA-Based Immuno-Oncology Signatures
 
-## Introduction
+## 📖 Introduction
     
 The `SignatureSets` package provides access to a curated and extensive compendium of RNA-based Immuno-Oncology (IO) signatures. All signatures included in this package are:
 
@@ -14,7 +14,7 @@ The `SignatureSets` package provides access to a curated and extensive compendiu
 
 References to the original publications and resources for each signature are included in the package documentation, refer to the [vignettes](https://github.com/bhklab/SignatureSets/blob/main/vignettes/SignatureSets.Rmd) or accessible via the web application [predictio.ca](https://predictio.ca/). 
 
-## Setup
+## 🔧 Setup
                                                                  
 The latest version of SignatureSets repository can be found on the [SignatureSets GitHub repository](https://github.com/bhklab/SignatureSets). The package is not yet on CRAN or Bioconductor. To set up the repository, please download this folder locally:
 
@@ -25,7 +25,7 @@ cd SignatureSets
 
 ```
 
-### Signature Association Types
+### 🧬 Signature Association Types
 
 In total, 55 Immuno-Oncology (IO) gene signatures have been curated in the SignatureSets package. These signatures were extracted from the literature and manually annotated using [GENCODE version 40](https://pubmed.ncbi.nlm.nih.gov/36420896/), with HUGO Gene Symbols as the primary identifiers linked to Entrez Gene IDs and Ensembl Gene IDs. The signatures are categorized based on their association with IO therapy outcomes:
 
@@ -34,7 +34,7 @@ In total, 55 Immuno-Oncology (IO) gene signatures have been curated in the Signa
 - 35% (19 signatures): Associated with resistance to IO therapy, highlighting mechanisms like immune evasion, suppressive tumor microenvironments, or other resistance pathways.
 
                            
-## Methods for Computing IO Signature Scores
+## 📊 Methods for Computing IO Signature Scores
 
 Signature scores are computed using standardized methods tailored to the characteristics of each signature, as described in their original publications.
 
@@ -44,6 +44,8 @@ Signature scores are computed using standardized methods tailored to the charact
 
 - Specific Algorithm: Certain signature scores are computed based on their respective original publications, e.g., the [PredictIO](https://pubmed.ncbi.nlm.nih.gov/36055464/) signature. 
 
+## 🔍 Visualization
+
 <p align="center">
   <img width="33%" src="vignettes/SignatureSets_association.jpg" alt="SignatureSets Association"    style="margin-right: 30px;">
   <img width="40%" src="vignettes/SignatureSets_method.jpg" alt="SignatureSets Method">
@@ -51,12 +53,12 @@ Signature scores are computed using standardized methods tailored to the charact
 
 More details about signature score computations and their applications can be found on the [PredictioR GitHub repository](https://github.com/bhklab/PredictioR)
 
-## Citation 
+## 📝 Citation 
                                                                   
 If the data from the SignatureSets package are used in your publication, please cite the following paper(s):                                                                  
 - [Bareche, Y., Kelly, D., Abbas-Aghababazadeh, F. et al., Annals of Oncology 2022](https://pubmed.ncbi.nlm.nih.gov/36055464/).
                                                                       
 ## Version Information
 
-📌 This is **version v1.0**, corresponding to the release used in the paper:  
-For previous or future updates, refer to the [Releases section](https://github.com/bhklab/SignatureSets/releases) of this repository.
+📌 This is **version v1.0**, corresponding to the release used in the paper.  
+
