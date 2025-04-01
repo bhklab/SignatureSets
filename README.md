@@ -25,6 +25,20 @@ cd SignatureSets
 
 ```
 
+
+## Repository Structure
+
+```plaintext
+SignatureSets/
+├── 📁 data/                        # Processed signature data (.rda files)  
+│
+├── 📁 data-raw/                     # Processed signature data and metadata (.csv files)  
+│
+├── 📁 vignettes/                     # Summaries and usage examples of signature data
+│
+└── 📄 README.md                    # Repository overview and documentation
+```
+
 ### 🧬 Signature Association Types
 
 In total, 55 Immuno-Oncology (IO) gene signatures have been curated in the SignatureSets package. These signatures were extracted from the literature and manually annotated using [GENCODE version 40](https://pubmed.ncbi.nlm.nih.gov/36420896/), with HUGO Gene Symbols as the primary identifiers linked to Entrez Gene IDs and Ensembl Gene IDs. The signatures are categorized based on their association with IO therapy outcomes:
