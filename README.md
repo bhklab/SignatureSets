@@ -71,5 +71,5 @@ If the data from the SignatureSets package are used in your publication, please 
                                                                       
 ## Version Information
 
-📌 This is **version v1.0**, corresponding to the release used in the paper.  
+📌 This is **version: v1.0**, corresponding to the release used in the paper.  
 
