@@ -14,6 +14,9 @@ The `SignatureSets` package provides access to a curated and extensive compendiu
 
 References to the original publications and resources for each signature are included in the package documentation, refer to the [vignettes](https://github.com/bhklab/SignatureSets/blob/main/vignettes/SignatureSets.Rmd) or accessible via the web application [predictio.ca](https://predictio.ca/). 
 
+- Detailed signature information:  
+  A full list of the included signatures, along with their source references and additional metadata, is available in [`data-raw/signature_information.csv`](https://github.com/bhklab/SignatureSets/blob/main/data-raw/signature_information.csv).
+
 ## 🔧 Setup
                                                                  
 The latest version of SignatureSets repository can be found on the [SignatureSets GitHub repository](https://github.com/bhklab/SignatureSets). The package is not yet on CRAN or Bioconductor. To set up the repository, please download this folder locally:
@@ -31,8 +34,8 @@ cd SignatureSets
 ```plaintext
 SignatureSets/
 ├── 📁 data/                        # Processed signature data (.rda files)  
-├── 📁 data-raw/                     # Processed signature data and metadata (.csv files) 
-├── 📁 vignettes/                     # Summaries and usage examples of signature data
+├── 📁 data-raw/                    # Processed signature data and metadata (.csv files) 
+├── 📁 vignettes/                   # Summaries and usage examples of signature data
 └── 📄 README.md                    # Repository overview and documentation
 ```
 
