@@ -1,9 +1,0 @@
-"signature_name","gene_id","gene_type","gene_name","weight","entrez_id"
-"Bcell_Budczies","ENSG00000136573.15","protein_coding","BLK",1,640
-"Bcell_Budczies","ENSG00000177455.15","protein_coding","CD19",1,930
-"Bcell_Budczies","ENSG00000132704.16","protein_coding","FCRL2",1,79368
-"Bcell_Budczies","ENSG00000156738.18","protein_coding","MS4A1",1,931
-"Bcell_Budczies","ENSG00000048462.11","protein_coding","TNFRSF17",1,608
-"Bcell_Budczies","ENSG00000100721.11","protein_coding","TCL1A",1,8115
-"Bcell_Budczies","ENSG00000269404.7","protein_coding","SPIB",1,6689
-"Bcell_Budczies","ENSG00000168081.9","protein_coding","PNOC",1,5368

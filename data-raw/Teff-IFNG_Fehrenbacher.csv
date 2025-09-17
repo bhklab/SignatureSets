@@ -1,9 +1,0 @@
-"signature_name","gene_id","gene_type","gene_name","weight","entrez_id"
-"Teff-IFNG_Fehrenbacher","ENSG00000153563.16","protein_coding","CD8A",1,925
-"Teff-IFNG_Fehrenbacher","ENSG00000145649.8","protein_coding","GZMA",1,3001
-"Teff-IFNG_Fehrenbacher","ENSG00000100453.14","protein_coding","GZMB",1,3002
-"Teff-IFNG_Fehrenbacher","ENSG00000111537.5","protein_coding","IFNG",1,3458
-"Teff-IFNG_Fehrenbacher","ENSG00000163508.13","protein_coding","EOMES",1,8320
-"Teff-IFNG_Fehrenbacher","ENSG00000138755.6","protein_coding","CXCL9",1,4283
-"Teff-IFNG_Fehrenbacher","ENSG00000169245.6","protein_coding","CXCL10",1,3627
-"Teff-IFNG_Fehrenbacher","ENSG00000073861.3","protein_coding","TBX21",1,30009
