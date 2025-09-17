@@ -1,0 +1,7 @@
+"signature_name","gene_id","gene_type","gene_name","weight","entrez_id"
+"TIP_Recognition_of_cancer_cells_by_T_cells_2","ENSG00000188389.11","protein_coding","PDCD1",NA,5133
+"TIP_Recognition_of_cancer_cells_by_T_cells_2","ENSG00000197646.8","protein_coding","PDCD1LG2",NA,80380
+"TIP_Recognition_of_cancer_cells_by_T_cells_2","ENSG00000120217.14","protein_coding","CD274",NA,29126
+"TIP_Recognition_of_cancer_cells_by_T_cells_2","ENSG00000163599.18","protein_coding","CTLA4",NA,1493
+"TIP_Recognition_of_cancer_cells_by_T_cells_2","ENSG00000186265.10","protein_coding","BTLA",NA,151888
+"TIP_Recognition_of_cancer_cells_by_T_cells_2","ENSG00000134258.18","protein_coding","VTCN1",NA,79679

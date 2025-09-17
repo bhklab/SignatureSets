@@ -1,0 +1,4 @@
+"signature_name","gene_id","gene_type","gene_name","weight","entrez_id"
+"Th17_cells_Bindea_et_al","ENSG00000112115.7","protein_coding","IL17A",NA,3605
+"Th17_cells_Bindea_et_al","ENSG00000177663.15","protein_coding","IL17RA",NA,23765
+"Th17_cells_Bindea_et_al","ENSG00000143365.19","protein_coding","RORC",NA,6097

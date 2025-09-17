@@ -1,0 +1,14 @@
+"signature_name","gene_id","gene_type","gene_name","weight","entrez_id"
+"pDCs_Rooney_et_al","ENSG00000239961.3","protein_coding","LILRA4",NA,23547
+"pDCs_Rooney_et_al","ENSG00000198178.11","protein_coding","CLEC4C",NA,170482
+"pDCs_Rooney_et_al","ENSG00000166428.14","protein_coding","PLD4",NA,122618
+"pDCs_Rooney_et_al","ENSG00000102174.10","protein_coding","PHEX",NA,5251
+"pDCs_Rooney_et_al","ENSG00000185291.12","protein_coding","IL3RA",NA,3563
+"pDCs_Rooney_et_al","ENSG00000185291.12_PAR_Y","protein_coding","IL3RA",NA,3563
+"pDCs_Rooney_et_al","ENSG00000185291.12","protein_coding","IL3RA",NA,3563
+"pDCs_Rooney_et_al","ENSG00000185291.12_PAR_Y","protein_coding","IL3RA",NA,3563
+"pDCs_Rooney_et_al","ENSG00000171611.10","protein_coding","PTCRA",NA,171558
+"pDCs_Rooney_et_al","ENSG00000140968.12","protein_coding","IRF8",NA,3394
+"pDCs_Rooney_et_al","ENSG00000185507.21","protein_coding","IRF7",NA,3665
+"pDCs_Rooney_et_al","ENSG00000100453.14","protein_coding","GZMB",NA,3002
+"pDCs_Rooney_et_al","ENSG00000186810.8","protein_coding","CXCR3",NA,2833

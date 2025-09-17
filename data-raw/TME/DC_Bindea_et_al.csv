@@ -1,0 +1,8 @@
+"signature_name","gene_id","gene_type","gene_name","weight","entrez_id"
+"DC_Bindea_et_al","ENSG00000090659.18","protein_coding","CD209",NA,30835
+"DC_Bindea_et_al","ENSG00000102970.11","protein_coding","CCL17",NA,6361
+"DC_Bindea_et_al","ENSG00000117594.10","protein_coding","HSD11B1",NA,3290
+"DC_Bindea_et_al","ENSG00000181374.8","protein_coding","CCL13",NA,6357
+"DC_Bindea_et_al","ENSG00000102962.5","protein_coding","CCL22",NA,6367
+"DC_Bindea_et_al","ENSG00000166387.14","protein_coding","PPFIBP2",NA,8495
+"DC_Bindea_et_al","ENSG00000169418.10","protein_coding","NPR1",NA,4881

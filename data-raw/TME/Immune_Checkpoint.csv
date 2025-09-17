@@ -1,0 +1,8 @@
+"signature_name","gene_id","gene_type","gene_name","weight","entrez_id"
+"Immune_Checkpoint","ENSG00000120217.14","protein_coding","CD274",NA,29126
+"Immune_Checkpoint","ENSG00000197646.8","protein_coding","PDCD1LG2",NA,80380
+"Immune_Checkpoint","ENSG00000163599.18","protein_coding","CTLA4",NA,1493
+"Immune_Checkpoint","ENSG00000188389.11","protein_coding","PDCD1",NA,5133
+"Immune_Checkpoint","ENSG00000089692.9","protein_coding","LAG3",NA,3902
+"Immune_Checkpoint","ENSG00000135077.10","protein_coding","HAVCR2",NA,84868
+"Immune_Checkpoint","ENSG00000181847.12","protein_coding","TIGIT",NA,201633

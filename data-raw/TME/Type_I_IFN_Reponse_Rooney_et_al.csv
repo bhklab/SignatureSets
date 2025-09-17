@@ -1,0 +1,11 @@
+"signature_name","gene_id","gene_type","gene_name","weight","entrez_id"
+"Type_I_IFN_Reponse_Rooney_et_al","ENSG00000157601.15","protein_coding","MX1",NA,4599
+"Type_I_IFN_Reponse_Rooney_et_al","ENSG00000121858.11","protein_coding","TNFSF10",NA,8743
+"Type_I_IFN_Reponse_Rooney_et_al","ENSG00000134321.13","protein_coding","RSAD2",NA,91543
+"Type_I_IFN_Reponse_Rooney_et_al","ENSG00000185745.10","protein_coding","IFIT1",NA,3434
+"Type_I_IFN_Reponse_Rooney_et_al","ENSG00000119917.15","protein_coding","IFIT3",NA,3437
+"Type_I_IFN_Reponse_Rooney_et_al","ENSG00000119922.11","protein_coding","IFIT2",NA,3433
+"Type_I_IFN_Reponse_Rooney_et_al","ENSG00000185507.21","protein_coding","IRF7",NA,3665
+"Type_I_IFN_Reponse_Rooney_et_al","ENSG00000152670.19","protein_coding","DDX4",NA,54514
+"Type_I_IFN_Reponse_Rooney_et_al","ENSG00000183486.14","protein_coding","MX2",NA,4600
+"Type_I_IFN_Reponse_Rooney_et_al","ENSG00000172183.16","protein_coding","ISG20",NA,3669

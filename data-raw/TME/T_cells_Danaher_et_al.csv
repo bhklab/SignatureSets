@@ -1,0 +1,7 @@
+"signature_name","gene_id","gene_type","gene_name","weight","entrez_id"
+"T_cells_Danaher_et_al","ENSG00000167286.11","protein_coding","CD3D",NA,915
+"T_cells_Danaher_et_al","ENSG00000198851.10","protein_coding","CD3E",NA,916
+"T_cells_Danaher_et_al","ENSG00000160654.11","protein_coding","CD3G",NA,917
+"T_cells_Danaher_et_al","ENSG00000013725.14","protein_coding","CD6",NA,923
+"T_cells_Danaher_et_al","ENSG00000183918.17","protein_coding","SH2D1A",NA,4068
+"T_cells_Danaher_et_al","ENSG00000163519.14","protein_coding","TRAT1",NA,50852

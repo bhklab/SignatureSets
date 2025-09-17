@@ -1,0 +1,11 @@
+"signature_name","gene_id","gene_type","gene_name","weight","entrez_id"
+"CellCycle_Reg","ENSG00000149311.20","protein_coding","ATM",NA,472
+"CellCycle_Reg","ENSG00000124762.14","protein_coding","CDKN1A",NA,1026
+"CellCycle_Reg","ENSG00000147889.18","protein_coding","CDKN2A",NA,1029
+"CellCycle_Reg","ENSG00000135679.27","protein_coding","MDM2",NA,4193
+"CellCycle_Reg","ENSG00000141510.18","protein_coding","TP53",NA,7157
+"CellCycle_Reg","ENSG00000110092.4","protein_coding","CCND1",NA,595
+"CellCycle_Reg","ENSG00000139687.16","protein_coding","RB1",NA,5925
+"CellCycle_Reg","ENSG00000105173.14","protein_coding","CCNE1",NA,898
+"CellCycle_Reg","ENSG00000109670.16","protein_coding","FBXW7",NA,55294
+"CellCycle_Reg","ENSG00000112242.16","protein_coding","E2F3",NA,1871

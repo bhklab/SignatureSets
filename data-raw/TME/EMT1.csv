@@ -1,0 +1,9 @@
+"signature_name","gene_id","gene_type","gene_name","weight","entrez_id"
+"EMT1","ENSG00000165215.6","protein_coding","CLDN3",NA,1365
+"EMT1","ENSG00000181885.18","protein_coding","CLDN7",NA,1366
+"EMT1","ENSG00000189143.10","protein_coding","CLDN4",NA,1364
+"EMT1","ENSG00000039068.20","protein_coding","CDH1",NA,999
+"EMT1","ENSG00000026025.16","protein_coding","VIM",NA,7431
+"EMT1","ENSG00000122691.13","protein_coding","TWIST1",NA,7291
+"EMT1","ENSG00000148516.23","protein_coding","ZEB1",NA,6935
+"EMT1","ENSG00000169554.23","protein_coding","ZEB2",NA,9839

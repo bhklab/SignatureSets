@@ -1,0 +1,5 @@
+"signature_name","gene_id","gene_type","gene_name","weight","entrez_id"
+"NK_CD56dim_cells_Danaher_et_al","ENSG00000103522.16","protein_coding","IL21R",NA,50615
+"NK_CD56dim_cells_Danaher_et_al","ENSG00000243772.8","protein_coding","KIR2DL3",NA,3804
+"NK_CD56dim_cells_Danaher_et_al","ENSG00000167633.18","protein_coding","KIR3DL1",NA,3811
+"NK_CD56dim_cells_Danaher_et_al","ENSG00000240403.5","protein_coding","KIR3DL2",NA,3812

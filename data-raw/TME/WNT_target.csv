@@ -1,0 +1,5 @@
+"signature_name","gene_id","gene_type","gene_name","weight","entrez_id"
+"WNT_target","ENSG00000108947.5","protein_coding","EFNB3",NA,1949
+"WNT_target","ENSG00000136997.21","protein_coding","MYC",NA,4609
+"WNT_target","ENSG00000140262.18","protein_coding","TCF12",NA,6938
+"WNT_target","ENSG00000112715.26","protein_coding","VEGFA",NA,7422

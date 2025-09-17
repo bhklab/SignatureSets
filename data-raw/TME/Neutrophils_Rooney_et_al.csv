@@ -1,0 +1,11 @@
+"signature_name","gene_id","gene_type","gene_name","weight","entrez_id"
+"Neutrophils_Rooney_et_al","ENSG00000132510.11","protein_coding","KDM6B",NA,23135
+"Neutrophils_Rooney_et_al","ENSG00000198189.11","protein_coding","HSD17B11",NA,51170
+"Neutrophils_Rooney_et_al","ENSG00000185862.7","protein_coding","EVI2B",NA,2124
+"Neutrophils_Rooney_et_al","ENSG00000163563.8","protein_coding","MNDA",NA,4332
+"Neutrophils_Rooney_et_al","ENSG00000106780.9","protein_coding","MEGF9",NA,1955
+"Neutrophils_Rooney_et_al","ENSG00000188404.10","protein_coding","SELL",NA,6402
+"Neutrophils_Rooney_et_al","ENSG00000142405.22","protein_coding","NLRP12",NA,91662
+"Neutrophils_Rooney_et_al","ENSG00000159339.13","protein_coding","PADI4",NA,23569
+"Neutrophils_Rooney_et_al","ENSG00000168016.15","protein_coding","TRANK1",NA,9881
+"Neutrophils_Rooney_et_al","ENSG00000093134.16","transcribed_unitary_pseudogene","VNN3P",NA,NA

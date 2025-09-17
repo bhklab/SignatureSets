@@ -1,0 +1,11 @@
+"signature_name","gene_id","gene_type","gene_name","weight","entrez_id"
+"Neutrophils_Danaher_et_al","ENSG00000119535.18","protein_coding","CSF3R",NA,1441
+"Neutrophils_Danaher_et_al","ENSG00000163221.9","protein_coding","S100A12",NA,6283
+"Neutrophils_Danaher_et_al","ENSG00000170956.17","protein_coding","CEACAM3",NA,1084
+"Neutrophils_Danaher_et_al","ENSG00000186431.19","protein_coding","FCAR",NA,2204
+"Neutrophils_Danaher_et_al","ENSG00000162747.12","protein_coding","FCGR3B",NA,2215
+"Neutrophils_Danaher_et_al","ENSG00000171051.9","protein_coding","FPR1",NA,2357
+"Neutrophils_Danaher_et_al","ENSG00000268500.7","protein_coding","SIGLEC5",NA,NA
+"Neutrophils_Danaher_et_al","ENSG00000105501.13","lncRNA","SIGLEC5",NA,NA
+"Neutrophils_Danaher_et_al","ENSG00000268500.7","protein_coding","SIGLEC5",NA,NA
+"Neutrophils_Danaher_et_al","ENSG00000105501.13","lncRNA","SIGLEC5",NA,NA

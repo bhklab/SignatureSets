@@ -1,0 +1,16 @@
+"signature_name","gene_id","gene_type","gene_name","weight","entrez_id"
+"Tem_Bindea_et_al",NA,NA,"TRAA",NA,NA
+"Tem_Bindea_et_al","ENSG00000099725.14","transcribed_unitary_pseudogene","PRKY",NA,NA
+"Tem_Bindea_et_al","ENSG00000092820.19","protein_coding","EZR",NA,7430
+"Tem_Bindea_et_al","ENSG00000158555.15","protein_coding","GDPD5",NA,81544
+"Tem_Bindea_et_al","ENSG00000121807.7","protein_coding","CCR2",NA,729230
+"Tem_Bindea_et_al","ENSG00000103313.13","protein_coding","MEFV",NA,4210
+"Tem_Bindea_et_al","ENSG00000279078.1","lncRNA","SND1-IT1",NA,27099
+"Tem_Bindea_et_al","ENSG00000151702.17","protein_coding","FLI1",NA,2313
+"Tem_Bindea_et_al","ENSG00000131374.15","protein_coding","TBC1D5",NA,9779
+"Tem_Bindea_et_al","ENSG00000100201.23","protein_coding","DDX17",NA,10521
+"Tem_Bindea_et_al","ENSG00000117020.19","protein_coding","AKT3",NA,10000
+"Tem_Bindea_et_al","ENSG00000182944.18","protein_coding","EWSR1",NA,2130
+"Tem_Bindea_et_al","ENSG00000141556.22","protein_coding","TBCD",NA,6904
+"Tem_Bindea_et_al","ENSG00000100968.14","protein_coding","NFATC4",NA,4776
+"Tem_Bindea_et_al","ENSG00000062524.16","protein_coding","LTK",NA,4058

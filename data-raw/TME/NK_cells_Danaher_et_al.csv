@@ -1,0 +1,4 @@
+"signature_name","gene_id","gene_type","gene_name","weight","entrez_id"
+"NK_cells_Danaher_et_al","ENSG00000189430.13","protein_coding","NCR1",NA,9437
+"NK_cells_Danaher_et_al","ENSG00000143185.4","protein_coding","XCL2",NA,6846
+"NK_cells_Danaher_et_al","ENSG00000143184.5","protein_coding","XCL1",NA,6375

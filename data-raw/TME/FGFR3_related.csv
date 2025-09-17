@@ -1,0 +1,4 @@
+"signature_name","gene_id","gene_type","gene_name","weight","entrez_id"
+"FGFR3_related","ENSG00000068078.20","protein_coding","FGFR3",NA,2261
+"FGFR3_related","ENSG00000073282.14","protein_coding","TP63",NA,8626
+"FGFR3_related","ENSG00000188064.10","protein_coding","WNT7B",NA,7477

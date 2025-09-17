@@ -1,0 +1,4 @@
+"signature_name","gene_id","gene_type","gene_name","weight","entrez_id"
+"Lymph_vessels_Bindea_et_al","ENSG00000162493.17","protein_coding","PDPN",NA,10630
+"Lymph_vessels_Bindea_et_al","ENSG00000150630.4","protein_coding","VEGFC",NA,7424
+"Lymph_vessels_Bindea_et_al","ENSG00000165197.5","protein_coding","VEGFD",NA,2277

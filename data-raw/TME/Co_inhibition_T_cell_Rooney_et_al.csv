@@ -1,0 +1,11 @@
+"signature_name","gene_id","gene_type","gene_name","weight","entrez_id"
+"Co_inhibition_T_cell_Rooney_et_al","ENSG00000089692.9","protein_coding","LAG3",NA,3902
+"Co_inhibition_T_cell_Rooney_et_al","ENSG00000163599.18","protein_coding","CTLA4",NA,1493
+"Co_inhibition_T_cell_Rooney_et_al","ENSG00000120217.14","protein_coding","CD274",NA,29126
+"Co_inhibition_T_cell_Rooney_et_al","ENSG00000117281.16","protein_coding","CD160",NA,11126
+"Co_inhibition_T_cell_Rooney_et_al","ENSG00000186265.10","protein_coding","BTLA",NA,151888
+"Co_inhibition_T_cell_Rooney_et_al","ENSG00000107738.20","protein_coding","VSIR",NA,64115
+"Co_inhibition_T_cell_Rooney_et_al","ENSG00000167613.16","protein_coding","LAIR1",NA,3903
+"Co_inhibition_T_cell_Rooney_et_al","ENSG00000135077.10","protein_coding","HAVCR2",NA,84868
+"Co_inhibition_T_cell_Rooney_et_al","ENSG00000122223.13","protein_coding","CD244",NA,51744
+"Co_inhibition_T_cell_Rooney_et_al","ENSG00000181847.12","protein_coding","TIGIT",NA,201633

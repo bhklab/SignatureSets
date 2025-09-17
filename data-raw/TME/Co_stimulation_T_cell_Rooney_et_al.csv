@@ -1,0 +1,14 @@
+"signature_name","gene_id","gene_type","gene_name","weight","entrez_id"
+"Co_stimulation_T_cell_Rooney_et_al","ENSG00000163600.13","protein_coding","ICOS",NA,29851
+"Co_stimulation_T_cell_Rooney_et_al","ENSG00000178562.18","protein_coding","CD28",NA,940
+"Co_stimulation_T_cell_Rooney_et_al","ENSG00000139193.4","protein_coding","CD27",NA,939
+"Co_stimulation_T_cell_Rooney_et_al","ENSG00000125735.11","protein_coding","TNFSF14",NA,8740
+"Co_stimulation_T_cell_Rooney_et_al","ENSG00000102245.9","protein_coding","CD40LG",NA,959
+"Co_stimulation_T_cell_Rooney_et_al","ENSG00000049249.9","protein_coding","TNFRSF9",NA,3604
+"Co_stimulation_T_cell_Rooney_et_al","ENSG00000186827.11","protein_coding","TNFRSF4",NA,7293
+"Co_stimulation_T_cell_Rooney_et_al","ENSG00000215788.11","protein_coding","TNFRSF25",NA,8718
+"Co_stimulation_T_cell_Rooney_et_al","ENSG00000186891.14","protein_coding","TNFRSF18",NA,8784
+"Co_stimulation_T_cell_Rooney_et_al","ENSG00000120949.15","protein_coding","TNFRSF8",NA,943
+"Co_stimulation_T_cell_Rooney_et_al","ENSG00000117090.16","protein_coding","SLAMF1",NA,6504
+"Co_stimulation_T_cell_Rooney_et_al","ENSG00000116824.5","protein_coding","CD2",NA,914
+"Co_stimulation_T_cell_Rooney_et_al","ENSG00000150637.9","protein_coding","CD226",NA,10666

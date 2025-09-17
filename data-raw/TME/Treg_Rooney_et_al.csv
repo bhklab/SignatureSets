@@ -1,0 +1,8 @@
+"signature_name","gene_id","gene_type","gene_name","weight","entrez_id"
+"Treg_Rooney_et_al","ENSG00000049768.17","protein_coding","FOXP3",NA,50943
+"Treg_Rooney_et_al","ENSG00000175779.4","lncRNA","LINC02694",NA,400359
+"Treg_Rooney_et_al","ENSG00000113525.10","protein_coding","IL5",NA,3567
+"Treg_Rooney_et_al","ENSG00000163599.18","protein_coding","CTLA4",NA,1493
+"Treg_Rooney_et_al","ENSG00000008517.19","protein_coding","IL32",NA,9235
+"Treg_Rooney_et_al","ENSG00000154165.5","protein_coding","GPR15",NA,2838
+"Treg_Rooney_et_al","ENSG00000113520.11","protein_coding","IL4",NA,3565

@@ -1,0 +1,4 @@
+"signature_name","gene_id","gene_type","gene_name","weight","entrez_id"
+"TIP_Cancer_antigen_presentation_2","ENSG00000136634.7","protein_coding","IL10",NA,3586
+"TIP_Cancer_antigen_presentation_2","ENSG00000113520.11","protein_coding","IL4",NA,3565
+"TIP_Cancer_antigen_presentation_2","ENSG00000169194.10","protein_coding","IL13",NA,3596

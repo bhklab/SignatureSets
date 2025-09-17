@@ -1,0 +1,4 @@
+"signature_name","gene_id","gene_type","gene_name","weight","entrez_id"
+"MHC_Class_I_Rooney_et_al","ENSG00000206503.13","protein_coding","HLA-A",NA,3105
+"MHC_Class_I_Rooney_et_al","ENSG00000166710.23","protein_coding","B2M",NA,567
+"MHC_Class_I_Rooney_et_al","ENSG00000168394.12","protein_coding","TAP1",NA,6890

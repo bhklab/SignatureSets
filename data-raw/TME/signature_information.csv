@@ -1,0 +1,91 @@
+signature,Published.year,Journal,PMID,DOI
+DDR,2018,Nature,29443960,10.1038/nature25501
+APM,2018,Nature,29443960,10.1038/nature25501
+Immune_Checkpoint,2018,Nature,29443960,10.1038/nature25501
+CellCycle_Reg,2018,Nature,29443960,10.1038/nature25501
+Histones,2018,Nature,29443960,10.1038/nature25501
+EMT1,2018,Nature,29443960,10.1038/nature25501
+EMT2,2018,Nature,29443960,10.1038/nature25501
+EMT3,2018,Nature,29443960,10.1038/nature25501
+WNT_target,2018,Nature,29443960,10.1038/nature25501
+FGFR3_related,2018,Nature,29443960,10.1038/nature25501
+Cell_cycle,2018,Nature,29443960,10.1038/nature25501
+Mismatch_Repair,2018,Nature,29443960,10.1038/nature25501
+Homologous_recombination,2018,Nature,29443960,10.1038/nature25501
+Nucleotide_excision_repair,2018,Nature,29443960,10.1038/nature25501
+DNA_replication,2018,Nature,29443960,10.1038/nature25501
+Base_excision_repair,2018,Nature,29443960,10.1038/nature25501
+TMEscoreA_CIR,2019,Cancer Immunology Research,30842092,10.1158/2326-6066.CIR-18-0436
+TMEscoreB_CIR,2019,Cancer Immunology Research,30842092,10.1158/2326-6066.CIR-18-0436
+CD8_Rooney_et_al,2015,Cell,25594174,10.1016/j.cell.2014.12.033
+B_cells_Rooney_et_al,2015,Cell,25594174,10.1016/j.cell.2014.12.033
+Treg_Rooney_et_al,2015,Cell,25594174,10.1016/j.cell.2014.12.033
+Macrophages_Rooney_et_al,2015,Cell,25594174,10.1016/j.cell.2014.12.033
+Neutrophils_Rooney_et_al,2015,Cell,25594174,10.1016/j.cell.2014.12.033
+NK_cells_Rooney_et_al,2015,Cell,25594174,10.1016/j.cell.2014.12.033
+pDCs_Rooney_et_al,2015,Cell,25594174,10.1016/j.cell.2014.12.033
+MHC_Class_I_Rooney_et_al,2015,Cell,25594174,10.1016/j.cell.2014.12.033
+Co_stimulation_APC_Rooney_et_al,2015,Cell,25594174,10.1016/j.cell.2014.12.033
+Co_stimulation_T_cell_Rooney_et_al,2015,Cell,25594174,10.1016/j.cell.2014.12.033
+Co_inhibition_APC_Rooney_et_al,2015,Cell,25594174,10.1016/j.cell.2014.12.033
+Co_inhibition_T_cell_Rooney_et_al,2015,Cell,25594174,10.1016/j.cell.2014.12.033
+Type_I_IFN_Reponse_Rooney_et_al,2015,Cell,25594174,10.1016/j.cell.2014.12.033
+Type_II_IFN_Reponse_Rooney_et_al,2015,Cell,25594174,10.1016/j.cell.2014.12.033
+T_cell_inflamed_GEP_Ayers_et_al,2017,The Journal of Clinical Investigation,28650338,10.1172/JCI91190
+GPAGs,2017,Nature,28371798,10.1038/nature21724
+PPAGs,2017,Nature,28371798,10.1038/nature21724
+B_cells_Danaher_et_al,2017,Journal for ImmunoTherapy of Cancer,28239471,10.1186/s40425-017-0215-8
+CD8_T_cells_Danaher_et_al,2017,Journal for ImmunoTherapy of Cancer,28239471,10.1186/s40425-017-0215-8
+Cytotoxic_cells_Danaher_et_al,2017,Journal for ImmunoTherapy of Cancer,28239471,10.1186/s40425-017-0215-8
+DC_Danaher_et_al,2017,Journal for ImmunoTherapy of Cancer,28239471,10.1186/s40425-017-0215-8
+Exhausted_CD8_Danaher_et_al,2017,Journal for ImmunoTherapy of Cancer,28239471,10.1186/s40425-017-0215-8
+Mast_cells_Danaher_et_al,2017,Journal for ImmunoTherapy of Cancer,28239471,10.1186/s40425-017-0215-8
+Neutrophils_Danaher_et_al,2017,Journal for ImmunoTherapy of Cancer,28239471,10.1186/s40425-017-0215-8
+NK_CD56dim_cells_Danaher_et_al,2017,Journal for ImmunoTherapy of Cancer,28239471,10.1186/s40425-017-0215-8
+NK_cells_Danaher_et_al,2017,Journal for ImmunoTherapy of Cancer,28239471,10.1186/s40425-017-0215-8
+T_cells_Danaher_et_al,2017,Journal for ImmunoTherapy of Cancer,28239471,10.1186/s40425-017-0215-8
+T_cell_accumulation_Peng_et_al,2018,Nature Medicine,30127393,10.1038/s41591-018-0136-1
+T_cell_exhaustion_Peng_et_al,2018,Nature Medicine,30127393,10.1038/s41591-018-0136-1
+T_cell_regulatory_Peng_et_al,2018,Nature Medicine,30127393,10.1038/s41591-018-0136-1
+ICB_resistance_Peng_et_al,2018,Nature Medicine,30127393,10.1038/s41591-018-0136-1
+MDSC_Peng_et_al,2018,Nature Medicine,30127393,10.1038/s41591-018-0136-1
+TAM_Peng_et_al,2018,Nature Medicine,30127393,10.1038/s41591-018-0136-1
+CAF_Peng_et_al,2018,Nature Medicine,30127393,10.1038/s41591-018-0136-1
+CD8_T_cells_Bindea_et_al,2013,Immunity,24138885,10.1016/j.immuni.2013.10.003
+Tgd_Bindea_et_al,2013,Immunity,24138885,10.1016/j.immuni.2013.10.003
+Cytotoxic_cells_Bindea_et_al,2013,Immunity,24138885,10.1016/j.immuni.2013.10.003
+NK_cells_Bindea_et_al,2013,Immunity,24138885,10.1016/j.immuni.2013.10.003
+NK_CD56dim_cells_Bindea_et_al,2013,Immunity,24138885,10.1016/j.immuni.2013.10.003
+DC_Bindea_et_al,2013,Immunity,24138885,10.1016/j.immuni.2013.10.003
+iDC_Bindea_et_al,2013,Immunity,24138885,10.1016/j.immuni.2013.10.003
+aDC_Bindea_et_al,2013,Immunity,24138885,10.1016/j.immuni.2013.10.003
+Eosinophils_Bindea_et_al,2013,Immunity,24138885,10.1016/j.immuni.2013.10.003
+Macrophages_Bindea_et_al,2013,Immunity,24138885,10.1016/j.immuni.2013.10.003
+Mast_cells_Bindea_et_al,2013,Immunity,24138885,10.1016/j.immuni.2013.10.003
+Neutrophils_Bindea_et_al,2013,Immunity,24138885,10.1016/j.immuni.2013.10.003
+SW480_cancer_cells_Bindea_et_al,2013,Immunity,24138885,10.1016/j.immuni.2013.10.003
+Normal_mucosa_Bindea_et_al,2013,Immunity,24138885,10.1016/j.immuni.2013.10.003
+Lymph_vessels_Bindea_et_al,2013,Immunity,24138885,10.1016/j.immuni.2013.10.003
+B_cells_Bindea_et_al,2013,Immunity,24138885,10.1016/j.immuni.2013.10.003
+T_cells_Bindea_et_al,2013,Immunity,24138885,10.1016/j.immuni.2013.10.003
+T_helper_cells_Bindea_et_al,2013,Immunity,24138885,10.1016/j.immuni.2013.10.003
+Tcm_Bindea_et_al,2013,Immunity,24138885,10.1016/j.immuni.2013.10.003
+Tem_Bindea_et_al,2013,Immunity,24138885,10.1016/j.immuni.2013.10.003
+Th1_cells_Bindea_et_al,2013,Immunity,24138885,10.1016/j.immuni.2013.10.003
+Th2_cells_Bindea_et_al,2013,Immunity,24138885,10.1016/j.immuni.2013.10.003
+Th17_cells_Bindea_et_al,2013,Immunity,24138885,10.1016/j.immuni.2013.10.003
+TFH_Bindea_et_al,2013,Immunity,24138885,10.1016/j.immuni.2013.10.003
+TIP_Release_of_cancer_cell_antigens,2018,Cancer Research,30154154,10.1158/0008-5472.CAN-18-0689
+TIP_Cancer_antigen_presentation_1,2018,Cancer Research,30154154,10.1158/0008-5472.CAN-18-0689
+TIP_Cancer_antigen_presentation_2,2018,Cancer Research,30154154,10.1158/0008-5472.CAN-18-0689
+TIP_Priming_and_activation_1,2018,Cancer Research,30154154,10.1158/0008-5472.CAN-18-0689
+TIP_Priming_and_activation_2,2018,Cancer Research,30154154,10.1158/0008-5472.CAN-18-0689
+TIP_Trafficking_of_immune_cells_to_tumors,2018,Cancer Research,30154154,10.1158/0008-5472.CAN-18-0689
+TIP_Infiltration_of_immune_cells_into_tumors_1,2018,Cancer Research,30154154,10.1158/0008-5472.CAN-18-0689
+TIP_Infiltration_of_immune_cells_into_tumors_2,2018,Cancer Research,30154154,10.1158/0008-5472.CAN-18-0689
+TIP_Recognition_of_cancer_cells_by_T_cells_1,2018,Cancer Research,30154154,10.1158/0008-5472.CAN-18-0689
+TIP_Recognition_of_cancer_cells_by_T_cells_2,2018,Cancer Research,30154154,10.1158/0008-5472.CAN-18-0689
+TIP_Killing_of_cancer_cells_1,2018,Cancer Research,30154154,10.1158/0008-5472.CAN-18-0689
+TIP_Killing_of_cancer_cells_2,2018,Cancer Research,30154154,10.1158/0008-5472.CAN-18-0689
+TMEscoreA_plus,2021,Journal for ImmunoTherapy of Cancer,34376552,10.1136/jitc-2021-002467
+TMEscoreB_plus,2021,Journal for ImmunoTherapy of Cancer,34376552,10.1136/jitc-2021-002467

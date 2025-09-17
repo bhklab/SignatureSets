@@ -1,0 +1,7 @@
+"signature_name","gene_id","gene_type","gene_name","weight","entrez_id"
+"EMT3","ENSG00000125398.8","protein_coding","SOX9",NA,6662
+"EMT3","ENSG00000122691.13","protein_coding","TWIST1",NA,7291
+"EMT3","ENSG00000103241.7","protein_coding","FOXF1",NA,2294
+"EMT3","ENSG00000148516.23","protein_coding","ZEB1",NA,6935
+"EMT3","ENSG00000169554.23","protein_coding","ZEB2",NA,9839
+"EMT3","ENSG00000141448.11","protein_coding","GATA6",NA,2627

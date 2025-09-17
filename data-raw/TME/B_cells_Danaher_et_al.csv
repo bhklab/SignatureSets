@@ -1,0 +1,10 @@
+"signature_name","gene_id","gene_type","gene_name","weight","entrez_id"
+"B_cells_Danaher_et_al","ENSG00000136573.15","protein_coding","BLK",NA,640
+"B_cells_Danaher_et_al","ENSG00000177455.15","protein_coding","CD19",NA,930
+"B_cells_Danaher_et_al","ENSG00000156738.18","protein_coding","MS4A1",NA,931
+"B_cells_Danaher_et_al","ENSG00000048462.11","protein_coding","TNFRSF17",NA,608
+"B_cells_Danaher_et_al","ENSG00000132704.16","protein_coding","FCRL2",NA,79368
+"B_cells_Danaher_et_al","ENSG00000226777.8","lncRNA","FAM30A",NA,9834
+"B_cells_Danaher_et_al","ENSG00000168081.9","protein_coding","PNOC",NA,5368
+"B_cells_Danaher_et_al","ENSG00000269404.7","protein_coding","SPIB",NA,6689
+"B_cells_Danaher_et_al","ENSG00000100721.11","protein_coding","TCL1A",NA,8115

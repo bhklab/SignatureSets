@@ -1,0 +1,11 @@
+"signature_name","gene_id","gene_type","gene_name","weight","entrez_id"
+"Cytotoxic_cells_Danaher_et_al","ENSG00000172543.9","protein_coding","CTSW",NA,1521
+"Cytotoxic_cells_Danaher_et_al","ENSG00000115523.17","protein_coding","GNLY",NA,10578
+"Cytotoxic_cells_Danaher_et_al","ENSG00000145649.8","protein_coding","GZMA",NA,3001
+"Cytotoxic_cells_Danaher_et_al","ENSG00000100453.14","protein_coding","GZMB",NA,3002
+"Cytotoxic_cells_Danaher_et_al","ENSG00000100450.13","protein_coding","GZMH",NA,2999
+"Cytotoxic_cells_Danaher_et_al","ENSG00000111796.4","protein_coding","KLRB1",NA,3820
+"Cytotoxic_cells_Danaher_et_al","ENSG00000134539.17","protein_coding","KLRD1",NA,3824
+"Cytotoxic_cells_Danaher_et_al","ENSG00000213809.9","protein_coding","KLRK1",NA,22914
+"Cytotoxic_cells_Danaher_et_al","ENSG00000180644.8","protein_coding","PRF1",NA,5551
+"Cytotoxic_cells_Danaher_et_al","ENSG00000105374.10","protein_coding","NKG7",NA,4818
