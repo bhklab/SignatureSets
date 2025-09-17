@@ -28,9 +28,9 @@ The repository includes:
 
 - **55 IO (Immuno-Oncology) gene signatures**  
 - **90 TME (Tumor Microenvironment) gene signatures**  
-    - TME signatures were extracted using the [`IOBR`](https://github.com/IOBR/IOBR) package (PMID: 39626665)
+    - TME signatures were extracted using the [`IOBR`](https://github.com/IOBR/IOBR) package.
 
-All genes have been standardized to **GENCODE v40** using HUGO Gene Symbols, and mapped to **Entrez** and **Ensembl** gene identifiers.
+All genes have been standardized to **GENCODE v40** annotations using HUGO Gene Symbols, and mapped to **Entrez** and **Ensembl** gene identifiers using the **biomaRt** R package.
 
 ---
 
