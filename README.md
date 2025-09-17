@@ -14,7 +14,8 @@ All signatures in the package are:
 - Publicly available through trusted bioinformatics resources
 
 
-References for each signature—including source publications, accession details, and metadata—are included in:
+References for each signature including source publications, accession details, and metadata, are included in:
+
 - [`signature information IO`](https://github.com/bhklab/SignatureSets/blob/main/data-raw/signature_information_io.csv)
 - [`signature information TME`](https://github.com/bhklab/SignatureSets/blob/main/data-raw/signature_information_tme.csv)
 - [Vignettes](https://github.com/bhklab/SignatureSets/blob/main/vignettes/SignatureSets.Rmd)
