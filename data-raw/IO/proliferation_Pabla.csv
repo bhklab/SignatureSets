@@ -1,0 +1,11 @@
+"signature_name","gene_id","gene_type","gene_name","weight","entrez_id"
+"proliferation_Pabla","ENSG00000169679.15","protein_coding","BUB1",1,699
+"proliferation_Pabla","ENSG00000157456.8","protein_coding","CCNB2",1,9133
+"proliferation_Pabla","ENSG00000170312.17","protein_coding","CDK1",1,983
+"proliferation_Pabla","ENSG00000100526.21","protein_coding","CDKN3",1,1033
+"proliferation_Pabla","ENSG00000111206.13","protein_coding","FOXM1",1,2305
+"proliferation_Pabla","ENSG00000166803.14","protein_coding","PCLAF",1,9768
+"proliferation_Pabla","ENSG00000164109.14","protein_coding","MAD2L1",1,4085
+"proliferation_Pabla","ENSG00000165304.8","protein_coding","MELK",1,9833
+"proliferation_Pabla","ENSG00000148773.14","protein_coding","MKI67",1,4288
+"proliferation_Pabla","ENSG00000131747.15","protein_coding","TOP2A",1,7153

@@ -1,0 +1,5 @@
+"signature_name","gene_id","gene_type","gene_name","weight","entrez_id"
+"Macrophage_Danaher","ENSG00000129226.14","protein_coding","CD68",1,968
+"Macrophage_Danaher","ENSG00000066294.15","protein_coding","CD84",1,8832
+"Macrophage_Danaher","ENSG00000177575.13","protein_coding","CD163",1,9332
+"Macrophage_Danaher","ENSG00000110079.19","protein_coding","MS4A4A",1,51338

@@ -1,0 +1,7 @@
+"signature_name","gene_id","gene_type","gene_name","weight","entrez_id"
+"IFN_Ayers","ENSG00000131203.13","protein_coding","IDO1",1,"3620"
+"IFN_Ayers","ENSG00000169245.6","protein_coding","CXCL10",1,"3627"
+"IFN_Ayers","ENSG00000138755.6","protein_coding","CXCL9",1,"4283"
+"IFN_Ayers","ENSG00000204287.14","protein_coding","HLA-DRA",1,"3122"
+"IFN_Ayers","ENSG00000115415.20","protein_coding","STAT1",1,"6772"
+"IFN_Ayers","ENSG00000111537.5","protein_coding","IFNG",1,"3458"

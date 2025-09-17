@@ -1,0 +1,9 @@
+"signature_name","gene_id","gene_type","gene_name","weight","entrez_id"
+"MHC-I_Liu","ENSG00000206503.13","protein_coding","HLA-A",NA,3105
+"MHC-I_Liu","ENSG00000234745.14","protein_coding","HLA-B",NA,3106
+"MHC-I_Liu","ENSG00000204525.18","protein_coding","HLA-C",NA,3107
+"MHC-I_Liu","ENSG00000204592.9","protein_coding","HLA-E",NA,3133
+"MHC-I_Liu","ENSG00000204642.14","protein_coding","HLA-F",NA,3134
+"MHC-I_Liu","ENSG00000168394.12","protein_coding","TAP1",NA,6890
+"MHC-I_Liu","ENSG00000204267.17","protein_coding","TAP2",NA,6891
+"MHC-I_Liu","ENSG00000166710.23","protein_coding","B2M",NA,567
