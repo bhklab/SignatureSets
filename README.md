@@ -44,6 +44,7 @@ SignatureSets/
 └── 📄 README.md                    # Repository overview and documentation
 ```
 
+---
 ### IO Signature Association Types
 
 The 55 IO signatures are categorized by their association with response to immuno-oncology therapy:
