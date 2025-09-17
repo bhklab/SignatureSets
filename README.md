@@ -63,14 +63,12 @@ Signature scores are computed using standardized methods tailored to the charact
 
 - **Specific Algorithm**: Certain signature scores are computed based on their respective original publications, e.g., the [PredictIO](https://pubmed.ncbi.nlm.nih.gov/36055464/) signature. 
 
-## Visualization
+More details about signature score computations and their applications can be found on the [PredictioR GitHub repository](https://github.com/bhklab/PredictioR)
 
 <p align="center">
   <img width="33%" src="vignettes/SignatureSets_association.jpg" alt="SignatureSets Association"    style="margin-right: 30px;">
   <img width="40%" src="vignettes/SignatureSets_method.jpg" alt="SignatureSets Method">
 </p>
-
-More details about signature score computations and their applications can be found on the [PredictioR GitHub repository](https://github.com/bhklab/PredictioR)
 
 ---
 
