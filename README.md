@@ -15,8 +15,8 @@ All signatures in the package are:
 
 
 References for each signature—including source publications, accession details, and metadata—are included in:
-- [`data-raw/signature_information_io.csv`](https://github.com/bhklab/SignatureSets/blob/main/data-raw/signature_information_io.csv)
-- [`data-raw/signature_information_tme.csv`](https://github.com/bhklab/SignatureSets/blob/main/data-raw/signature_information_tme.csv)
+- [`signature information IO`](https://github.com/bhklab/SignatureSets/blob/main/data-raw/signature_information_io.csv)
+- [`signature information TME`](https://github.com/bhklab/SignatureSets/blob/main/data-raw/signature_information_tme.csv)
 - [Vignettes](https://github.com/bhklab/SignatureSets/blob/main/vignettes/SignatureSets.Rmd)
 - Web platform: [predictio.ca](https://predictio.ca/)
 
