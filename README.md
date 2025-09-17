@@ -5,29 +5,34 @@
 
 # SignatureSets: An R Package for RNA-Based Immuno-Oncology Signatures
 
-## 📖 Introduction
-    
-The `SignatureSets` package provides access to a curated and extensive compendium of RNA-based Immuno-Oncology (IO) signatures. All signatures included in this package are:
+## Overview
 
-- Published in peer-reviewed literature.
-- Publicly available through trusted repositories and resources.
+**SignatureSets** provides access to a curated, literature-backed collection of RNA-based gene expression signatures focused on immuno-oncology (IO) and the tumor microenvironment (TME).
 
-References to the original publications and resources for each signature are included in the package documentation, refer to the [vignettes](https://github.com/bhklab/SignatureSets/blob/main/vignettes/SignatureSets.Rmd) or accessible via the web application [predictio.ca](https://predictio.ca/). 
+All signatures in the package are:
+- Published in peer-reviewed literature
+- Publicly available through trusted bioinformatics resources
 
-- Detailed signature information:  
-  A full list of the included signatures, along with their source references and additional metadata, is available in [`data-raw/signature_information.csv`](https://github.com/bhklab/SignatureSets/blob/main/data-raw/signature_information.csv).
 
-## 🔧 Setup
-                                                                 
-The latest version of SignatureSets repository can be found on the [SignatureSets GitHub repository](https://github.com/bhklab/SignatureSets). The package is not yet on CRAN or Bioconductor. To set up the repository, please download this folder locally:
+References for each signature—including source publications, accession details, and metadata—are included in:
+- [`data-raw/signature_information_io.csv`](https://github.com/bhklab/SignatureSets/blob/main/data-raw/signature_information_io.csv)
+- [`data-raw/signature_information_tme.csv`](https://github.com/bhklab/SignatureSets/blob/main/data-raw/signature_information_tme.csv)
+- [Vignettes](https://github.com/bhklab/SignatureSets/blob/main/vignettes/SignatureSets.Rmd)
+- Web platform: [predictio.ca](https://predictio.ca/)
 
-``` bash
+---
 
-git clone https://github.com/bhklab/SignatureSets
-cd SignatureSets
+## What's Included
 
-```
+The repository includes:
 
+- **55 IO (Immuno-Oncology) gene signatures**  
+- **90 TME (Tumor Microenvironment) gene signatures**  
+    - TME signatures were extracted using the [`IOBR`](https://github.com/IOBR/IOBR) package (PMID: 39626665)
+
+All genes have been standardized to **GENCODE v40** using HUGO Gene Symbols, and mapped to **Entrez** and **Ensembl** gene identifiers.
+
+---
 
 ## Repository Structure
 
@@ -39,16 +44,16 @@ SignatureSets/
 └── 📄 README.md                    # Repository overview and documentation
 ```
 
-### 🧬 Signature Association Types
+### IO Signature Association Types
 
-In total, 55 Immuno-Oncology (IO) gene signatures have been curated in the SignatureSets package. These signatures were extracted from the literature and manually annotated using [GENCODE version 40](https://pubmed.ncbi.nlm.nih.gov/36420896/), with HUGO Gene Symbols as the primary identifiers linked to Entrez Gene IDs and Ensembl Gene IDs. The signatures are categorized based on their association with IO therapy outcomes:
+The 55 IO signatures are categorized by their association with response to immuno-oncology therapy:
 
-- 65% (36 signatures): Associated with sensitivity to IO therapy, indicating potential positive responses such as immune activation or enhanced checkpoint inhibitor efficacy.
+- 36 signatures (65%): Associated with sensitivity to IO therapy, indicating potential positive responses such as immune activation or enhanced checkpoint inhibitor efficacy.
 
-- 35% (19 signatures): Associated with resistance to IO therapy, highlighting mechanisms like immune evasion, suppressive tumor microenvironments, or other resistance pathways.
+- 19 signatures (35%): Associated with resistance to IO therapy, highlighting mechanisms like immune evasion, suppressive tumor microenvironments, or other resistance pathways.
 
                            
-## 📊 Methods for Computing IO Signature Scores
+## Methods for Computing Signature Scores
 
 Signature scores are computed using standardized methods tailored to the characteristics of each signature, as described in their original publications.
 
@@ -58,7 +63,7 @@ Signature scores are computed using standardized methods tailored to the charact
 
 - *Specific Algorithm*: Certain signature scores are computed based on their respective original publications, e.g., the [PredictIO](https://pubmed.ncbi.nlm.nih.gov/36055464/) signature. 
 
-## 🔍 Visualization
+## Visualization
 
 <p align="center">
   <img width="33%" src="vignettes/SignatureSets_association.jpg" alt="SignatureSets Association"    style="margin-right: 30px;">
@@ -67,12 +72,23 @@ Signature scores are computed using standardized methods tailored to the charact
 
 More details about signature score computations and their applications can be found on the [PredictioR GitHub repository](https://github.com/bhklab/PredictioR)
 
-## 📝 Citation 
+---
+
+## Setup
+                                                                 
+The package is not yet available on CRAN or Bioconductor. You can install it by cloning the repository:
+
+``` bash
+
+git clone https://github.com/bhklab/SignatureSets
+cd SignatureSets
+
+```
+
+## Citation 
                                                                   
-If the data from the SignatureSets package are used in your publication, please cite the following paper(s):                                                                  
+If you use SignatureSets in your research, please cite:
+
 - [Bareche, Y., Kelly, D., Abbas-Aghababazadeh, F. et al., Annals of Oncology 2022](https://pubmed.ncbi.nlm.nih.gov/36055464/).
+- For TME signatures extracted via IOBR, please cite the corresponding IOBR publication [PMID: 39626665](https://pubmed.ncbi.nlm.nih.gov/39626665/)
                                                                       
-## Version Information
-
-📌 This is **version: v1.0**, corresponding to the release used in the paper.  
-
