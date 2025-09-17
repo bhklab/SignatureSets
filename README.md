@@ -89,5 +89,5 @@ cd SignatureSets
 If you use SignatureSets in your research, please cite:
 
 - [Bareche, Y., Kelly, D., Abbas-Aghababazadeh, F. et al., Annals of Oncology 2022](https://pubmed.ncbi.nlm.nih.gov/36055464/).
-- For TME signatures extracted via IOBR, please cite the corresponding IOBR publication [PMID: 39626665](https://pubmed.ncbi.nlm.nih.gov/39626665/)
+- For TME signatures extracted via IOBR, please cite the corresponding IOBR publication [PMID: 39626665](https://pubmed.ncbi.nlm.nih.gov/39626665/).
                                                                       
