@@ -1,0 +1,11 @@
+"signature_name","gene_id","gene_type","gene_name","weight","entrez_id"
+"GeparSixto_Karn","ENSG00000138755.6","protein_coding","CXCL9",1,4283
+"GeparSixto_Karn","ENSG00000271503.6","protein_coding","CCL5",1,6352
+"GeparSixto_Karn","ENSG00000153563.16","protein_coding","CD8A",1,925
+"GeparSixto_Karn","ENSG00000121594.12","protein_coding","CD80",1,941
+"GeparSixto_Karn","ENSG00000156234.8","protein_coding","CXCL13",1,10563
+"GeparSixto_Karn","ENSG00000131203.13","protein_coding","IDO1",1,3620
+"GeparSixto_Karn","ENSG00000188389.11","protein_coding","PDCD1",1,5133
+"GeparSixto_Karn","ENSG00000120217.14","protein_coding","CD274",1,29126
+"GeparSixto_Karn","ENSG00000163599.18","protein_coding","CTLA4",1,1493
+"GeparSixto_Karn","ENSG00000049768.17","protein_coding","FOXP3",1,50943
