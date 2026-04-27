@@ -27,7 +27,7 @@ References for each signature including source publications, accession details, 
 
 The repository includes:
 
-- **55 IO (Immuno-Oncology) gene signatures**  
+- **59 IO (Immuno-Oncology) gene signatures**  
 - **90 TME (Tumor Microenvironment) gene signatures**  
     - TME signatures were extracted using the [`IOBR`](https://github.com/IOBR/IOBR) package.
 
@@ -48,11 +48,11 @@ SignatureSets/
 ---
 ### IO Signature Association Types
 
-The 55 IO signatures are categorized by their association with response to immuno-oncology therapy:
+The 59 IO signatures are categorized by their association with response to immuno-oncology therapy:
 
-- 36 signatures (65%): Associated with sensitivity to IO therapy, indicating potential positive responses such as immune activation or enhanced checkpoint inhibitor efficacy.
+- 39 signatures (66%): Associated with sensitivity to IO therapy, indicating potential positive responses such as immune activation or enhanced checkpoint inhibitor efficacy.
 
-- 19 signatures (35%): Associated with resistance to IO therapy, highlighting mechanisms like immune evasion, suppressive tumor microenvironments, or other resistance pathways.
+- 20 signatures (34%): Associated with resistance to IO therapy, highlighting mechanisms like immune evasion, suppressive tumor microenvironments, or other resistance pathways.
 
                            
 ## Methods for Computing Signature Scores
