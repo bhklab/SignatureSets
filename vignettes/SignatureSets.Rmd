@@ -53,7 +53,7 @@ app_dir <- str_split(rstudioapi::getActiveDocumentContext()$path,'SignatureSets'
 dir_GeneSig <- file.path(app_dir, 'SignatureSets', 'data')
 dir_GeneSig_info <- file.path(app_dir, 'SignatureSets', 'data-raw')
 
-signature <- read.csv( file.path(dir_GeneSig_info, "signature_information.csv")) 
+signature <- read.csv( file.path(dir_GeneSig_info, "signature_information_io.csv")) 
 signature$signature <- as.character( signature$signature )
 signature$method <- as.character( signature$method )
 
@@ -72,7 +72,7 @@ As an example, ADO ([PMID 31953314](https://pubmed.ncbi.nlm.nih.gov/31953314/)) 
 
 ```{r load signature ADO}
 
-load(file.path(dir_GeneSig, "ADO_Sidders.rda"))
+load(file.path(dir_GeneSig, 'IO', "ADO_Sidders.rda"))
  
 kable(sig, format="html", 
           table.attr = "style='width:30%;'", 
@@ -87,7 +87,7 @@ Principal component analysis of the overlapping genes between each curated signa
 
 ```{r echo=FALSE, fig.height = 10, fig.width= 14}
 
-knitr::include_graphics(file.path(app_dir, 'SignatureSets', 'utils', 'PatternSignatures.png'))
+knitr::include_graphics(file.path(app_dir, 'SignatureSets', 'vignettes', 'PatternSignatures.png'))
 
 ```
 
